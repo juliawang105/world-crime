@@ -4,39 +4,11 @@
 
 <head>
     <script src="https://d3js.org/d3.v5.min.js"></script>
-    <script  src="./app/assets/javascripts/bundle.js"></script>
     <link rel="stylesheet" type="text/css" href="./src/acss.css" />
     <link rel="stylesheet" type="text/css" href="./src/main.css" />
     <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Poppins&display=swap" rel="stylesheet">
     <script  src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src='./app/assets/javascripts/bundle.js'></script>
-    <!-- <script defer>
-        axios.get("https://api.nytimes.com/svc/mostpopular/v2/viewed/1.json?api-key=GTmpcsZu5C6PWkRN8a3pHDaLwB8kCULG")
-                .then(res => {
-                    let arr = res.data.results.reverse()
-                    let content = document.getElementById("content");
-                    console.log(content)
-                    for (let i = 0; i < 10; i++) {
-                        let article = document.createElement('p')
-                         article.innerHTML = arr[i].title;
-                        content.appendChild(article)
-                    }
-                });
-
-    </script> -->
-
-    <!-- <script defer>
-            axios.get("https://api.nytimes.com/svc/mostpopular/v2/viewed/1.json?api-key=GTmpcsZu5C6PWkRN8a3pHDaLwB8kCULG")
-                    .then(res => {
-                        let arr = res.data.results.reverse()
-                    });
-    
-    </script> -->
-
-        
-
-    
-
 </head>
 
 <body>
@@ -55,17 +27,22 @@
     </div>
     
     
+    
     <div id="content">
-        <div class='name'>
-             <p>hello</p>
-        </div>
-        <div class='name'>
-            <p>no</p>
-        </div>
-        
-
-
+        <p>Hello</p>
     </div>
+    <svg width="720" height="120">
+        <circle cx="40" cy="60" r="10"></circle>
+        <circle cx="80" cy="60" r="10"></circle>
+        <circle cx="120" cy="60" r="10"></circle>
+        <circle cx="160" cy="60" r="10"></circle>
+        <circle cx="200" cy="60" r="10"></circle>
+        <circle cx="240" cy="60" r="10"></circle>
+        <circle cx="280" cy="60" r="10"></circle>
+        <circle cx="320" cy="60" r="10"></circle>
+        <circle cx="360" cy="60" r="10"></circle>
+        <circle cx="400" cy="60" r="10"></circle>
+    </svg>
 </body>
 
 </html>
