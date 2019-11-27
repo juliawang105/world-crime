@@ -1,11 +1,72 @@
+
 <!DOCTYPE html>
-<html>
-    <head>
-        <script type="text/javascript" src="d3.v2.min.js"></script>
-    </head>
-    <body>
-        <p>Hello!</p>
+<html lang="en">
+
+<head>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script  src="./app/assets/javascripts/bundle.js"></script>
+    <link rel="stylesheet" type="text/css" href="./src/acss.css" />
+    <link rel="stylesheet" type="text/css" href="./src/main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Poppins&display=swap" rel="stylesheet">
+    <script  src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src='./app/assets/javascripts/bundle.js'></script>
+    <!-- <script defer>
+        axios.get("https://api.nytimes.com/svc/mostpopular/v2/viewed/1.json?api-key=GTmpcsZu5C6PWkRN8a3pHDaLwB8kCULG")
+                .then(res => {
+                    let arr = res.data.results.reverse()
+                    let content = document.getElementById("content");
+                    console.log(content)
+                    for (let i = 0; i < 10; i++) {
+                        let article = document.createElement('p')
+                         article.innerHTML = arr[i].title;
+                        content.appendChild(article)
+                    }
+                });
+
+    </script> -->
+
+    <!-- <script defer>
+            axios.get("https://api.nytimes.com/svc/mostpopular/v2/viewed/1.json?api-key=GTmpcsZu5C6PWkRN8a3pHDaLwB8kCULG")
+                    .then(res => {
+                        let arr = res.data.results.reverse()
+                    });
+    
+    </script> -->
+
         
-    </body>
+
+    
+
+</head>
+
+<body>
+  
+    
+
+    <div class='main'>
+        <div class="app-name">At a Glance</div>
+
+        <div class="main-bar">
+            <span>Today</span>
+            <span>This Week</span>
+            <span>This Month</span>
+        </div>
+       
+    </div>
+    
+    
+    <div id="content">
+        <div class='name'>
+             <p>hello</p>
+        </div>
+        <div class='name'>
+            <p>no</p>
+        </div>
+        
+
+
+    </div>
+</body>
 
 </html>
+
