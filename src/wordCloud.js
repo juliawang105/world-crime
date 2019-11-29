@@ -6,15 +6,17 @@ export const wordCloud = () => {
   d3.json(url).then(data => {
     let arr = data.results.reverse();
     console.log(arr);
-    let results = "";
+    let results = []; //array pojos 
     for (let i = 0; i < 10; i++) {
       let title = arr[i].title;
+      let count = arr[i].views
 
-      results += title;
+      results.push({
+        'title': title,
+        'count': count
+      })
     }
 
-    results = results.split(" ")
-    
     console.log(results)
 
     let fillerWords = ['he', 'she', 'they', 'it', 'them','of','a', 'am', 'the', 'in', 'on', 'an', 'has', 'is', 'was','at', 'to', 'for','this', 'that', 'like', 'and'];
