@@ -4,10 +4,11 @@
 
 <head>
     <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src='./src/d3.layout.cloud.js'></script>
     <link rel="stylesheet" type="text/css" href="./src/acss.css" />
     <link rel="stylesheet" type="text/css" href="./src/main.css" />
     <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Poppins&display=swap" rel="stylesheet">
-    <script  src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    
     <script src='./app/assets/javascripts/bundle.js'></script>
 </head>
 
@@ -19,19 +20,16 @@
         <div class="app-name">At a Glance</div>
 
         <div class="main-bar">
-            <span>Today</span>
-            <span>This Week</span>
-            <span>This Month</span>
+            <span>Today's Happenings</span>
+            
         </div>
+
+        <div id='word-cloud'></div>
        
     </div>
+   
     
-    
-    
-    <div id="chart">
-        <p>Hello</p>
-        
-    </div>
+
 </body>
 
 </html>

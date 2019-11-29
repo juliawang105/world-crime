@@ -1,7 +1,7 @@
-import { bubbles } from './bubbles'
-import { Test } from './test'
+import { wordCloud } from './wordCloud'
+
 
 document.addEventListener('DOMContentLoaded', () => {
     console.log("webpack is working");
-    bubbles();   
+    wordCloud()
 });
