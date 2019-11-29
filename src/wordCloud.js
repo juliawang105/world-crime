@@ -1,42 +1,17 @@
 export const wordCloud = () => {
   console.log("wordCloud is working");
 
-  //let url = "https://api.nytimes.com/svc/mostpopular/v2/viewed/7.json?api-key=GTmpcsZu5C6PWkRN8a3pHDaLwB8kCULG";
-
-  d3.json(url).then(data => {
-    let arr = data.results.reverse();
-    console.log(arr);
-    let results = []; //array pojos 
-    for (let i = 0; i < 10; i++) {
-      let title = arr[i].title;
-      let count = arr[i].views
-
-      results.push({
-        'title': title,
-        'count': count
-      })
-    }
-
-    console.log(results)
-
-    let fillerWords = ['he', 'she', 'they', 'it', 'them','of','a', 'am', 'the', 'in', 'on', 'an', 'has', 'is', 'was','at', 'to', 'for','this', 'that', 'like', 'and'];
-    let filtered = []
-
-    for(let j = 0; j < results.length; j ++){
-      if(!fillerWords.includes(results[j].toLowerCase())){
-        filtered.push(results[j])
-      };
-    }
-
-
-    //  let fill = d3.scale.category20();
+  function words(results) {
     let layout = d3.layout
       .cloud()
       .size([750, 500])
       .words(
-          filtered
-        .map(function(d) {
-          return { text: d, size: 10 + Math.random() * 90, test: "haha" };
+        results.map(function(d) {
+          return {
+            text: d.keyWords,
+            size: d.count + Math.random() * 90,
+            test: "haha"
+          };
         })
       )
       .padding(5)
@@ -77,5 +52,25 @@ export const wordCloud = () => {
           return d.text;
         });
     }
+  }
+
+  let url =
+    "https://api.nytimes.com/svc/mostpopular/v2/viewed/7.json?api-key=GTmpcsZu5C6PWkRN8a3pHDaLwB8kCULG";
+
+  d3.json(url).then(data => {
+    let arr = data.results.reverse();
+    console.log(arr);
+    let results = []; //array pojos
+    for (let i = 0; i < 10; i++) {
+      let keyWords = arr[i].des_facet[0];
+      let count = arr[i].views;
+
+      results.push({
+        keyWords: keyWords,
+        count: count
+      });
+    }
+    words(results);
   });
+
 };
