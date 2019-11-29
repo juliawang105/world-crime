@@ -1,20 +1,23 @@
 export const bubbles = () => {
   console.log("bubbles is working");
 
-  let url = "https://api.nytimes.com/svc/mostpopular/v2/viewed/1.json?api-key=GTmpcsZu5C6PWkRN8a3pHDaLwB8kCULG";
+  let url = "https://api.nytimes.com/svc/mostpopular/v2/viewed/7.json?api-key=GTmpcsZu5C6PWkRN8a3pHDaLwB8kCULG";
 
   d3.json(url).then(data => {
     let arr = data.results.reverse();
     console.log(arr)
     let results = [];
     for (let i = 0; i < 10; i++) {
-
+      // let x = (i * 20);
+      // let y = (i * 10);
       let title = arr[i].title;
       let view = arr[i].views;
       let abstract = arr[i].abstract;
       let url = arr[i].url;
       let keywords = arr[i].adx_keywords.split(';')
       results.push({
+      //   x: x,
+      //   y: y,
         title: title,
         view: view,
         abstract: abstract,
@@ -44,24 +47,24 @@ export const bubbles = () => {
     let diameter = 400;
     let circle = eleElem.append('circle')
                         .attr('r', function(d){
-                              return d.view * 5
+                              return (d.view + 5)
                         })
                         .attr("cx", function(d) {
-                              return (20 + (d.view ** 2) * 2)
+                              return (d.view * 45)
                         })
                         .attr("cy", function(d){
-                        return (100 + d.view)
+                        return (d.view + 30)
                         })
                         .attr('stroke', 'black')
                         .attr('fill', 'white')
-    eleElem.append('text')
-           .attr('dx', function(d){
-                 return 60;
-           })
-           .attr('dy', function(d){
-                 return 60;
-           })
-           .text(function(d){return d.keywords})
+//     eleElem.append('text')
+//            .attr('dx', function(d){
+//                  return 60;
+//            })
+//            .attr('dy', function(d){
+//                  return 60;
+//            })
+//            .text(function(d){return d.keywords})
 
 
    
