@@ -1,43 +1,75 @@
 export const bubbles = () => {
-   console.log('bubbles is working')
-     
-   //let url = "https://api.nytimes.com/svc/mostpopular/v2/viewed/1.json?api-key=GTmpcsZu5C6PWkRN8a3pHDaLwB8kCULG";
+  console.log("bubbles is working");
 
-   d3.json(url).then(
-      data => {
-         let arr = data.results.reverse()
-         console.log(arr)
-         let content = document.getElementById("content");
-            let size = [];
-         for (let i = 0; i < 10; i++) {
-            let article = document.createElement('p')
-            article.innerHTML = arr[i].title;
-            content.appendChild(article);
-               size.push(arr[i].views)
-         }
+  //let url = "https://api.nytimes.com/svc/mostpopular/v2/viewed/1.json?api-key=GTmpcsZu5C6PWkRN8a3pHDaLwB8kCULG";
 
-         
+  d3.json(url).then(data => {
+    let arr = data.results.reverse();
+    console.log(arr)
+    //let content = document.getElementById("chart");
+    let results = [];
+    for (let i = 0; i < 10; i++) {
+      //let article = document.createElement('p')
+      //article.innerHTML = arr[i].title;
+      //content.appendChild(article);
+      let title = arr[i].title;
+      let view = arr[i].views;
+      let abstract = arr[i].abstract;
+      let url = arr[i].url;
+      let keywords = arr[i].adx_keywords.split(';')
+      results.push({
+        title: title,
+        view: view,
+        abstract: abstract,
+        url: url,
+        keywords: keywords[0]
+      });
+    }
+    let width = 960;
+    let height = 500;
 
-   // let margin = { left: 100, right: 80, top: 10, bottom: 130 };
-   // let width = 1300 - margin.left - margin.right;
-   // let height = 700 - margin.top - margin.bottom;
+    let svg = d3
+       .select("body")
+       .append("svg")
+       .attr("width", width)
+       .attr("height", height);
 
-   // let chart = d3
-   //         .select("#content").append("svg")
-   //         .attr("height", height + margin.top + margin.bottom)
-   //         .attr("width", width + margin.left + margin.right)
-   //         .style("border", "1px solid black")
+    let eleElem = elem.enter()
+                      .append('g')
+                      .attr('transform', function(d){
+                            return 'translate(30,30)'
+                      });
 
-   // document.getElementById("content").align = 'center';
-         let circle = d3.selectAll("circle")
-         circle.style("fill", "steelblue")
-         circle.attr("r", 30)
-         console.log(size)
-         // circle.attr("cx", function () {return Math.random() * 720});
-         circle.data(size)
-         circle.attr("r", function (d) { return d})
+    let circle = eleElem.append('circle')
+                        .attr('r')
+
+
    
-   })
 
-   
-}
+    let g = d3.selectAll('g')
+                  .data(results)
+                  .enter()
+                  .append('g')
+
+    let text = g.append('text')
+                .text(function(d){
+                 return d.keywords
+          });
+
+    //       let circle = d3.selectAll("circle").data(results)
+    //       circle.style("fill", "none")
+    //       circle.style('stroke', 'black')
+    //       circle.attr("r", function (d) {
+    //        return (d.view * 4)
+    //       })
+    //       circle.attr("cx", function(d) {
+    //             return (width * d.view)
+    //       })
+    //       circle.attr("cy", function(d){
+    //             return (height + d.view)
+    //       })
+    //       circle.append('text').text(function(d){
+    //             return d.title
+    //       });
+  });
+};
