@@ -1,17 +1,14 @@
 export const bubbles = () => {
   console.log("bubbles is working");
 
-  //let url = "https://api.nytimes.com/svc/mostpopular/v2/viewed/1.json?api-key=GTmpcsZu5C6PWkRN8a3pHDaLwB8kCULG";
+  let url = "https://api.nytimes.com/svc/mostpopular/v2/viewed/1.json?api-key=GTmpcsZu5C6PWkRN8a3pHDaLwB8kCULG";
 
   d3.json(url).then(data => {
     let arr = data.results.reverse();
     console.log(arr)
-    //let content = document.getElementById("chart");
     let results = [];
     for (let i = 0; i < 10; i++) {
-      //let article = document.createElement('p')
-      //article.innerHTML = arr[i].title;
-      //content.appendChild(article);
+
       let title = arr[i].title;
       let view = arr[i].views;
       let abstract = arr[i].abstract;
@@ -33,28 +30,46 @@ export const bubbles = () => {
        .append("svg")
        .attr("width", width)
        .attr("height", height);
+  
+
+    let elem = svg
+      .selectAll("g")
+      .data(results)
 
     let eleElem = elem.enter()
                       .append('g')
-                      .attr('transform', function(d){
-                            return 'translate(30,30)'
-                      });
-
+                  //     .attr('transform', function(d){
+                  //           return 'translate('+(d.view * 10)+',4 0)'
+                  //     });
+    let diameter = 400;
     let circle = eleElem.append('circle')
-                        .attr('r')
+                        .attr('r', function(d){
+                              return d.view * 5
+                        })
+                        .attr("cx", function(d) {
+                              return (20 + (d.view ** 2) * 2)
+                        })
+                        .attr("cy", function(d){
+                        return (100 + d.view)
+                        })
+                        .attr('stroke', 'black')
+                        .attr('fill', 'white')
+    eleElem.append('text')
+           .attr('dx', function(d){
+                 return 60;
+           })
+           .attr('dy', function(d){
+                 return 60;
+           })
+           .text(function(d){return d.keywords})
 
 
    
 
-    let g = d3.selectAll('g')
-                  .data(results)
-                  .enter()
-                  .append('g')
-
-    let text = g.append('text')
-                .text(function(d){
-                 return d.keywords
-          });
+//     let text = g.append('text')
+//                 .text(function(d){
+//                  return d.keywords
+//           });
 
     //       let circle = d3.selectAll("circle").data(results)
     //       circle.style("fill", "none")
