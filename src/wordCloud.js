@@ -1,15 +1,14 @@
 export const wordCloud = () => {
-  console.log("wordCloud is working");
-
   function words(results) {
+    console.log(results)
     let layout = d3.layout
       .cloud()
-      .size([750, 500])
+      .size([1000, 1000])
       .words(
         results.map(function(d) {
           return {
             text: d.keyWords,
-            size: d.count + Math.random() * 90,
+            size: d.count ,
             test: "haha"
           };
         })
@@ -57,7 +56,11 @@ export const wordCloud = () => {
   let url =
     "https://api.nytimes.com/svc/mostpopular/v2/viewed/7.json?api-key=GTmpcsZu5C6PWkRN8a3pHDaLwB8kCULG";
 
-  d3.json(url).then(data => {
+ 
+
+  // d3.queue()
+    // .defer( 
+      d3.json(url).then(data => {
     let arr = data.results.reverse();
     console.log(arr);
     let results = []; //array pojos
@@ -70,7 +73,11 @@ export const wordCloud = () => {
         count: count
       });
     }
+
+    
     words(results);
-  });
+  })
+  //)
+  
 
 };
