@@ -7,9 +7,8 @@ export const wordCloud = () => {
       .words(
         results.map(function(d) {
           return {
-            text: d.keyWords,
-            size: d.count ,
-            test: "haha"
+            text: d.title,
+            size: d.count,
           };
         })
       )
@@ -49,6 +48,11 @@ export const wordCloud = () => {
         })
         .text(function(d) {
           return d.text;
+        })
+        .on("mouseover", function(d,i) {
+          d3.select(this)
+          .style("transform", "scale(1.1,1.1)")
+          .style("transform-origin", "50% 50%");
         });
     }
   }
@@ -56,28 +60,21 @@ export const wordCloud = () => {
   let url =
     "https://api.nytimes.com/svc/mostpopular/v2/viewed/7.json?api-key=GTmpcsZu5C6PWkRN8a3pHDaLwB8kCULG";
 
- 
+    d3.json(url).then(data => {
+      let arr = data.results.reverse();
+      console.log(arr);
+      let results = []; //array pojos
+      for (let i = 0; i < 10; i++) {
+        let title = arr[i].title;
+        let count = arr[i].views;
 
-  // d3.queue()
-    // .defer( 
-      d3.json(url).then(data => {
-    let arr = data.results.reverse();
-    console.log(arr);
-    let results = []; //array pojos
-    for (let i = 0; i < 10; i++) {
-      let keyWords = arr[i].des_facet[0];
-      let count = arr[i].views;
-
-      results.push({
-        keyWords: keyWords,
-        count: count
-      });
-    }
+        results.push({
+          title: title,
+          count: count
+        });
+      }
 
     
     words(results);
   })
-  //)
-  
-
 };
