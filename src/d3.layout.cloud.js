@@ -1,3 +1,7 @@
+
+ // Word cloud layout by Jason Davies, https://www.jasondavies.com/wordcloud/
+  // Algorithm due to Jonathan Feinberg, http://static.mrfeinberg.com/bv_ch03.pdf
+  
 (function(f) {
   if (typeof exports === "object" && typeof module !== "undefined") {
     module.exports = f();
@@ -54,8 +58,7 @@
     {
       1: [
         function(require, module, exports) {
-          // Word cloud layout by Jason Davies, https://www.jasondavies.com/wordcloud/
-          // Algorithm due to Jonathan Feinberg, http://static.mrfeinberg.com/bv_ch03.pdf
+         
 
           var dispatch = require("d3-dispatch").dispatch;
 

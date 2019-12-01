@@ -3,29 +3,30 @@ export const wordCloud = () => {
     console.log(results)
     let layout = d3.layout
       .cloud()
-      .size([1000, 1000])
+      .size([800, 800])
       .words(
         results.map(function(d) {
           return {
-            text: d.title,
+            text: d.keyWord,
             size: d.count,
           };
         })
       )
-      .padding(5)
+      .padding(2)
       .rotate(function() {
-        return ~~(Math.random() * 2) * 90;
+        return ~~(Math.random() * 2) * 90
       })
       .font("Julius Sans One")
       .fontSize(function(d) {
-        return d.size;
+        return d.size * 2;
       })
       .on("end", draw);
 
     layout.start();
 
     function draw(words) {
-      d3.select("#word-cloud")
+    
+     let svg = d3.select("#word-cloud")
         .append("svg")
         .attr("width", layout.size()[0])
         .attr("height", layout.size()[1])
@@ -48,28 +49,26 @@ export const wordCloud = () => {
         })
         .text(function(d) {
           return d.text;
-        })
-        .on("mouseover", function(d,i) {
-          d3.select(this)
-          .style("transform", "scale(1.1,1.1)")
-          .style("transform-origin", "50% 50%");
-        });
+        })  
+        // .on('mouseover', function(d){
+        //   return d.text
+        // })
     }
   }
 
   let url =
-    "https://api.nytimes.com/svc/mostpopular/v2/viewed/7.json?api-key=GTmpcsZu5C6PWkRN8a3pHDaLwB8kCULG";
+    "https://api.nytimes.com/svc/mostpopular/v2/viewed/1.json?api-key=GTmpcsZu5C6PWkRN8a3pHDaLwB8kCULG";
 
     d3.json(url).then(data => {
       let arr = data.results.reverse();
       console.log(arr);
       let results = []; //array pojos
       for (let i = 0; i < 10; i++) {
-        let title = arr[i].title;
+        let keyWord = arr[i].des_facet[0]
         let count = arr[i].views;
 
         results.push({
-          title: title,
+          keyWord: keyWord,
           count: count
         });
       }
