@@ -3,7 +3,7 @@ export const wordCloud = () => {
     console.log(results)
     let layout = d3.layout
       .cloud()
-      .size([800, 800])
+      .size([1000, 400])
       .words(
         results.map(function(d) {
           return {
@@ -12,13 +12,13 @@ export const wordCloud = () => {
           };
         })
       )
-      .padding(2)
-      .rotate(function() {
-        return ~~(Math.random() * 2) * 90
+      .padding(12)
+      .rotate(function(d) {
+        return 0
       })
       .font("Julius Sans One")
       .fontSize(function(d) {
-        return d.size * 2;
+        return d.size ;
       })
       .on("end", draw);
 
@@ -40,7 +40,7 @@ export const wordCloud = () => {
         .enter()
         .append("text")
         .style("font-size", function(d) {
-          return d.size + "px";
+          return d.size + "pt";
         })
         .style("font-family", "Julius Sans One")
         .attr("text-anchor", "middle")
@@ -50,9 +50,9 @@ export const wordCloud = () => {
         .text(function(d) {
           return d.text;
         })  
-        // .on('mouseover', function(d){
-        //   return d.text
-        // })
+        .on('mouseover', function(d){
+          return d.text
+        })
     }
   }
 
