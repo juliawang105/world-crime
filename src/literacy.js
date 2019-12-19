@@ -173,11 +173,11 @@ export const Literacy = () => {
 
       console.log(finalData)
       update(finalData[0])
-      // d3.interval(function() {
-      //    // At the end of our data, loop back
-      //    time = time < 15 ? time + 1 : 0;
-      //    update(finalData[time]);
-      //  }, 200);
+      d3.interval(function() {
+         // At the end of our data, loop back
+         time = time < 15 ? time + 1 : 0;
+         update(finalData[time]);
+       }, 200);
       // console.log(finalData);
   });
 
