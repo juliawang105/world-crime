@@ -261,6 +261,7 @@ var Literacy = function Literacy() {
   var x = d3.scaleLinear().range([0, width]).domain([1, 100]);
   var y = d3.scaleLinear() //   .base(10)
   .range([height, 0]).domain([0, 100]);
+  var line = g.append("line").attr("x1", 895).attr("y1", 0).attr("x2", 0).attr("y2", 650).attr("stroke", "silver").attr("stroke-width", "1");
   var area = d3.scaleLinear().range([25 * Math.PI, 1500 * Math.PI]).domain([2000, 1400000000]);
   var xLabel = g.append("text").attr("y", height + 50).attr("x", width / 2).attr("font-size", "20px").attr("text-anchor", "middle").text("Youth Literacy Rate"); //Y Label
 
@@ -286,6 +287,54 @@ var Literacy = function Literacy() {
   d3.csv("data/literacy.csv").then(function (data) {
     console.log(data);
     var sortedData = [{
+      year: 1984,
+      countries: []
+    }, {
+      year: 1985,
+      countries: []
+    }, {
+      year: 1986,
+      countries: []
+    }, {
+      year: 1987,
+      countries: []
+    }, {
+      year: 1988,
+      countries: []
+    }, {
+      year: 1989,
+      countries: []
+    }, {
+      year: 1990,
+      countries: []
+    }, {
+      year: 1991,
+      countries: []
+    }, {
+      year: 1992,
+      countries: []
+    }, {
+      year: 1993,
+      countries: []
+    }, {
+      year: 1994,
+      countries: []
+    }, {
+      year: 1995,
+      countries: []
+    }, {
+      year: 1996,
+      countries: []
+    }, {
+      year: 1997,
+      countries: []
+    }, {
+      year: 1998,
+      countries: []
+    }, {
+      year: 1999,
+      countries: []
+    }, {
       year: 2000,
       countries: []
     }, {
@@ -327,12 +376,6 @@ var Literacy = function Literacy() {
     }, {
       year: 2013,
       countries: []
-    }, {
-      year: 2014,
-      countries: []
-    }, {
-      year: 2015,
-      countries: []
     }];
 
     for (var i = 0; i < data.length; i++) {
@@ -347,7 +390,7 @@ var Literacy = function Literacy() {
 
     var finalData = sortedData.map(function (year) {
       return year["countries"].filter(function (country) {
-        var dataExists = country.Elderly !== "NA" && country.Youth !== "NA";
+        var dataExists = country.Elderly !== "NA" && country.Youth !== "NA" && country.Pop !== 'NA';
         return dataExists;
       }).map(function (country) {
         country.Elderly = +country.Elderly;
@@ -356,11 +399,11 @@ var Literacy = function Literacy() {
         return country;
       });
     });
-    console.log(finalData);
-    update(finalData[0]);
+    console.log(finalData[30]);
+    update(finalData[17]);
     d3.interval(function () {
       // At the end of our data, loop back
-      time = time < 15 ? time + 1 : 0;
+      time = time < 29 ? time + 1 : 0;
       update(finalData[time]);
     }, 200); // console.log(finalData);
   });
@@ -378,10 +421,12 @@ var Literacy = function Literacy() {
     }).attr("cx", function (d) {
       return x(d.Youth);
     }).attr("r", function (d) {
-      var pop = d.Pop / 30000000 * 4;
+      var pop = d.Pop / 10000000;
+      pop > 100 ? pop / 10 : 20; //  d.Pop ? pop = (d.Pop)/5 : pop = 4
+
       return pop;
     }).on("mouseover", tip.show).on("mouseout", tip.hide);
-    timeLabel.text(+(time + 2000));
+    timeLabel.text(+(time + 1984));
   }
 };
 

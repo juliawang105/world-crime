@@ -13,7 +13,7 @@ export const Literacy = () => {
        .attr("height", height + margin.top + margin.bottom)
        .append("g")
        .attr("transform", "translate(" + margin.left + ", " + margin.top + ")");
-
+    
         let tip = d3
           .tip()
           .attr("class", "d3-tip")
@@ -37,6 +37,16 @@ export const Literacy = () => {
        //   .base(10)
        .range([height, 0])
        .domain([0, 100]);
+
+    let line = g
+      .append("line")
+      .attr("x1", 895)
+      .attr("y1", 0)
+      .attr("x2", 0)
+      .attr("y2", 650)
+      .attr("stroke", "silver")
+      .attr("stroke-width", "1");
+
 
      let area = d3
        .scaleLinear()
@@ -129,6 +139,22 @@ export const Literacy = () => {
       
 
       let sortedData = [
+        { year: 1984, countries: [] },
+        { year: 1985, countries: [] },
+        { year: 1986, countries: [] },
+        { year: 1987, countries: [] },
+        { year: 1988, countries: [] },
+        { year: 1989, countries: [] },
+        { year: 1990, countries: [] },
+        { year: 1991, countries: [] },
+        { year: 1992, countries: [] },
+        { year: 1993, countries: [] },
+        { year: 1994, countries: [] },
+        { year: 1995, countries: [] },
+        { year: 1996, countries: [] },
+        { year: 1997, countries: [] },
+        { year: 1998, countries: [] },
+        { year: 1999, countries: [] },
         { year: 2000, countries: [] },
         { year: 2001, countries: [] },
         { year: 2002, countries: [] },
@@ -142,9 +168,7 @@ export const Literacy = () => {
         { year: 2010, countries: [] },
         { year: 2011, countries: [] },
         { year: 2012, countries: [] },
-        { year: 2013, countries: [] },
-        { year: 2014, countries: [] },
-        { year: 2015, countries: [] },
+        { year: 2013, countries: [] }
       ];
 
       for (let i = 0; i < data.length; i++) {
@@ -160,7 +184,7 @@ export const Literacy = () => {
       let finalData = sortedData.map(function(year) {
         return year["countries"]
           .filter(function(country) {
-            let dataExists = (country.Elderly !== "NA" && country.Youth !== "NA");
+            let dataExists = (country.Elderly !== "NA" && country.Youth !== "NA") && country.Pop !== 'NA'
             return dataExists;
           })
           .map(function(country) {
@@ -171,11 +195,11 @@ export const Literacy = () => {
           });
       });
 
-      console.log(finalData)
-      update(finalData[0])
+      console.log(finalData[30])
+      update(finalData[17])
       d3.interval(function() {
          // At the end of our data, loop back
-         time = time < 15 ? time + 1 : 0;
+         time = time < 29 ? time + 1 : 0;
          update(finalData[time]);
        }, 200);
       // console.log(finalData);
@@ -204,12 +228,14 @@ export const Literacy = () => {
        return x(d.Youth);
      })
      .attr("r", function(d) {
-         let pop = (d.Pop/30000000) * 4
-       return (pop);
+       let pop = d.Pop/10000000
+       pop > 100? pop/10 : 20
+      //  d.Pop ? pop = (d.Pop)/5 : pop = 4
+       return (pop) 
      })
      .on("mouseover", tip.show)
      .on("mouseout", tip.hide);
 
-   timeLabel.text(+(time + 2000));
+   timeLabel.text(+(time + 1984));
  }
 };
