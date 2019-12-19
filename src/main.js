@@ -3,7 +3,7 @@ export const Main = () => {
     let height = 800 - margin.top - margin.bottom,
       width = 1000 - margin.left - margin.right;
 
-    //let flag = true
+    let time = 0;
 
     let g = d3
       .select("#chart-area")
@@ -168,6 +168,11 @@ export const Main = () => {
             });
         });
      console.log(finalData);
+    //    d3.interval(function() {
+    //      // At the end of our data, loop back
+    //      time = time < 17 ? time + 1 : 0;
+    //      update(finalData[time]);
+    //    }, 200);
      update(finalData[0])
 
     });
@@ -202,6 +207,8 @@ export const Main = () => {
           })
           .on("mouseover", tip.show)
           .on("mouseout", tip.hide)
+
+        timeLabel.text(+(time + 2003));
             
     }
    

@@ -86,60 +86,33 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./src/homicide.js":
-/*!*************************!*\
-  !*** ./src/homicide.js ***!
-  \*************************/
-/*! exports provided: Homicide */
+/***/ "./src/bar_chart.js":
+/*!**************************!*\
+  !*** ./src/bar_chart.js ***!
+  \**************************/
+/*! exports provided: BarChart */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Homicide", function() { return Homicide; });
-var Homicide = function Homicide() {
-  d3.csv("data/homicide.csv").then(function (data) {
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BarChart", function() { return BarChart; });
+var BarChart = function BarChart() {
+  var margin = {
+    left: 100,
+    right: 10,
+    top: 10,
+    bottom: 150
+  };
+  var width = 800 - margin.left - margin.right,
+      height = 600 - margin.top - margin.bottom;
+  var g = d3.select("#chart-area").append("svg").attr("width", width + margin.left + margin.right).attr("height", height + margin.top + margin.bottom).append("g").attr("transform", "translate(" + margin.left + ", " + margin.top + ")"); // X Label
+
+  g.append("text").attr("class", "x axis-label").attr("x", width / 2).attr("y", height + 140).attr("font-size", "20px").attr("text-anchor", "middle").text("Country"); // Y Label
+
+  g.append("text").attr("class", "y axis-label").attr("x", -(height / 2)).attr("y", -60).attr("font-size", "20px").attr("text-anchor", "middle").attr("transform", "rotate(-90)").text("Crime Rate");
+  d3.csv("data/assaults.csv").then(function (data) {
     console.log(data);
-    console.log(data[0]);
     var sortedData = [{
-      year: 1990,
-      countries: []
-    }, {
-      year: 1991,
-      countries: []
-    }, {
-      year: 1992,
-      countries: []
-    }, {
-      year: 1993,
-      countries: []
-    }, {
-      year: 1994,
-      countries: []
-    }, {
-      year: 1995,
-      countries: []
-    }, {
-      year: 1996,
-      countries: []
-    }, {
-      year: 1997,
-      countries: []
-    }, {
-      year: 1998,
-      countries: []
-    }, {
-      year: 1999,
-      countries: []
-    }, {
-      year: 2000,
-      countries: []
-    }, {
-      year: 2001,
-      countries: []
-    }, {
-      year: 2002,
-      countries: []
-    }, {
       year: 2003,
       countries: []
     }, {
@@ -206,7 +179,26 @@ var Homicide = function Homicide() {
         return country;
       });
     });
-    console.log(finalData);
+    var x = d3.scaleBand().domain(data.map(function (d) {
+      return d.region_name;
+    })).range([0, width]).paddingInner(0.3).paddingOuter(0.3);
+    var y = d3.scaleLinear().domain([0, 2000]).range([height, 0]);
+    var xAxisCall = d3.axisBottom(x);
+    g.append("g").attr("class", "x axis").attr("transform", "translate(0, " + height + ")").call(xAxisCall).selectAll("text").attr("y", "10").attr("x", "-5").attr("text-anchor", "end").attr("transform", "rotate(-40)");
+    var yAxisCall = d3.axisLeft(y); //  .ticks(3)
+    //  .tickFormat(function(d) {
+    //    return d + "m";
+    //  });
+
+    g.append("g").attr("class", "y-axis").call(yAxisCall);
+    var rects = g.selectAll("rect").data(data);
+    rects.enter().append("rect").attr("y", function (d) {
+      return y(d.Rate);
+    }).attr("x", function (d) {
+      return x(d.region_name);
+    }).attr("width", x.bandwidth).attr("height", function (d) {
+      return height - y(d.Rate);
+    }).attr("fill", "grey");
   });
 };
 
@@ -222,13 +214,168 @@ var Homicide = function Homicide() {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _main__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./main */ "./src/main.js");
-/* harmony import */ var _homicide__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./homicide */ "./src/homicide.js");
+/* harmony import */ var _bar_chart__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./bar_chart */ "./src/bar_chart.js");
+/* harmony import */ var _literacy__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./literacy */ "./src/literacy.js");
+
 
 
 document.addEventListener('DOMContentLoaded', function () {
-  console.log("webpack is working");
-  Object(_main__WEBPACK_IMPORTED_MODULE_0__["Main"])(); //Homicide()
+  console.log("webpack is working"); //Main()
+  // BarChart()
+
+  Object(_literacy__WEBPACK_IMPORTED_MODULE_2__["Literacy"])();
 });
+
+/***/ }),
+
+/***/ "./src/literacy.js":
+/*!*************************!*\
+  !*** ./src/literacy.js ***!
+  \*************************/
+/*! exports provided: Literacy */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Literacy", function() { return Literacy; });
+var Literacy = function Literacy() {
+  var margin = {
+    left: 80,
+    right: 20,
+    top: 50,
+    bottom: 100
+  };
+  var height = 800 - margin.top - margin.bottom,
+      width = 1000 - margin.left - margin.right;
+  var time = 0;
+  var g = d3.select("#chart-area").append("svg").attr("width", width + margin.left + margin.right).attr("height", height + margin.top + margin.bottom).append("g").attr("transform", "translate(" + margin.left + ", " + margin.top + ")"); //    let tip = d3
+  //      .tip()
+  //      .attr("class", "d3-tip")
+  //      .html(function(d) {
+  //        let text = d.country_name;
+  //        text += " " + d.region_name;
+  //        text += " " + d.Count;
+  //        text += " " + d.Rate;
+  //        return text;
+  //      });
+  //    g.call(tip);
+
+  var x = d3.scaleLinear().range([0, width]).domain([1, 100]);
+  var y = d3.scaleLinear() //   .base(10)
+  .range([height, 0]).domain([0, 100]);
+  var area = d3.scaleLinear().range([25 * Math.PI, 1500 * Math.PI]).domain([2000, 1400000000]);
+  var xLabel = g.append("text").attr("y", height + 50).attr("x", width / 2).attr("font-size", "20px").attr("text-anchor", "middle").text("Youth Literacy Rate"); //Y Label
+
+  var yLabel = g.append("text").attr("y", -40).attr("x", -170).attr("font-size", "20px").attr("text-anchor", "middle").attr("transform", "rotate(-90)").text("Elderly Literacy Rate");
+  var xAxis = d3.axisBottom(x).ticks(10).tickFormat(function (d) {
+    return +d;
+  });
+  g.append("g").attr("class", "x axis").attr("transform", "translate(0," + height + ")").call(xAxis);
+  var timeLabel = g.append("text").attr("y", height - 10).attr("x", width - 40).attr("font-size", "40px").attr("opacity", "0.4").attr("text-anchor", "middle").text("2003"); //Y-Axis
+
+  var yAxis = d3.axisLeft(y).ticks(10).tickFormat(function (d) {
+    return +d;
+  });
+  g.append("g").attr("class", "y axis").call(yAxis);
+  d3.csv("data/literacy.csv").then(function (data) {
+    console.log(data);
+    var sortedData = [{
+      year: 2000,
+      countries: []
+    }, {
+      year: 2001,
+      countries: []
+    }, {
+      year: 2002,
+      countries: []
+    }, {
+      year: 2003,
+      countries: []
+    }, {
+      year: 2004,
+      countries: []
+    }, {
+      year: 2005,
+      countries: []
+    }, {
+      year: 2006,
+      countries: []
+    }, {
+      year: 2007,
+      countries: []
+    }, {
+      year: 2008,
+      countries: []
+    }, {
+      year: 2009,
+      countries: []
+    }, {
+      year: 2010,
+      countries: []
+    }, {
+      year: 2011,
+      countries: []
+    }, {
+      year: 2012,
+      countries: []
+    }, {
+      year: 2013,
+      countries: []
+    }, {
+      year: 2014,
+      countries: []
+    }, {
+      year: 2015,
+      countries: []
+    }];
+
+    for (var i = 0; i < data.length; i++) {
+      var pojo = data[i];
+
+      for (var j = 0; j < sortedData.length; j++) {
+        if (parseInt(pojo.Year) === sortedData[j].year) {
+          sortedData[j].countries.push(pojo);
+        }
+      }
+    }
+
+    var finalData = sortedData.map(function (year) {
+      return year["countries"].filter(function (country) {
+        var dataExists = country.Elderly && country.Youth;
+        return dataExists;
+      }).map(function (country) {
+        country.Elderly = +country.Elderly;
+        country.Youth = +country.Youth;
+        country.Pop = +country.Pop;
+        return country;
+      });
+    });
+    update(finalData[0]);
+    console.log(finalData);
+  });
+
+  function update(data) {
+    var t = d3.transition().duration(100);
+    var circles = g.selectAll("circle").data(data, function (d) {
+      return d.Entity;
+    });
+    circles.exit().remove();
+    circles.enter().append("circle") //  .attr("fill", function(d) {
+    //    return regionColor(d.region_name);
+    //  })
+    .merge(circles).attr("cy", function (d) {
+      return y(d.Elderly);
+    }).attr("cx", function (d) {
+      return x(d.Youth);
+    }).attr("r", function (d) {
+      var pop = d.Pop / 10000000 * 3;
+      return pop;
+    }); //  .on("mouseover", tip.show)
+    //  .on("mouseout", tip.hide);
+
+    timeLabel.text(+(time + 2003));
+  }
+};
 
 /***/ }),
 
@@ -250,8 +397,8 @@ var Main = function Main() {
     bottom: 100
   };
   var height = 800 - margin.top - margin.bottom,
-      width = 1000 - margin.left - margin.right; //let flag = true
-
+      width = 1000 - margin.left - margin.right;
+  var time = 0;
   var g = d3.select("#chart-area").append("svg").attr("width", width + margin.left + margin.right).attr("height", height + margin.top + margin.bottom).append("g").attr("transform", "translate(" + margin.left + ", " + margin.top + ")");
   var tip = d3.tip().attr("class", "d3-tip").html(function (d) {
     var text = d.country_name;
@@ -358,7 +505,12 @@ var Main = function Main() {
         return country;
       });
     });
-    console.log(finalData);
+    console.log(finalData); //    d3.interval(function() {
+    //      // At the end of our data, loop back
+    //      time = time < 17 ? time + 1 : 0;
+    //      update(finalData[time]);
+    //    }, 200);
+
     update(finalData[0]);
   });
 
@@ -377,6 +529,7 @@ var Main = function Main() {
     }).attr("r", function (d) {
       return 5;
     }).on("mouseover", tip.show).on("mouseout", tip.hide);
+    timeLabel.text(+(time + 2003));
   }
 };
 

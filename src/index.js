@@ -1,10 +1,13 @@
 import { Main } from './main'
-import { Homicide } from './homicide'
+import { BarChart } from './bar_chart'
+import { Literacy } from './literacy'
 
 document.addEventListener('DOMContentLoaded', () => {
     console.log("webpack is working");
-    Main()
-    //Homicide()
+    //Main()
+    // BarChart()
+    Literacy()
+    
 
 });
 
