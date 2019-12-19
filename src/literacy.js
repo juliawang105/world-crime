@@ -1,4 +1,5 @@
 export const Literacy = () => {
+  console.log('hello')
      let margin = { left: 80, right: 20, top: 50, bottom: 100 };
      let height = 800 - margin.top - margin.bottom,
        width = 1000 - margin.left - margin.right;
@@ -13,18 +14,18 @@ export const Literacy = () => {
        .append("g")
        .attr("transform", "translate(" + margin.left + ", " + margin.top + ")");
 
-     //    let tip = d3
-     //      .tip()
-     //      .attr("class", "d3-tip")
-     //      .html(function(d) {
-     //        let text = d.country_name;
-     //        text += " " + d.region_name;
-     //        text += " " + d.Count;
-     //        text += " " + d.Rate;
-     //        return text;
-     //      });
+        let tip = d3
+          .tip()
+          .attr("class", "d3-tip")
+          .html(function(d) {
+            let text = d.name;
+            // text += " " + d.region_name;
+            text += " " + d.Elderly;
+            text += " " + d.Youth;
+            return text;
+          });
 
-     //    g.call(tip);
+        g.call(tip);
 
      let x = d3
        .scaleLinear()
@@ -128,7 +129,7 @@ export const Literacy = () => {
       let finalData = sortedData.map(function(year) {
         return year["countries"]
           .filter(function(country) {
-            let dataExists = country.Elderly && country.Youth;
+            let dataExists = (country.Elderly !== "NA" && country.Youth !== "NA");
             return dataExists;
           })
           .map(function(country) {
@@ -139,9 +140,14 @@ export const Literacy = () => {
           });
       });
 
-      
+      console.log(finalData)
       update(finalData[0])
-      console.log(finalData);
+      // d3.interval(function() {
+      //    // At the end of our data, loop back
+      //    time = time < 15 ? time + 1 : 0;
+      //    update(finalData[time]);
+      //  }, 200);
+      // console.log(finalData);
   });
 
  function update(data) {
@@ -167,12 +173,12 @@ export const Literacy = () => {
        return x(d.Youth);
      })
      .attr("r", function(d) {
-         let pop = (d.Pop/10000000) * 3
+         let pop = (d.Pop/30000000) * 4
        return (pop);
      })
-    //  .on("mouseover", tip.show)
-    //  .on("mouseout", tip.hide);
+     .on("mouseover", tip.show)
+     .on("mouseout", tip.hide);
 
-   timeLabel.text(+(time + 2003));
+   timeLabel.text(+(time + 2000));
  }
 };

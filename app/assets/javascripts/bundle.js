@@ -239,6 +239,7 @@ document.addEventListener('DOMContentLoaded', function () {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Literacy", function() { return Literacy; });
 var Literacy = function Literacy() {
+  console.log('hello');
   var margin = {
     left: 80,
     right: 20,
@@ -248,18 +249,15 @@ var Literacy = function Literacy() {
   var height = 800 - margin.top - margin.bottom,
       width = 1000 - margin.left - margin.right;
   var time = 0;
-  var g = d3.select("#chart-area").append("svg").attr("width", width + margin.left + margin.right).attr("height", height + margin.top + margin.bottom).append("g").attr("transform", "translate(" + margin.left + ", " + margin.top + ")"); //    let tip = d3
-  //      .tip()
-  //      .attr("class", "d3-tip")
-  //      .html(function(d) {
-  //        let text = d.country_name;
-  //        text += " " + d.region_name;
-  //        text += " " + d.Count;
-  //        text += " " + d.Rate;
-  //        return text;
-  //      });
-  //    g.call(tip);
+  var g = d3.select("#chart-area").append("svg").attr("width", width + margin.left + margin.right).attr("height", height + margin.top + margin.bottom).append("g").attr("transform", "translate(" + margin.left + ", " + margin.top + ")");
+  var tip = d3.tip().attr("class", "d3-tip").html(function (d) {
+    var text = d.name; // text += " " + d.region_name;
 
+    text += " " + d.Elderly;
+    text += " " + d.Youth;
+    return text;
+  });
+  g.call(tip);
   var x = d3.scaleLinear().range([0, width]).domain([1, 100]);
   var y = d3.scaleLinear() //   .base(10)
   .range([height, 0]).domain([0, 100]);
@@ -341,7 +339,7 @@ var Literacy = function Literacy() {
 
     var finalData = sortedData.map(function (year) {
       return year["countries"].filter(function (country) {
-        var dataExists = country.Elderly && country.Youth;
+        var dataExists = country.Elderly !== "NA" && country.Youth !== "NA";
         return dataExists;
       }).map(function (country) {
         country.Elderly = +country.Elderly;
@@ -350,8 +348,13 @@ var Literacy = function Literacy() {
         return country;
       });
     });
-    update(finalData[0]);
     console.log(finalData);
+    update(finalData[0]); // d3.interval(function() {
+    //    // At the end of our data, loop back
+    //    time = time < 15 ? time + 1 : 0;
+    //    update(finalData[time]);
+    //  }, 200);
+    // console.log(finalData);
   });
 
   function update(data) {
@@ -368,12 +371,10 @@ var Literacy = function Literacy() {
     }).attr("cx", function (d) {
       return x(d.Youth);
     }).attr("r", function (d) {
-      var pop = d.Pop / 10000000 * 3;
+      var pop = d.Pop / 30000000 * 4;
       return pop;
-    }); //  .on("mouseover", tip.show)
-    //  .on("mouseout", tip.hide);
-
-    timeLabel.text(+(time + 2003));
+    }).on("mouseover", tip.show).on("mouseout", tip.hide);
+    timeLabel.text(+(time + 2000));
   }
 };
 
