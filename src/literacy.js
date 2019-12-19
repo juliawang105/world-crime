@@ -93,6 +93,37 @@ export const Literacy = () => {
      g.append("g")
        .attr("class", "y axis")
        .call(yAxis);
+
+     let regions = ["Europe", "Asia", "Americas", "Africa", "Oceania"];
+   
+     let regionColor = d3.scaleOrdinal(d3.schemeDark2);
+     
+     let legend = g
+       .append("g")
+       .attr(
+         "transform",
+         "translate(" + (width - 10) + "," + (height - 200) + ")"
+       );
+
+     regions.forEach(function(region, i) {
+       let legendRow = legend
+         .append("g")
+         .attr("transform", "translate(0, " + i * 20 + ")");
+
+       legendRow
+         .append("rect")
+         .attr("width", 10)
+         .attr("height", 10)
+         .attr("fill", regionColor(region));
+
+       legendRow
+         .append("text")
+         .attr("x", -10)
+         .attr("y", 10)
+         .attr("text-anchor", "end")
+         .style("text-transform", "capitalize")
+         .text(region);
+     });
   d3.csv("data/literacy.csv").then( data => {
       console.log(data)
       
@@ -162,9 +193,9 @@ export const Literacy = () => {
    circles
      .enter()
      .append("circle")
-    //  .attr("fill", function(d) {
-    //    return regionColor(d.region_name);
-    //  })
+     .attr("fill", function(d) {
+       return regionColor(d.region);
+     })
      .merge(circles)
      .attr("cy", function(d) {
        return y(d.Elderly);

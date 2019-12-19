@@ -275,6 +275,14 @@ var Literacy = function Literacy() {
     return +d;
   });
   g.append("g").attr("class", "y axis").call(yAxis);
+  var regions = ["Europe", "Asia", "Americas", "Africa", "Oceania"];
+  var regionColor = d3.scaleOrdinal(d3.schemeDark2);
+  var legend = g.append("g").attr("transform", "translate(" + (width - 10) + "," + (height - 200) + ")");
+  regions.forEach(function (region, i) {
+    var legendRow = legend.append("g").attr("transform", "translate(0, " + i * 20 + ")");
+    legendRow.append("rect").attr("width", 10).attr("height", 10).attr("fill", regionColor(region));
+    legendRow.append("text").attr("x", -10).attr("y", 10).attr("text-anchor", "end").style("text-transform", "capitalize").text(region);
+  });
   d3.csv("data/literacy.csv").then(function (data) {
     console.log(data);
     var sortedData = [{
@@ -363,10 +371,9 @@ var Literacy = function Literacy() {
       return d.Entity;
     });
     circles.exit().remove();
-    circles.enter().append("circle") //  .attr("fill", function(d) {
-    //    return regionColor(d.region_name);
-    //  })
-    .merge(circles).attr("cy", function (d) {
+    circles.enter().append("circle").attr("fill", function (d) {
+      return regionColor(d.region);
+    }).merge(circles).attr("cy", function (d) {
       return y(d.Elderly);
     }).attr("cx", function (d) {
       return x(d.Youth);
