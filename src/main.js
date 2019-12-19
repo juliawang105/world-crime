@@ -1,7 +1,7 @@
 export const Main = () => {
     let margin = { left: 80, right: 20, top: 50, bottom: 100 };
     let height = 800 - margin.top - margin.bottom,
-      width = 800 - margin.left - margin.right;
+      width = 1000 - margin.left - margin.right;
 
     //let flag = true
 
@@ -18,7 +18,7 @@ export const Main = () => {
       .attr("class", "d3-tip")
       .html(function(d) {
         let text = d.country_name;
-        text += " " + d.continent;
+        text += " " + d.region_name;
         text += " " + d.Count;
         text += " " + d.Rate
         return text;
@@ -30,12 +30,13 @@ export const Main = () => {
       .scaleLog()
       .base(100)
       .range([0, width])
-      .domain([200, 60000])
+      .domain([1, 80000])
 
     let y = d3
       .scaleLinear()
+    //   .base(10)
       .range([height, 0])
-      .domain([10, 1000]);
+      .domain([0, 1000]);
 
     let area = d3
       .scaleLinear()
@@ -58,16 +59,13 @@ export const Main = () => {
       .attr("font-size", "20px")
       .attr("text-anchor", "middle")
       .attr("transform", "rotate(-90)")
-      .text("Crime Rate per 100,000 population");
+      .text("Crime Rate per 100,000 ");
 
     let xAxis = d3.axisBottom(x)
-    .tickValues([10, 20, 30])
+    .tickValues([100, 500, 10000])
     .tickFormat(function(d) {
       return +d;
     });
-
-    
-      
 
     g.append("g")
       .attr("class", "x axis")
@@ -85,9 +83,12 @@ export const Main = () => {
 
 
     //Y-Axis
-    let yAxis = d3.axisLeft(y).tickFormat(function(d) {
-      return +d;
-    });
+    let yAxis = d3
+      .axisLeft(y)
+      .tickValues([0, 50, 100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600, 650, 700, 750, 800, 850, 900, 950, 1000])
+      .tickFormat(function(d) {
+        return +d;
+      });
 
     g.append("g")
       .attr("class", "y axis")
@@ -162,7 +163,7 @@ export const Main = () => {
             })
             .map(function(country) {
             country.Count = +country.Count;
-            country.Rate = +country.Rate;
+            country.Rate = (+country.Rate);
             return country;
             });
         });
