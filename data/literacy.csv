@@ -67,7 +67,7 @@ Afghanistan,Asia,Southern Asia,NA,AFG,2010,NA,NA,31411743
 Afghanistan,Asia,Southern Asia,NA,AFG,2011,20.321849822998,46.9900512695313,32358260
 Afghanistan,Asia,Southern Asia,NA,AFG,2012,NA,NA,33397058
 Afghanistan,Asia,Southern Asia,NA,AFG,2013,NA,NA,34499915
-Afghanistan,Asia,Southern Asia,NA,AFG,2015,12.8620700836182,58.154899597168,NA
+Afghanistan,Asia,Southern Asia,NA,AFG,2015,12.8620700836182,58.154899597168,33700000
 Åland Islands,Europe,Northern Europe,NA,NA,NA,NA,NA,NA
 Albania,Europe,Southern Europe,NA,ALB,1700,NA,NA,300000
 Albania,Europe,Southern Europe,NA,ALB,1800,NA,NA,410445
@@ -172,7 +172,7 @@ Albania,Europe,Southern Europe,NA,ALB,2010,NA,NA,3204284
 Albania,Europe,Southern Europe,NA,ALB,2011,86.2959671020508,98.7911911010742,3215988
 Albania,Europe,Southern Europe,NA,ALB,2012,86.9122619628906,99.2313995361328,3227373
 Albania,Europe,Southern Europe,NA,ALB,2013,NA,NA,3238316
-Albania,Europe,Southern Europe,NA,ALB,2015,90.8526306152344,99.0291976928711,NA
+Albania,Europe,Southern Europe,NA,ALB,2015,90.8526306152344,99.0291976928711,2920000
 Algeria,Africa,Northern Africa,NA,DZA,1700,NA,NA,1750000
 Algeria,Africa,Northern Africa,NA,DZA,1800,NA,NA,2503218
 Algeria,Africa,Northern Africa,NA,DZA,1820,NA,NA,2689000
@@ -242,7 +242,7 @@ Algeria,Africa,Northern Africa,NA,DZA,2010,NA,NA,35468208
 Algeria,Africa,Northern Africa,NA,DZA,2011,NA,NA,35980193
 Algeria,Africa,Northern Africa,NA,DZA,2012,NA,NA,36485828
 Algeria,Africa,Northern Africa,NA,DZA,2013,NA,NA,36983924
-Algeria,Africa,Northern Africa,NA,DZA,2015,27.6719093322754,96.7526016235352,NA
+Algeria,Africa,Northern Africa,NA,DZA,2015,27.6719093322754,96.7526016235352,33900000
 American Samoa,Oceania,Polynesia,NA,ASM,1700,NA,NA,7427
 American Samoa,Oceania,Polynesia,NA,ASM,1800,NA,NA,8170
 American Samoa,Oceania,Polynesia,NA,ASM,1850,NA,NA,8100
@@ -448,8 +448,8 @@ Angola,Africa,Sub-Saharan Africa,Middle Africa,AGO,2010,NA,NA,19081912
 Angola,Africa,Sub-Saharan Africa,Middle Africa,AGO,2011,NA,NA,19618432
 Angola,Africa,Sub-Saharan Africa,Middle Africa,AGO,2012,NA,NA,20162517
 Angola,Africa,Sub-Saharan Africa,Middle Africa,AGO,2013,NA,NA,20714494
-Angola,Africa,Sub-Saharan Africa,Middle Africa,AGO,2014,40.6965293884277,72.9531402587891,NA
-Angola,Africa,Sub-Saharan Africa,Middle Africa,AGO,2015,41.5653610229492,72.9267883300781,NA
+Angola,Africa,Sub-Saharan Africa,Middle Africa,AGO,2014,40.6965293884277,72.9531402587891,26900000
+Angola,Africa,Sub-Saharan Africa,Middle Africa,AGO,2015,41.5653610229492,72.9267883300781,27900000
 Anguilla,Americas,Latin America and the Caribbean,Caribbean,AIA,1800,NA,NA,2025
 Anguilla,Americas,Latin America and the Caribbean,Caribbean,AIA,1820,NA,NA,2025
 Anguilla,Americas,Latin America and the Caribbean,Caribbean,AIA,1950,NA,NA,5121
@@ -710,8 +710,8 @@ Argentina,Americas,Latin America and the Caribbean,South America,ARG,2010,NA,NA,
 Argentina,Americas,Latin America and the Caribbean,South America,ARG,2011,NA,NA,40764561
 Argentina,Americas,Latin America and the Caribbean,South America,ARG,2012,NA,NA,41118986
 Argentina,Americas,Latin America and the Caribbean,South America,ARG,2013,NA,NA,41473982
-Argentina,Americas,Latin America and the Caribbean,South America,ARG,2014,94.9894638061523,99.2828598022461,NA
-Argentina,Americas,Latin America and the Caribbean,South America,ARG,2015,95.0916595458984,99.3043670654297,NA
+Argentina,Americas,Latin America and the Caribbean,South America,ARG,2014,94.9894638061523,99.2828598022461,43000000
+Argentina,Americas,Latin America and the Caribbean,South America,ARG,2015,95.0916595458984,99.3043670654297,43400000
 Armenia,Asia,Western Asia,NA,ARM,1800,NA,NA,413326
 Armenia,Asia,Western Asia,NA,ARM,1820,NA,NA,413326
 Armenia,Asia,Western Asia,NA,ARM,1950,NA,NA,1353506
@@ -778,7 +778,7 @@ Armenia,Asia,Western Asia,NA,ARM,2010,NA,NA,3092072
 Armenia,Asia,Western Asia,NA,ARM,2011,98.9434432983398,99.8473968505859,3100236
 Armenia,Asia,Western Asia,NA,ARM,2012,NA,NA,3108972
 Armenia,Asia,Western Asia,NA,ARM,2013,NA,NA,3117722
-Armenia,Asia,Western Asia,NA,ARM,2015,99.1479873657227,99.8453979492188,NA
+Armenia,Asia,Western Asia,NA,ARM,2015,99.1479873657227,99.8453979492188,2920000
 Aruba,Americas,Latin America and the Caribbean,Caribbean,ABW,1800,NA,NA,19286
 Aruba,Americas,Latin America and the Caribbean,Caribbean,ABW,1820,NA,NA,19286
 Aruba,Americas,Latin America and the Caribbean,Caribbean,ABW,1950,NA,NA,38066
@@ -845,7 +845,7 @@ Aruba,Americas,Latin America and the Caribbean,Caribbean,ABW,2010,88.86238098144
 Aruba,Americas,Latin America and the Caribbean,Caribbean,ABW,2011,NA,NA,108141
 Aruba,Americas,Latin America and the Caribbean,Caribbean,ABW,2012,NA,NA,108587
 Aruba,Americas,Latin America and the Caribbean,Caribbean,ABW,2013,NA,NA,108883
-Aruba,Americas,Latin America and the Caribbean,Caribbean,ABW,2015,92.8759536743164,99.4122009277344,NA
+Aruba,Americas,Latin America and the Caribbean,Caribbean,ABW,2015,92.8759536743164,99.4122009277344,109883
 Australia,Oceania,Australia and New Zealand,NA,AUS,1700,NA,NA,450000
 Australia,Oceania,Australia and New Zealand,NA,AUS,1800,NA,NA,351014
 Australia,Oceania,Australia and New Zealand,NA,AUS,1820,NA,NA,334000
@@ -1304,8 +1304,8 @@ Azerbaijan,Asia,Western Asia,NA,AZE,2010,98.0853118896484,99.9505996704102,91877
 Azerbaijan,Asia,Western Asia,NA,AZE,2011,98.1178207397461,99.9440994262695,9306023
 Azerbaijan,Asia,Western Asia,NA,AZE,2012,98.1791229248047,99.9367523193359,9421233
 Azerbaijan,Asia,Western Asia,NA,AZE,2013,98.2842712402344,99.9524688720703,9533445
-Azerbaijan,Asia,Western Asia,NA,AZE,2014,98.3178634643555,99.9569931030273,NA
-Azerbaijan,Asia,Western Asia,NA,AZE,2015,98.4149932861328,99.9560012817383,NA
+Azerbaijan,Asia,Western Asia,NA,AZE,2014,98.3178634643555,99.9569931030273,9500000
+Azerbaijan,Asia,Western Asia,NA,AZE,2015,98.4149932861328,99.9560012817383,9620000
 Bahamas,Americas,Latin America and the Caribbean,Caribbean,BHS,1800,NA,NA,27350
 Bahamas,Americas,Latin America and the Caribbean,Caribbean,BHS,1820,NA,NA,27350
 Bahamas,Americas,Latin America and the Caribbean,Caribbean,BHS,1851,NA,NA,28000
@@ -1450,7 +1450,7 @@ Bahrain,Asia,Western Asia,NA,BHR,2010,49.2820587158203,98.1635971069336,1261835
 Bahrain,Asia,Western Asia,NA,BHR,2011,NA,NA,1323535
 Bahrain,Asia,Western Asia,NA,BHR,2012,NA,NA,1359485
 Bahrain,Asia,Western Asia,NA,BHR,2013,NA,NA,1377273
-Bahrain,Asia,Western Asia,NA,BHR,2015,64.8073272705078,99.7718811035156,NA
+Bahrain,Asia,Western Asia,NA,BHR,2015,64.8073272705078,99.7718811035156,1370000
 Bangladesh,Asia,Southern Asia,NA,BGD,1700,NA,NA,15789473
 Bangladesh,Asia,Southern Asia,NA,BGD,1800,NA,NA,19227358
 Bangladesh,Asia,Southern Asia,NA,BGD,1820,NA,NA,20000000
@@ -1523,8 +1523,8 @@ Bangladesh,Asia,Southern Asia,NA,BGD,2010,NA,NA,148692131
 Bangladesh,Asia,Southern Asia,NA,BGD,2011,NA,NA,150493658
 Bangladesh,Asia,Southern Asia,NA,BGD,2012,NA,NA,152408774
 Bangladesh,Asia,Southern Asia,NA,BGD,2013,NA,NA,154393847
-Bangladesh,Asia,Southern Asia,NA,BGD,2014,31.3226795196533,82.1669616699219,NA
-Bangladesh,Asia,Southern Asia,NA,BGD,2015,31.6449108123779,83.1978073120117,NA
+Bangladesh,Asia,Southern Asia,NA,BGD,2014,31.3226795196533,82.1669616699219,159000000
+Bangladesh,Asia,Southern Asia,NA,BGD,2015,31.6449108123779,83.1978073120117,161000000
 Barbados,Americas,Latin America and the Caribbean,Caribbean,BRB,1800,NA,NA,81729
 Barbados,Americas,Latin America and the Caribbean,Caribbean,BRB,1820,NA,NA,81729
 Barbados,Americas,Latin America and the Caribbean,Caribbean,BRB,1851,NA,NA,136000
@@ -1666,7 +1666,7 @@ Belarus,Europe,Eastern Europe,NA,BLR,2010,NA,NA,9595421
 Belarus,Europe,Eastern Europe,NA,BLR,2011,NA,NA,9559441
 Belarus,Europe,Eastern Europe,NA,BLR,2012,NA,NA,9527498
 Belarus,Europe,Eastern Europe,NA,BLR,2013,NA,NA,9498290
-Belarus,Europe,Eastern Europe,NA,BLR,2015,99.2036209106445,99.8401870727539,NA
+Belarus,Europe,Eastern Europe,NA,BLR,2015,99.2036209106445,99.8401870727539,9490000
 Belgium,Europe,Western Europe,NA,BEL,1700,NA,NA,2000000
 Belgium,Europe,Western Europe,NA,BEL,1800,NA,NA,3138137
 Belgium,Europe,Western Europe,NA,BEL,1820,NA,NA,3434000
@@ -1938,7 +1938,7 @@ Belize,Americas,Latin America and the Caribbean,Central America,BLZ,2010,NA,NA,3
 Belize,Americas,Latin America and the Caribbean,Central America,BLZ,2011,NA,NA,317928
 Belize,Americas,Latin America and the Caribbean,Central America,BLZ,2012,NA,NA,324292
 Belize,Americas,Latin America and the Caribbean,Central America,BLZ,2013,NA,NA,330721
-Belize,Americas,Latin America and the Caribbean,Central America,BLZ,2015,66.4416122436523,88.6058120727539,NA
+Belize,Americas,Latin America and the Caribbean,Central America,BLZ,2015,66.4416122436523,88.6058120727539,359000
 Benin,Africa,Sub-Saharan Africa,Western Africa,BEN,1800,NA,NA,636559
 Benin,Africa,Sub-Saharan Africa,Western Africa,BEN,1820,NA,NA,636559
 Benin,Africa,Sub-Saharan Africa,Western Africa,BEN,1950,NA,NA,2255222
@@ -2005,7 +2005,7 @@ Benin,Africa,Sub-Saharan Africa,Western Africa,BEN,2010,NA,NA,8849892
 Benin,Africa,Sub-Saharan Africa,Western Africa,BEN,2011,NA,NA,9099922
 Benin,Africa,Sub-Saharan Africa,Western Africa,BEN,2012,NA,NA,9351838
 Benin,Africa,Sub-Saharan Africa,Western Africa,BEN,2013,NA,NA,9606534
-Benin,Africa,Sub-Saharan Africa,Western Africa,BEN,2015,10.3368997573853,52.5492401123047,NA
+Benin,Africa,Sub-Saharan Africa,Western Africa,BEN,2015,10.3368997573853,52.5492401123047,10600000
 Bermuda,Americas,Northern America,NA,BMU,1730,NA,NA,8774
 Bermuda,Americas,Northern America,NA,BMU,1800,NA,NA,9692
 Bermuda,Americas,Northern America,NA,BMU,1822,NA,NA,10000
@@ -2152,7 +2152,7 @@ Bhutan,Asia,Southern Asia,NA,BTN,2010,NA,NA,725940
 Bhutan,Asia,Southern Asia,NA,BTN,2011,NA,NA,738267
 Bhutan,Asia,Southern Asia,NA,BTN,2012,14.9379596710205,87.318359375,750443
 Bhutan,Asia,Southern Asia,NA,BTN,2013,NA,NA,762313
-Bhutan,Asia,Southern Asia,NA,BTN,2015,17.7892894744873,92.0408401489258,NA
+Bhutan,Asia,Southern Asia,NA,BTN,2015,17.7892894744873,92.0408401489258,787000
 Bolivia (Plurinational State of),Americas,Latin America and the Caribbean,South America,NA,NA,NA,NA,NA
 "Bonaire, Sint Eustatius and Saba",Americas,Latin America and the Caribbean,Caribbean,NA,NA,NA,NA,NA
 Bosnia and Herzegovina,Europe,Southern Europe,NA,BIH,1800,NA,NA,851806
@@ -2221,8 +2221,8 @@ Bosnia and Herzegovina,Europe,Southern Europe,NA,BIH,2010,NA,NA,3760149
 Bosnia and Herzegovina,Europe,Southern Europe,NA,BIH,2011,NA,NA,3752228
 Bosnia and Herzegovina,Europe,Southern Europe,NA,BIH,2012,NA,NA,3744235
 Bosnia and Herzegovina,Europe,Southern Europe,NA,BIH,2013,NA,NA,3735880
-Bosnia and Herzegovina,Europe,Southern Europe,NA,BIH,2014,92.3664779663086,99.6629333496094,NA
-Bosnia and Herzegovina,Europe,Southern Europe,NA,BIH,2015,93.0818786621094,99.6522064208984,NA
+Bosnia and Herzegovina,Europe,Southern Europe,NA,BIH,2014,92.3664779663086,99.6629333496094,3570000
+Bosnia and Herzegovina,Europe,Southern Europe,NA,BIH,2015,93.0818786621094,99.6522064208984,3540000
 Botswana,Africa,Sub-Saharan Africa,Southern Africa,BWA,1800,NA,NA,121000
 Botswana,Africa,Sub-Saharan Africa,Southern Africa,BWA,1904,NA,NA,121000
 Botswana,Africa,Sub-Saharan Africa,Southern Africa,BWA,1911,NA,NA,125000
@@ -2293,8 +2293,8 @@ Botswana,Africa,Sub-Saharan Africa,Southern Africa,BWA,2010,NA,NA,2006945
 Botswana,Africa,Sub-Saharan Africa,Southern Africa,BWA,2011,NA,NA,2030738
 Botswana,Africa,Sub-Saharan Africa,Southern Africa,BWA,2012,NA,NA,2053237
 Botswana,Africa,Sub-Saharan Africa,Southern Africa,BWA,2013,NA,NA,2074616
-Botswana,Africa,Sub-Saharan Africa,Southern Africa,BWA,2014,40.7223014831543,97.6808319091797,NA
-Botswana,Africa,Sub-Saharan Africa,Southern Africa,BWA,2015,42.5535087585449,97.8123168945313,NA
+Botswana,Africa,Sub-Saharan Africa,Southern Africa,BWA,2014,40.7223014831543,97.6808319091797,2170000
+Botswana,Africa,Sub-Saharan Africa,Southern Africa,BWA,2015,42.5535087585449,97.8123168945313,2210000
 Bouvet Island,Americas,Latin America and the Caribbean,South America,NA,NA,NA,NA,NA
 Brazil,Americas,Latin America and the Caribbean,South America,BRA,1700,NA,NA,1250000
 Brazil,Americas,Latin America and the Caribbean,South America,BRA,1800,NA,NA,3639636
@@ -2444,7 +2444,7 @@ Brazil,Americas,Latin America and the Caribbean,South America,BRA,2010,70.641006
 Brazil,Americas,Latin America and the Caribbean,South America,BRA,2011,71.9623413085938,98.4869232177734,196655014
 Brazil,Americas,Latin America and the Caribbean,South America,BRA,2012,72.8294219970703,98.6196594238281,198360943
 Brazil,Americas,Latin America and the Caribbean,South America,BRA,2013,72.3246994018555,98.7366790771484,200050487
-Brazil,Americas,Latin America and the Caribbean,South America,BRA,2015,74.1957473754883,98.9323883056641,NA
+Brazil,Americas,Latin America and the Caribbean,South America,BRA,2015,74.1957473754883,98.9323883056641,206000000
 British Indian Ocean Territory,Africa,Sub-Saharan Africa,Eastern Africa,NA,NA,NA,NA,NA
 Brunei Darussalam,Asia,South-eastern Asia,NA,NA,NA,NA,NA,NA
 Bulgaria,Europe,Eastern Europe,NA,BGR,1700,NA,NA,1250000
@@ -2550,7 +2550,7 @@ Bulgaria,Europe,Eastern Europe,NA,BGR,2010,NA,NA,7494332
 Bulgaria,Europe,Eastern Europe,NA,BGR,2011,97.5172576904297,97.8650512695313,7446135
 Bulgaria,Europe,Eastern Europe,NA,BGR,2012,NA,NA,7397873
 Bulgaria,Europe,Eastern Europe,NA,BGR,2013,NA,NA,7349462
-Bulgaria,Europe,Eastern Europe,NA,BGR,2015,97.9469909667969,98.0003662109375,NA
+Bulgaria,Europe,Eastern Europe,NA,BGR,2015,97.9469909667969,98.0003662109375,7180000
 Burkina Faso,Africa,Sub-Saharan Africa,Western Africa,BFA,1800,NA,NA,1665421
 Burkina Faso,Africa,Sub-Saharan Africa,Western Africa,BFA,1820,NA,NA,1665421
 Burkina Faso,Africa,Sub-Saharan Africa,Western Africa,BFA,1950,NA,NA,4284459
@@ -2617,8 +2617,8 @@ Burkina Faso,Africa,Sub-Saharan Africa,Western Africa,BFA,2010,NA,NA,16468714
 Burkina Faso,Africa,Sub-Saharan Africa,Western Africa,BFA,2011,NA,NA,16967845
 Burkina Faso,Africa,Sub-Saharan Africa,Western Africa,BFA,2012,NA,NA,17481984
 Burkina Faso,Africa,Sub-Saharan Africa,Western Africa,BFA,2013,NA,NA,18011507
-Burkina Faso,Africa,Sub-Saharan Africa,Western Africa,BFA,2014,8.39478015899658,50.096248626709,NA
-Burkina Faso,Africa,Sub-Saharan Africa,Western Africa,BFA,2015,8.41876983642578,52.5093116760254,NA
+Burkina Faso,Africa,Sub-Saharan Africa,Western Africa,BFA,2014,8.39478015899658,50.096248626709,17600000
+Burkina Faso,Africa,Sub-Saharan Africa,Western Africa,BFA,2015,8.41876983642578,52.5093116760254,1810000
 Burundi,Africa,Sub-Saharan Africa,Eastern Africa,BDI,1800,NA,NA,899097
 Burundi,Africa,Sub-Saharan Africa,Eastern Africa,BDI,1820,NA,NA,899097
 Burundi,Africa,Sub-Saharan Africa,Eastern Africa,BDI,1950,NA,NA,2456300
@@ -2685,7 +2685,7 @@ Burundi,Africa,Sub-Saharan Africa,Eastern Africa,BDI,2010,NA,NA,8382849
 Burundi,Africa,Sub-Saharan Africa,Eastern Africa,BDI,2011,NA,NA,8575172
 Burundi,Africa,Sub-Saharan Africa,Eastern Africa,BDI,2012,NA,NA,8749387
 Burundi,Africa,Sub-Saharan Africa,Eastern Africa,BDI,2013,NA,NA,8911183
-Burundi,Africa,Sub-Saharan Africa,Eastern Africa,BDI,2015,63.6303100585938,87.6179809570313,NA
+Burundi,Africa,Sub-Saharan Africa,Eastern Africa,BDI,2015,63.6303100585938,87.6179809570313,10200000
 Cabo Verde,Africa,Sub-Saharan Africa,Western Africa,NA,NA,NA,NA,NA
 Cambodia,Asia,South-eastern Asia,NA,KHM,1800,NA,NA,2090000
 Cambodia,Asia,South-eastern Asia,NA,KHM,1820,NA,NA,2090000
@@ -2755,7 +2755,7 @@ Cambodia,Asia,South-eastern Asia,NA,KHM,2010,NA,NA,14138255
 Cambodia,Asia,South-eastern Asia,NA,KHM,2011,NA,NA,14305183
 Cambodia,Asia,South-eastern Asia,NA,KHM,2012,NA,NA,14478320
 Cambodia,Asia,South-eastern Asia,NA,KHM,2013,NA,NA,14656016
-Cambodia,Asia,South-eastern Asia,NA,KHM,2015,51.4714202880859,91.5350189208984,NA
+Cambodia,Asia,South-eastern Asia,NA,KHM,2015,51.4714202880859,91.5350189208984,15500000
 Cameroon,Africa,Sub-Saharan Africa,Middle Africa,CMR,1800,NA,NA,1860054
 Cameroon,Africa,Sub-Saharan Africa,Middle Africa,CMR,1820,NA,NA,1860054
 Cameroon,Africa,Sub-Saharan Africa,Middle Africa,CMR,1926,NA,NA,2547668
@@ -2825,7 +2825,7 @@ Cameroon,Africa,Sub-Saharan Africa,Middle Africa,CMR,2010,26.124439239502,80.574
 Cameroon,Africa,Sub-Saharan Africa,Middle Africa,CMR,2011,NA,NA,20030362
 Cameroon,Africa,Sub-Saharan Africa,Middle Africa,CMR,2012,NA,NA,20468943
 Cameroon,Africa,Sub-Saharan Africa,Middle Africa,CMR,2013,NA,NA,20913595
-Cameroon,Africa,Sub-Saharan Africa,Middle Africa,CMR,2015,33.1864891052246,83.7973709106445,NA
+Cameroon,Africa,Sub-Saharan Africa,Middle Africa,CMR,2015,33.1864891052246,83.7973709106445,22800000
 Canada,Americas,Northern America,NA,CAN,1700,NA,NA,200000
 Canada,Americas,Northern America,NA,CAN,1800,NA,NA,645526
 Canada,Americas,Northern America,NA,CAN,1820,NA,NA,816000
@@ -3114,7 +3114,7 @@ Central African Republic,Africa,Sub-Saharan Africa,Middle Africa,CAF,2010,35.719
 Central African Republic,Africa,Sub-Saharan Africa,Middle Africa,CAF,2011,NA,NA,4486837
 Central African Republic,Africa,Sub-Saharan Africa,Middle Africa,CAF,2012,NA,NA,4575586
 Central African Republic,Africa,Sub-Saharan Africa,Middle Africa,CAF,2013,NA,NA,4666833
-Central African Republic,Africa,Sub-Saharan Africa,Middle Africa,CAF,2015,34.1908493041992,36.3562698364258,NA
+Central African Republic,Africa,Sub-Saharan Africa,Middle Africa,CAF,2015,34.1908493041992,36.3562698364258,4550000
 Chad,Africa,Sub-Saharan Africa,Middle Africa,TCD,1800,NA,NA,1432000
 Chad,Africa,Sub-Saharan Africa,Middle Africa,TCD,1936,NA,NA,1432000
 Chad,Africa,Sub-Saharan Africa,Middle Africa,TCD,1950,NA,NA,2429431
@@ -3181,8 +3181,8 @@ Chad,Africa,Sub-Saharan Africa,Middle Africa,TCD,2010,NA,NA,11227208
 Chad,Africa,Sub-Saharan Africa,Middle Africa,TCD,2011,NA,NA,11525496
 Chad,Africa,Sub-Saharan Africa,Middle Africa,TCD,2012,NA,NA,11830573
 Chad,Africa,Sub-Saharan Africa,Middle Africa,TCD,2013,NA,NA,12141876
-Chad,Africa,Sub-Saharan Africa,Middle Africa,TCD,2014,6.73078012466431,51.7384300231934,NA
-Chad,Africa,Sub-Saharan Africa,Middle Africa,TCD,2015,7.39445018768311,52.7481803894043,NA
+Chad,Africa,Sub-Saharan Africa,Middle Africa,TCD,2014,6.73078012466431,51.7384300231934,13600000
+Chad,Africa,Sub-Saharan Africa,Middle Africa,TCD,2015,7.39445018768311,52.7481803894043,14000000
 Chile,Americas,Latin America and the Caribbean,South America,CHL,1800,NA,NA,771447
 Chile,Americas,Latin America and the Caribbean,South America,CHL,1820,NA,NA,771447
 Chile,Americas,Latin America and the Caribbean,South America,CHL,1821,NA,NA,789144
@@ -3378,7 +3378,7 @@ Chile,Americas,Latin America and the Caribbean,South America,CHL,2010,NA,NA,1711
 Chile,Americas,Latin America and the Caribbean,South America,CHL,2011,89.0559921264648,99.4081878662109,17269525
 Chile,Americas,Latin America and the Caribbean,South America,CHL,2012,NA,NA,17423214
 Chile,Americas,Latin America and the Caribbean,South America,CHL,2013,88.865348815918,99.018669128418,17574464
-Chile,Americas,Latin America and the Caribbean,South America,CHL,2015,89.7359771728516,99.1464385986328,NA
+Chile,Americas,Latin America and the Caribbean,South America,CHL,2015,89.7359771728516,99.1464385986328,17800000
 China,Asia,Eastern Asia,NA,CHN,1700,NA,NA,138000000
 China,Asia,Eastern Asia,NA,CHN,1800,NA,NA,321675013
 China,Asia,Eastern Asia,NA,CHN,1820,NA,NA,381000000
@@ -3575,7 +3575,7 @@ China,Asia,Eastern Asia,NA,CHN,2010,73.9074630737305,99.6422882080078,1341335152
 China,Asia,Eastern Asia,NA,CHN,2011,NA,NA,1347565324
 China,Asia,Eastern Asia,NA,CHN,2012,NA,NA,1353600687
 China,Asia,Eastern Asia,NA,CHN,2013,NA,NA,1359368470
-China,Asia,Eastern Asia,NA,CHN,2015,81.2825164794922,99.7288589477539,NA
+China,Asia,Eastern Asia,NA,CHN,2015,81.2825164794922,99.7288589477539,1400000000
 Christmas Island,Oceania,Australia and New Zealand,NA,CXR,1800,NA,NA,0
 Christmas Island,Oceania,Australia and New Zealand,NA,CXR,1888,NA,NA,0
 Christmas Island,Oceania,Australia and New Zealand,NA,CXR,1897,NA,NA,0
@@ -3711,8 +3711,8 @@ Colombia,Americas,Latin America and the Caribbean,South America,COL,2010,76.3009
 Colombia,Americas,Latin America and the Caribbean,South America,COL,2011,78.1319274902344,98.239372253418,46927125
 Colombia,Americas,Latin America and the Caribbean,South America,COL,2012,NA,NA,47550708
 Colombia,Americas,Latin America and the Caribbean,South America,COL,2013,NA,NA,48165221
-Colombia,Americas,Latin America and the Caribbean,South America,COL,2014,79.8348007202148,98.529052734375,NA
-Colombia,Americas,Latin America and the Caribbean,South America,COL,2015,81.2927093505859,98.6556396484375,NA
+Colombia,Americas,Latin America and the Caribbean,South America,COL,2014,79.8348007202148,98.529052734375,47800000
+Colombia,Americas,Latin America and the Caribbean,South America,COL,2015,81.2927093505859,98.6556396484375,48200000
 Comoros,Africa,Sub-Saharan Africa,Eastern Africa,COM,1800,NA,NA,56346
 Comoros,Africa,Sub-Saharan Africa,Eastern Africa,COM,1820,NA,NA,56346
 Comoros,Africa,Sub-Saharan Africa,Eastern Africa,COM,1950,NA,NA,156334
@@ -3779,8 +3779,8 @@ Comoros,Africa,Sub-Saharan Africa,Eastern Africa,COM,2010,NA,NA,734750
 Comoros,Africa,Sub-Saharan Africa,Eastern Africa,COM,2011,NA,NA,753943
 Comoros,Africa,Sub-Saharan Africa,Eastern Africa,COM,2012,NA,NA,773344
 Comoros,Africa,Sub-Saharan Africa,Eastern Africa,COM,2013,NA,NA,792913
-Comoros,Africa,Sub-Saharan Africa,Eastern Africa,COM,2014,41.1771087646484,87.1228408813477,NA
-Comoros,Africa,Sub-Saharan Africa,Eastern Africa,COM,2015,41.804370880127,87.4791717529297,NA
+Comoros,Africa,Sub-Saharan Africa,Eastern Africa,COM,2014,41.1771087646484,87.1228408813477,759000
+Comoros,Africa,Sub-Saharan Africa,Eastern Africa,COM,2015,41.804370880127,87.4791717529297,777000
 Congo,Africa,Sub-Saharan Africa,Middle Africa,COG,1800,NA,NA,314465
 Congo,Africa,Sub-Saharan Africa,Middle Africa,COG,1820,NA,NA,314465
 Congo,Africa,Sub-Saharan Africa,Middle Africa,COG,1950,NA,NA,807726
@@ -3847,7 +3847,7 @@ Congo,Africa,Sub-Saharan Africa,Middle Africa,COG,2010,NA,NA,4042899
 Congo,Africa,Sub-Saharan Africa,Middle Africa,COG,2011,73.0835266113281,80.913948059082,4139748
 Congo,Africa,Sub-Saharan Africa,Middle Africa,COG,2012,NA,NA,4233063
 Congo,Africa,Sub-Saharan Africa,Middle Africa,COG,2013,NA,NA,4324199
-Congo,Africa,Sub-Saharan Africa,Middle Africa,COG,2015,73.0835266113281,80.913948059082,NA
+Congo,Africa,Sub-Saharan Africa,Middle Africa,COG,2015,73.0835266113281,80.913948059082,5000000
 "Congo, Democratic Republic of the",Africa,Sub-Saharan Africa,Middle Africa,NA,NA,NA,NA,NA
 Cook Islands,Oceania,Polynesia,NA,COK,1700,NA,NA,14669
 Cook Islands,Oceania,Polynesia,NA,COK,1800,NA,NA,16136
@@ -4024,7 +4024,7 @@ Costa Rica,Americas,Latin America and the Caribbean,Central America,CRI,2010,NA,
 Costa Rica,Americas,Latin America and the Caribbean,Central America,CRI,2011,90.3747711181641,99.1336975097656,4726575
 Costa Rica,Americas,Latin America and the Caribbean,Central America,CRI,2012,NA,NA,4793725
 Costa Rica,Americas,Latin America and the Caribbean,Central America,CRI,2013,NA,NA,4859957
-Costa Rica,Americas,Latin America and the Caribbean,Central America,CRI,2015,92.1985473632813,99.3229217529297,NA
+Costa Rica,Americas,Latin America and the Caribbean,Central America,CRI,2015,92.1985473632813,99.3229217529297,4810000
 Côte d'Ivoire,Africa,Sub-Saharan Africa,Western Africa,NA,NA,NA,NA,NA
 Croatia,Europe,Southern Europe,NA,HRV,1800,NA,NA,1227886
 Croatia,Europe,Southern Europe,NA,HRV,1820,NA,NA,1227886
@@ -4092,7 +4092,7 @@ Croatia,Europe,Southern Europe,NA,HRV,2010,NA,NA,4403330
 Croatia,Europe,Southern Europe,NA,HRV,2011,97.1082229614258,99.7236328125,4395560
 Croatia,Europe,Southern Europe,NA,HRV,2012,NA,NA,4387376
 Croatia,Europe,Southern Europe,NA,HRV,2013,NA,NA,4378806
-Croatia,Europe,Southern Europe,NA,HRV,2015,97.8473129272461,99.7423400878906,NA
+Croatia,Europe,Southern Europe,NA,HRV,2015,97.8473129272461,99.7423400878906,4240000
 Cuba,Americas,Latin America and the Caribbean,Caribbean,CUB,1792,NA,NA,272000
 Cuba,Americas,Latin America and the Caribbean,Caribbean,CUB,1800,NA,NA,345043
 Cuba,Americas,Latin America and the Caribbean,Caribbean,CUB,1817,NA,NA,572000
@@ -4218,7 +4218,7 @@ Cuba,Americas,Latin America and the Caribbean,Caribbean,CUB,2010,NA,NA,11257979
 Cuba,Americas,Latin America and the Caribbean,Caribbean,CUB,2011,NA,NA,11253665
 Cuba,Americas,Latin America and the Caribbean,Caribbean,CUB,2012,99.1639785766602,99.8746490478516,11249266
 Cuba,Americas,Latin America and the Caribbean,Caribbean,CUB,2013,NA,NA,11244424
-Cuba,Americas,Latin America and the Caribbean,Caribbean,CUB,2015,99.6185989379883,99.8902969360352,NA
+Cuba,Americas,Latin America and the Caribbean,Caribbean,CUB,2015,99.6185989379883,99.8902969360352,11500000
 Curaçao,Americas,Latin America and the Caribbean,Caribbean,NA,NA,NA,NA,NA
 Cyprus,Asia,Western Asia,NA,CYP,1800,NA,NA,184392
 Cyprus,Asia,Western Asia,NA,CYP,1881,NA,NA,186000
@@ -4292,7 +4292,7 @@ Cyprus,Asia,Western Asia,NA,CYP,2010,NA,NA,1103647
 Cyprus,Asia,Western Asia,NA,CYP,2011,93.791862487793,99.8209915161133,1116564
 Cyprus,Asia,Western Asia,NA,CYP,2012,NA,NA,1129166
 Cyprus,Asia,Western Asia,NA,CYP,2013,NA,NA,1141453
-Cyprus,Asia,Western Asia,NA,CYP,2015,95.7007064819336,99.85888671875,NA
+Cyprus,Asia,Western Asia,NA,CYP,2015,95.7007064819336,99.85888671875,1160000
 Czechia,Europe,Eastern Europe,NA,NA,NA,NA,NA,NA
 Denmark,Europe,Northern Europe,NA,DNK,1700,NA,NA,700000
 Denmark,Europe,Northern Europe,NA,DNK,1800,NA,NA,1062514
@@ -4749,8 +4749,8 @@ Dominican Republic,Americas,Latin America and the Caribbean,Caribbean,DOM,2010,6
 Dominican Republic,Americas,Latin America and the Caribbean,Caribbean,DOM,2011,72.3914489746094,97.0419082641602,10056181
 Dominican Republic,Americas,Latin America and the Caribbean,Caribbean,DOM,2012,73.0356979370117,97.0238876342773,10183339
 Dominican Republic,Americas,Latin America and the Caribbean,Caribbean,DOM,2013,76.1469268798828,97.4724273681641,10308609
-Dominican Republic,Americas,Latin America and the Caribbean,Caribbean,DOM,2014,78.8037185668945,97.6885833740234,NA
-Dominican Republic,Americas,Latin America and the Caribbean,Caribbean,DOM,2015,79.8918533325195,97.8985595703125,NA
+Dominican Republic,Americas,Latin America and the Caribbean,Caribbean,DOM,2014,78.8037185668945,97.6885833740234,10400000
+Dominican Republic,Americas,Latin America and the Caribbean,Caribbean,DOM,2015,79.8918533325195,97.8985595703125,10500000
 Ecuador,Americas,Latin America and the Caribbean,South America,ECU,1800,NA,NA,500000
 Ecuador,Americas,Latin America and the Caribbean,South America,ECU,1820,NA,NA,500000
 Ecuador,Americas,Latin America and the Caribbean,South America,ECU,1850,NA,NA,816000
@@ -4869,7 +4869,7 @@ Ecuador,Americas,Latin America and the Caribbean,South America,ECU,2010,71.50730
 Ecuador,Americas,Latin America and the Caribbean,South America,ECU,2011,69.728157043457,98.6948394775391,14666055
 Ecuador,Americas,Latin America and the Caribbean,South America,ECU,2012,73.1966705322266,98.8316268920898,14864987
 Ecuador,Americas,Latin America and the Caribbean,South America,ECU,2013,74.4975662231445,98.6046371459961,15061398
-Ecuador,Americas,Latin America and the Caribbean,South America,ECU,2015,76.2142181396484,98.8251571655273,NA
+Ecuador,Americas,Latin America and the Caribbean,South America,ECU,2015,76.2142181396484,98.8251571655273,16100000
 Egypt,Africa,Northern Africa,NA,EGY,1700,NA,NA,4500000
 Egypt,Africa,Northern Africa,NA,EGY,1800,NA,NA,4243515
 Egypt,Africa,Northern Africa,NA,EGY,1820,NA,NA,4194000
@@ -4939,7 +4939,7 @@ Egypt,Africa,Northern Africa,NA,EGY,2010,39.4406700134277,87.5096435546875,81121
 Egypt,Africa,Northern Africa,NA,EGY,2011,NA,NA,82536770
 Egypt,Africa,Northern Africa,NA,EGY,2012,35.0849685668945,89.2819213867188,83958369
 Egypt,Africa,Northern Africa,NA,EGY,2013,43.2160797119141,92.0234222412109,85378440
-Egypt,Africa,Northern Africa,NA,EGY,2015,43.2160797119141,93.2928695678711,NA
+Egypt,Africa,Northern Africa,NA,EGY,2015,43.2160797119141,93.2928695678711,93800000
 El Salvador,Americas,Latin America and the Caribbean,Central America,SLV,1800,NA,NA,248000
 El Salvador,Americas,Latin America and the Caribbean,Central America,SLV,1820,NA,NA,248000
 El Salvador,Americas,Latin America and the Caribbean,Central America,SLV,1850,NA,NA,366000
@@ -5029,7 +5029,7 @@ El Salvador,Americas,Latin America and the Caribbean,Central America,SLV,2010,56
 El Salvador,Americas,Latin America and the Caribbean,Central America,SLV,2011,56.8219604492188,96.5450897216797,6227491
 El Salvador,Americas,Latin America and the Caribbean,Central America,SLV,2012,NA,NA,6264129
 El Salvador,Americas,Latin America and the Caribbean,Central America,SLV,2013,60.629451751709,97.2241897583008,6302723
-El Salvador,Americas,Latin America and the Caribbean,Central America,SLV,2015,63.4158782958984,97.6975021362305,NA
+El Salvador,Americas,Latin America and the Caribbean,Central America,SLV,2015,63.4158782958984,97.6975021362305,6310000
 Equatorial Guinea,Africa,Sub-Saharan Africa,Middle Africa,GNQ,1800,NA,NA,80377
 Equatorial Guinea,Africa,Sub-Saharan Africa,Middle Africa,GNQ,1820,NA,NA,80377
 Equatorial Guinea,Africa,Sub-Saharan Africa,Middle Africa,GNQ,1920,NA,NA,112000
@@ -5099,8 +5099,8 @@ Equatorial Guinea,Africa,Sub-Saharan Africa,Middle Africa,GNQ,2010,NA,NA,700401
 Equatorial Guinea,Africa,Sub-Saharan Africa,Middle Africa,GNQ,2011,NA,NA,720213
 Equatorial Guinea,Africa,Sub-Saharan Africa,Middle Africa,GNQ,2012,NA,NA,740471
 Equatorial Guinea,Africa,Sub-Saharan Africa,Middle Africa,GNQ,2013,NA,NA,761050
-Equatorial Guinea,Africa,Sub-Saharan Africa,Middle Africa,GNQ,2014,67.2213592529297,98.2159881591797,NA
-Equatorial Guinea,Africa,Sub-Saharan Africa,Middle Africa,GNQ,2015,69.3323822021484,98.2617568969727,NA
+Equatorial Guinea,Africa,Sub-Saharan Africa,Middle Africa,GNQ,2014,67.2213592529297,98.2159881591797,1130000
+Equatorial Guinea,Africa,Sub-Saharan Africa,Middle Africa,GNQ,2015,69.3323822021484,98.2617568969727,1180000
 Eritrea,Africa,Sub-Saharan Africa,Eastern Africa,ERI,1800,NA,NA,205010
 Eritrea,Africa,Sub-Saharan Africa,Eastern Africa,ERI,1820,NA,NA,205010
 Eritrea,Africa,Sub-Saharan Africa,Eastern Africa,ERI,1950,NA,NA,1141300
@@ -5167,8 +5167,8 @@ Eritrea,Africa,Sub-Saharan Africa,Eastern Africa,ERI,2010,NA,NA,5253676
 Eritrea,Africa,Sub-Saharan Africa,Eastern Africa,ERI,2011,NA,NA,5415280
 Eritrea,Africa,Sub-Saharan Africa,Eastern Africa,ERI,2012,NA,NA,5580862
 Eritrea,Africa,Sub-Saharan Africa,Eastern Africa,ERI,2013,NA,NA,5748304
-Eritrea,Africa,Sub-Saharan Africa,Eastern Africa,ERI,2014,22.1751403808594,92.5505599975586,NA
-Eritrea,Africa,Sub-Saharan Africa,Eastern Africa,ERI,2015,23.1846809387207,93.2716369628906,NA
+Eritrea,Africa,Sub-Saharan Africa,Eastern Africa,ERI,2014,22.1751403808594,92.5505599975586,4750000
+Eritrea,Africa,Sub-Saharan Africa,Eastern Africa,ERI,2015,23.1846809387207,93.2716369628906,4850000
 Estonia,Europe,Northern Europe,NA,EST,1800,NA,NA,334136
 Estonia,Europe,Northern Europe,NA,EST,1820,NA,NA,334136
 Estonia,Europe,Northern Europe,NA,EST,1950,NA,NA,1100998
@@ -5235,7 +5235,7 @@ Estonia,Europe,Northern Europe,NA,EST,2010,NA,NA,1341140
 Estonia,Europe,Northern Europe,NA,EST,2011,99.7203598022461,99.9488983154297,1340537
 Estonia,Europe,Northern Europe,NA,EST,2012,NA,NA,1339762
 Estonia,Europe,Northern Europe,NA,EST,2013,NA,NA,1338832
-Estonia,Europe,Northern Europe,NA,EST,2015,99.7157211303711,99.9655303955078,NA
+Estonia,Europe,Northern Europe,NA,EST,2015,99.7157211303711,99.9655303955078,1320000
 Eswatini,Africa,Sub-Saharan Africa,Southern Africa,NA,NA,NA,NA,NA
 Ethiopia,Africa,Sub-Saharan Africa,Eastern Africa,ETH,1800,NA,NA,2948990
 Ethiopia,Africa,Sub-Saharan Africa,Eastern Africa,ETH,1820,NA,NA,2948990
@@ -5303,7 +5303,7 @@ Ethiopia,Africa,Sub-Saharan Africa,Eastern Africa,ETH,2010,NA,NA,82949541
 Ethiopia,Africa,Sub-Saharan Africa,Eastern Africa,ETH,2011,NA,NA,84734262
 Ethiopia,Africa,Sub-Saharan Africa,Eastern Africa,ETH,2012,NA,NA,86538534
 Ethiopia,Africa,Sub-Saharan Africa,Eastern Africa,ETH,2013,NA,NA,88356373
-Ethiopia,Africa,Sub-Saharan Africa,Eastern Africa,ETH,2015,14.4704504013062,69.4917602539063,NA
+Ethiopia,Africa,Sub-Saharan Africa,Eastern Africa,ETH,2015,14.4704504013062,69.4917602539063,99900000
 Falkland Islands (Malvinas),Americas,Latin America and the Caribbean,South America,NA,NA,NA,NA,NA
 Faroe Islands,Europe,Northern Europe,NA,NA,NA,NA,NA,NA
 Fiji,Oceania,Melanesia,NA,FJI,1700,NA,NA,118803
@@ -5980,7 +5980,7 @@ Gabon,Africa,Sub-Saharan Africa,Middle Africa,GAB,2010,NA,NA,1505463
 Gabon,Africa,Sub-Saharan Africa,Middle Africa,GAB,2011,NA,NA,1534262
 Gabon,Africa,Sub-Saharan Africa,Middle Africa,GAB,2012,60.5584411621094,88.5041427612305,1563873
 Gabon,Africa,Sub-Saharan Africa,Middle Africa,GAB,2013,NA,NA,1594205
-Gabon,Africa,Sub-Saharan Africa,Middle Africa,GAB,2015,64.7606582641602,89.1227111816406,NA
+Gabon,Africa,Sub-Saharan Africa,Middle Africa,GAB,2015,64.7606582641602,89.1227111816406,1930000
 Gambia,Africa,Sub-Saharan Africa,Western Africa,GMB,1800,NA,NA,103274
 Gambia,Africa,Sub-Saharan Africa,Western Africa,GMB,1820,NA,NA,103274
 Gambia,Africa,Sub-Saharan Africa,Western Africa,GMB,1950,NA,NA,271372
@@ -6047,8 +6047,8 @@ Gambia,Africa,Sub-Saharan Africa,Western Africa,GMB,2010,NA,NA,1728394
 Gambia,Africa,Sub-Saharan Africa,Western Africa,GMB,2011,NA,NA,1776103
 Gambia,Africa,Sub-Saharan Africa,Western Africa,GMB,2012,NA,NA,1824777
 Gambia,Africa,Sub-Saharan Africa,Western Africa,GMB,2013,NA,NA,1874360
-Gambia,Africa,Sub-Saharan Africa,Western Africa,GMB,2014,18.1496906280518,71.9815673828125,NA
-Gambia,Africa,Sub-Saharan Africa,Western Africa,GMB,2015,18.3812999725342,73.1925888061523,NA
+Gambia,Africa,Sub-Saharan Africa,Western Africa,GMB,2014,18.1496906280518,71.9815673828125,1920000
+Gambia,Africa,Sub-Saharan Africa,Western Africa,GMB,2015,18.3812999725342,73.1925888061523,1980000
 Georgia,Asia,Western Asia,NA,GEO,1800,NA,NA,1072178
 Georgia,Asia,Western Asia,NA,GEO,1820,NA,NA,1072178
 Georgia,Asia,Western Asia,NA,GEO,1950,NA,NA,3527004
@@ -6115,8 +6115,8 @@ Georgia,Asia,Western Asia,NA,GEO,2010,NA,NA,4352244
 Georgia,Asia,Western Asia,NA,GEO,2011,NA,NA,4329026
 Georgia,Asia,Western Asia,NA,GEO,2012,NA,NA,4304363
 Georgia,Asia,Western Asia,NA,GEO,2013,NA,NA,4278410
-Georgia,Asia,Western Asia,NA,GEO,2014,99.3580322265625,99.793830871582,NA
-Georgia,Asia,Western Asia,NA,GEO,2015,99.4038467407227,99.7907791137695,NA
+Georgia,Asia,Western Asia,NA,GEO,2014,99.3580322265625,99.793830871582,3990000
+Georgia,Asia,Western Asia,NA,GEO,2015,99.4038467407227,99.7907791137695,3950000
 Germany,Europe,Western Europe,NA,DEU,1700,NA,NA,15000000
 Germany,Europe,Western Europe,NA,DEU,1800,NA,NA,22886919
 Germany,Europe,Western Europe,NA,DEU,1820,NA,NA,24905000
@@ -6381,7 +6381,7 @@ Ghana,Africa,Sub-Saharan Africa,Western Africa,GHA,2010,34.8906097412109,85.7161
 Ghana,Africa,Sub-Saharan Africa,Western Africa,GHA,2011,NA,NA,24965816
 Ghana,Africa,Sub-Saharan Africa,Western Africa,GHA,2012,NA,NA,25545939
 Ghana,Africa,Sub-Saharan Africa,Western Africa,GHA,2013,NA,NA,26131336
-Ghana,Africa,Sub-Saharan Africa,Western Africa,GHA,2015,44.5596618652344,90.601432800293,NA
+Ghana,Africa,Sub-Saharan Africa,Western Africa,GHA,2015,44.5596618652344,90.601432800293,27600000
 Gibraltar,Europe,Southern Europe,NA,GIB,1800,NA,NA,9873
 Gibraltar,Europe,Southern Europe,NA,GIB,1820,NA,NA,9873
 Gibraltar,Europe,Southern Europe,NA,GIB,1950,NA,NA,20497
@@ -6644,8 +6644,8 @@ Greece,Europe,Southern Europe,NA,GRC,2010,NA,NA,11359346
 Greece,Europe,Southern Europe,NA,GRC,2011,NA,NA,11390031
 Greece,Europe,Southern Europe,NA,GRC,2012,NA,NA,11418878
 Greece,Europe,Southern Europe,NA,GRC,2013,NA,NA,11445691
-Greece,Europe,Southern Europe,NA,GRC,2014,93.2436370849609,99.4233322143555,NA
-Greece,Europe,Southern Europe,NA,GRC,2015,83.7089996337891,99.6723709106445,NA
+Greece,Europe,Southern Europe,NA,GRC,2014,93.2436370849609,99.4233322143555,11300000
+Greece,Europe,Southern Europe,NA,GRC,2015,83.7089996337891,99.6723709106445,11200000
 Greenland,Americas,Northern America,NA,GRL,1800,NA,NA,9584
 Greenland,Americas,Northern America,NA,GRL,1820,NA,NA,9584
 Greenland,Americas,Northern America,NA,GRL,1950,NA,NA,22998
@@ -6927,7 +6927,7 @@ Guam,Oceania,Micronesia,NA,GUM,2010,NA,NA,179896
 Guam,Oceania,Micronesia,NA,GUM,2011,NA,NA,182111
 Guam,Oceania,Micronesia,NA,GUM,2012,NA,NA,184334
 Guam,Oceania,Micronesia,NA,GUM,2013,NA,NA,186562
-Guam,Oceania,Micronesia,NA,GUM,2015,99.0984878540039,99.9833297729492,NA
+Guam,Oceania,Micronesia,NA,GUM,2015,99.0984878540039,99.9833297729492,187000
 Guatemala,Americas,Latin America and the Caribbean,Central America,GTM,1800,NA,NA,458965
 Guatemala,Americas,Latin America and the Caribbean,Central America,GTM,1820,NA,NA,595000
 Guatemala,Americas,Latin America and the Caribbean,Central America,GTM,1850,NA,NA,850000
@@ -7046,8 +7046,8 @@ Guatemala,Americas,Latin America and the Caribbean,Central America,GTM,2010,NA,N
 Guatemala,Americas,Latin America and the Caribbean,Central America,GTM,2011,NA,NA,14757316
 Guatemala,Americas,Latin America and the Caribbean,Central America,GTM,2012,41.7243118286133,93.6534729003906,15137569
 Guatemala,Americas,Latin America and the Caribbean,Central America,GTM,2013,45.3942718505859,91.851921081543,15527502
-Guatemala,Americas,Latin America and the Caribbean,Central America,GTM,2014,50.7109794616699,94.354248046875,NA
-Guatemala,Americas,Latin America and the Caribbean,Central America,GTM,2015,46.8496398925781,93.2627410888672,NA
+Guatemala,Americas,Latin America and the Caribbean,Central America,GTM,2014,50.7109794616699,94.354248046875,15900000
+Guatemala,Americas,Latin America and the Caribbean,Central America,GTM,2015,46.8496398925781,93.2627410888672,16300000
 Guernsey,Europe,Northern Europe,Channel Islands,GGY,1800,NA,NA,19488
 Guernsey,Europe,Northern Europe,Channel Islands,GGY,1820,NA,NA,19488
 Guernsey,Europe,Northern Europe,Channel Islands,GGY,1950,NA,NA,45347
@@ -7175,7 +7175,7 @@ Guinea,Africa,Sub-Saharan Africa,Western Africa,GIN,2010,8.55235958099365,31.406
 Guinea,Africa,Sub-Saharan Africa,Western Africa,GIN,2011,NA,NA,10221808
 Guinea,Africa,Sub-Saharan Africa,Western Africa,GIN,2012,NA,NA,10480710
 Guinea,Africa,Sub-Saharan Africa,Western Africa,GIN,2013,NA,NA,10753680
-Guinea,Africa,Sub-Saharan Africa,Western Africa,GIN,2015,8.83156967163086,45.2463989257813,NA
+Guinea,Africa,Sub-Saharan Africa,Western Africa,GIN,2015,8.83156967163086,45.2463989257813,12100000
 Guinea-Bissau,Africa,Sub-Saharan Africa,Western Africa,GNB,1800,NA,NA,218167
 Guinea-Bissau,Africa,Sub-Saharan Africa,Western Africa,GNB,1820,NA,NA,218167
 Guinea-Bissau,Africa,Sub-Saharan Africa,Western Africa,GNB,1950,NA,NA,518171
@@ -7242,8 +7242,8 @@ Guinea-Bissau,Africa,Sub-Saharan Africa,Western Africa,GNB,2010,NA,NA,1515224
 Guinea-Bissau,Africa,Sub-Saharan Africa,Western Africa,GNB,2011,NA,NA,1547061
 Guinea-Bissau,Africa,Sub-Saharan Africa,Western Africa,GNB,2012,NA,NA,1579632
 Guinea-Bissau,Africa,Sub-Saharan Africa,Western Africa,GNB,2013,NA,NA,1612913
-Guinea-Bissau,Africa,Sub-Saharan Africa,Western Africa,GNB,2014,16.575309753418,76.1604766845703,NA
-Guinea-Bissau,Africa,Sub-Saharan Africa,Western Africa,GNB,2015,17.4059295654297,77.1389770507813,NA
+Guinea-Bissau,Africa,Sub-Saharan Africa,Western Africa,GNB,2014,16.575309753418,76.1604766845703,1730000
+Guinea-Bissau,Africa,Sub-Saharan Africa,Western Africa,GNB,2015,17.4059295654297,77.1389770507813,1770000
 Guyana,Americas,Latin America and the Caribbean,South America,GUY,1800,NA,NA,166034
 Guyana,Americas,Latin America and the Caribbean,South America,GUY,1820,NA,NA,166034
 Guyana,Americas,Latin America and the Caribbean,South America,GUY,1950,NA,NA,406562
@@ -7310,7 +7310,7 @@ Guyana,Americas,Latin America and the Caribbean,South America,GUY,2010,NA,NA,754
 Guyana,Americas,Latin America and the Caribbean,South America,GUY,2011,NA,NA,756040
 Guyana,Americas,Latin America and the Caribbean,South America,GUY,2012,NA,NA,757623
 Guyana,Americas,Latin America and the Caribbean,South America,GUY,2013,NA,NA,759262
-Guyana,Americas,Latin America and the Caribbean,South America,GUY,2015,69.7744903564453,94.3712997436523,NA
+Guyana,Americas,Latin America and the Caribbean,South America,GUY,2015,69.7744903564453,94.3712997436523,769000
 Haiti,Americas,Latin America and the Caribbean,Caribbean,HTI,1800,NA,NA,723000
 Haiti,Americas,Latin America and the Caribbean,Caribbean,HTI,1820,NA,NA,723000
 Haiti,Americas,Latin America and the Caribbean,Caribbean,HTI,1850,NA,NA,938000
@@ -7429,7 +7429,7 @@ Haiti,Americas,Latin America and the Caribbean,Caribbean,HTI,2010,NA,NA,9993247
 Haiti,Americas,Latin America and the Caribbean,Caribbean,HTI,2011,NA,NA,10123787
 Haiti,Americas,Latin America and the Caribbean,Caribbean,HTI,2012,NA,NA,10255644
 Haiti,Americas,Latin America and the Caribbean,Caribbean,HTI,2013,NA,NA,10388424
-Haiti,Americas,Latin America and the Caribbean,Caribbean,HTI,2015,14.0608797073364,82.0557022094727,NA
+Haiti,Americas,Latin America and the Caribbean,Caribbean,HTI,2015,14.0608797073364,82.0557022094727,10700000
 Heard Island and McDonald Islands,Oceania,Australia and New Zealand,NA,NA,NA,NA,NA,NA
 Holy See,Europe,Southern Europe,NA,NA,NA,NA,NA,NA
 Honduras,Americas,Latin America and the Caribbean,Central America,HND,1791,NA,NA,96000
@@ -7552,8 +7552,8 @@ Honduras,Americas,Latin America and the Caribbean,Central America,HND,2010,51.57
 Honduras,Americas,Latin America and the Caribbean,Central America,HND,2011,48.0509414672852,95.9250030517578,7754687
 Honduras,Americas,Latin America and the Caribbean,Central America,HND,2012,56.6961708068848,94.9809494018555,7912032
 Honduras,Americas,Latin America and the Caribbean,Central America,HND,2013,57.0935516357422,95.0664901733398,8071522
-Honduras,Americas,Latin America and the Caribbean,Central America,HND,2014,59.2414016723633,95.6770706176758,NA
-Honduras,Americas,Latin America and the Caribbean,Central America,HND,2015,52.2576103210449,97.1838684082031,NA
+Honduras,Americas,Latin America and the Caribbean,Central America,HND,2014,59.2414016723633,95.6770706176758,8810000
+Honduras,Americas,Latin America and the Caribbean,Central America,HND,2015,52.2576103210449,97.1838684082031,8960000
 Hong Kong,Asia,Eastern Asia,NA,HKG,1800,NA,NA,20000
 Hong Kong,Asia,Eastern Asia,NA,HKG,1820,NA,NA,20000
 Hong Kong,Asia,Eastern Asia,NA,HKG,1850,NA,NA,33000
@@ -7760,8 +7760,8 @@ Hungary,Europe,Eastern Europe,NA,HUN,2010,NA,NA,9983645
 Hungary,Europe,Eastern Europe,NA,HUN,2011,NA,NA,9966116
 Hungary,Europe,Eastern Europe,NA,HUN,2012,NA,NA,9949589
 Hungary,Europe,Eastern Europe,NA,HUN,2013,NA,NA,9933795
-Hungary,Europe,Eastern Europe,NA,HUN,2014,98.6428070068359,98.8522796630859,NA
-Hungary,Europe,Eastern Europe,NA,HUN,2015,99.1614608764648,99.3612213134766,NA
+Hungary,Europe,Eastern Europe,NA,HUN,2014,98.6428070068359,98.8522796630859,9810000
+Hungary,Europe,Eastern Europe,NA,HUN,2015,99.1614608764648,99.3612213134766,9780000
 Iceland,Europe,Northern Europe,NA,ISL,1800,NA,NA,61428
 Iceland,Europe,Northern Europe,NA,ISL,1820,NA,NA,61428
 Iceland,Europe,Northern Europe,NA,ISL,1950,NA,NA,142998
@@ -7903,7 +7903,7 @@ India,Asia,Southern Asia,NA,IND,2010,NA,NA,1224614327
 India,Asia,Southern Asia,NA,IND,2011,41.6035690307617,86.1448822021484,1241491960
 India,Asia,Southern Asia,NA,IND,2012,NA,NA,1258350971
 India,Asia,Southern Asia,NA,IND,2013,NA,NA,1275137828
-India,Asia,Southern Asia,NA,IND,2015,42.7003593444824,89.6640625,NA
+India,Asia,Southern Asia,NA,IND,2015,42.7003593444824,89.6640625,1310000000
 Indonesia,Asia,South-eastern Asia,NA,IDN,1700,NA,NA,12402980
 Indonesia,Asia,South-eastern Asia,NA,IDN,1800,NA,NA,16108545
 Indonesia,Asia,South-eastern Asia,NA,IDN,1820,NA,NA,16973147
@@ -8100,8 +8100,8 @@ Indonesia,Asia,South-eastern Asia,NA,IDN,2010,NA,NA,239870937
 Indonesia,Asia,South-eastern Asia,NA,IDN,2011,64.3284683227539,98.7779998779297,242325638
 Indonesia,Asia,South-eastern Asia,NA,IDN,2012,NA,NA,244769110
 Indonesia,Asia,South-eastern Asia,NA,IDN,2013,NA,NA,247188189
-Indonesia,Asia,South-eastern Asia,NA,IDN,2014,71.8103408813477,99.6802215576172,NA
-Indonesia,Asia,South-eastern Asia,NA,IDN,2015,74.7890167236328,99.7139511108398,NA
+Indonesia,Asia,South-eastern Asia,NA,IDN,2014,71.8103408813477,99.6802215576172,255000000
+Indonesia,Asia,South-eastern Asia,NA,IDN,2015,74.7890167236328,99.7139511108398,258000000
 Iran (Islamic Republic of),Asia,Southern Asia,NA,NA,NA,NA,NA,NA
 Iraq,Asia,Western Asia,NA,IRQ,1700,NA,NA,1000000
 Iraq,Asia,Western Asia,NA,IRQ,1800,NA,NA,1076920
@@ -8172,8 +8172,8 @@ Iraq,Asia,Western Asia,NA,IRQ,2010,NA,NA,31671591
 Iraq,Asia,Western Asia,NA,IRQ,2011,NA,NA,32664942
 Iraq,Asia,Western Asia,NA,IRQ,2012,NA,NA,33703068
 Iraq,Asia,Western Asia,NA,IRQ,2013,NA,NA,34776205
-Iraq,Asia,Western Asia,NA,IRQ,2014,39.5931091308594,81.7455215454102,NA
-Iraq,Asia,Western Asia,NA,IRQ,2015,41.3643188476563,81.5401611328125,NA
+Iraq,Asia,Western Asia,NA,IRQ,2014,39.5931091308594,81.7455215454102,35000000
+Iraq,Asia,Western Asia,NA,IRQ,2015,41.3643188476563,81.5401611328125,36100000
 Ireland,Europe,Northern Europe,NA,IRL,1700,NA,NA,1369703
 Ireland,Europe,Northern Europe,NA,IRL,1800,NA,NA,4064749
 Ireland,Europe,Northern Europe,NA,IRL,1820,NA,NA,5052603
@@ -8755,7 +8755,7 @@ Italy,Europe,Southern Europe,NA,ITA,2010,NA,NA,60550848
 Italy,Europe,Southern Europe,NA,ITA,2011,96.7297821044922,99.8596420288086,60788694
 Italy,Europe,Southern Europe,NA,ITA,2012,NA,NA,60964145
 Italy,Europe,Southern Europe,NA,ITA,2013,NA,NA,61087395
-Italy,Europe,Southern Europe,NA,ITA,2015,97.3935623168945,99.9097213745117,NA
+Italy,Europe,Southern Europe,NA,ITA,2015,97.3935623168945,99.9097213745117,59500000
 Jamaica,Americas,Latin America and the Caribbean,Caribbean,JAM,1800,NA,NA,401000
 Jamaica,Americas,Latin America and the Caribbean,Caribbean,JAM,1820,NA,NA,401000
 Jamaica,Americas,Latin America and the Caribbean,Caribbean,JAM,1850,NA,NA,399000
@@ -8874,8 +8874,8 @@ Jamaica,Americas,Latin America and the Caribbean,Caribbean,JAM,2010,NA,NA,274105
 Jamaica,Americas,Latin America and the Caribbean,Caribbean,JAM,2011,NA,NA,2751273
 Jamaica,Americas,Latin America and the Caribbean,Caribbean,JAM,2012,NA,NA,2761331
 Jamaica,Americas,Latin America and the Caribbean,Caribbean,JAM,2013,NA,NA,2771179
-Jamaica,Americas,Latin America and the Caribbean,Caribbean,JAM,2014,66.6010208129883,96.2624588012695,NA
-Jamaica,Americas,Latin America and the Caribbean,Caribbean,JAM,2015,68.0170364379883,96.4609375,NA
+Jamaica,Americas,Latin America and the Caribbean,Caribbean,JAM,2014,66.6010208129883,96.2624588012695,2860000
+Jamaica,Americas,Latin America and the Caribbean,Caribbean,JAM,2015,68.0170364379883,96.4609375,2870000
 Japan,Asia,Eastern Asia,NA,JPN,1700,NA,NA,27000000
 Japan,Asia,Eastern Asia,NA,JPN,1800,NA,NA,30294378
 Japan,Asia,Eastern Asia,NA,JPN,1820,NA,NA,31000000
@@ -9201,7 +9201,7 @@ Jordan,Asia,Western Asia,NA,JOR,2010,53.5175094604492,98.7623519897461,6187227
 Jordan,Asia,Western Asia,NA,JOR,2011,55.0123710632324,99.148681640625,6330169
 Jordan,Asia,Western Asia,NA,JOR,2012,87.6984710693359,99.1057205200195,6457260
 Jordan,Asia,Western Asia,NA,JOR,2013,NA,NA,6572903
-Jordan,Asia,Western Asia,NA,JOR,2015,89.2403182983398,99.2348403930664,NA
+Jordan,Asia,Western Asia,NA,JOR,2015,89.2403182983398,99.2348403930664,9160000
 Kazakhstan,Asia,Central Asia,NA,KAZ,1800,NA,NA,2041282
 Kazakhstan,Asia,Central Asia,NA,KAZ,1820,NA,NA,2041282
 Kazakhstan,Asia,Central Asia,NA,KAZ,1950,NA,NA,6702996
@@ -9268,7 +9268,7 @@ Kazakhstan,Asia,Central Asia,NA,KAZ,2010,NA,NA,16026367
 Kazakhstan,Asia,Central Asia,NA,KAZ,2011,NA,NA,16206750
 Kazakhstan,Asia,Central Asia,NA,KAZ,2012,NA,NA,16381297
 Kazakhstan,Asia,Central Asia,NA,KAZ,2013,NA,NA,16550975
-Kazakhstan,Asia,Central Asia,NA,KAZ,2015,99.2476425170898,99.8412475585938,NA
+Kazakhstan,Asia,Central Asia,NA,KAZ,2015,99.2476425170898,99.8412475585938,17700000
 Kenya,Africa,Sub-Saharan Africa,Eastern Africa,KEN,1800,NA,NA,2574000
 Kenya,Africa,Sub-Saharan Africa,Eastern Africa,KEN,1921,NA,NA,2574000
 Kenya,Africa,Sub-Saharan Africa,Eastern Africa,KEN,1931,NA,NA,3041000
@@ -9337,7 +9337,7 @@ Kenya,Africa,Sub-Saharan Africa,Eastern Africa,KEN,2010,NA,NA,40512682
 Kenya,Africa,Sub-Saharan Africa,Eastern Africa,KEN,2011,NA,NA,41609728
 Kenya,Africa,Sub-Saharan Africa,Eastern Africa,KEN,2012,NA,NA,42749418
 Kenya,Africa,Sub-Saharan Africa,Eastern Africa,KEN,2013,NA,NA,43923719
-Kenya,Africa,Sub-Saharan Africa,Eastern Africa,KEN,2015,50.8494911193848,85.8953018188477,NA
+Kenya,Africa,Sub-Saharan Africa,Eastern Africa,KEN,2015,50.8494911193848,85.8953018188477,47200000
 Kiribati,Oceania,Micronesia,NA,KIR,1800,NA,NA,17876
 Kiribati,Oceania,Micronesia,NA,KIR,1820,NA,NA,17876
 Kiribati,Oceania,Micronesia,NA,KIR,1950,NA,NA,26100
@@ -9474,7 +9474,7 @@ Kuwait,Asia,Western Asia,NA,KWT,2010,NA,NA,2736732
 Kuwait,Asia,Western Asia,NA,KWT,2011,NA,NA,2818042
 Kuwait,Asia,Western Asia,NA,KWT,2012,64.5822601318359,98.7822570800781,2891553
 Kuwait,Asia,Western Asia,NA,KWT,2013,68.1770629882813,99.1535491943359,2959015
-Kuwait,Asia,Western Asia,NA,KWT,2015,72.8899765014648,99.4921035766602,NA
+Kuwait,Asia,Western Asia,NA,KWT,2015,72.8899765014648,99.4921035766602,3940000
 Kyrgyzstan,Asia,Central Asia,NA,KGZ,1800,NA,NA,530343
 Kyrgyzstan,Asia,Central Asia,NA,KGZ,1820,NA,NA,530343
 Kyrgyzstan,Asia,Central Asia,NA,KGZ,1950,NA,NA,1740000
@@ -9541,7 +9541,7 @@ Kyrgyzstan,Asia,Central Asia,NA,KGZ,2010,NA,NA,5334223
 Kyrgyzstan,Asia,Central Asia,NA,KGZ,2011,NA,NA,5392580
 Kyrgyzstan,Asia,Central Asia,NA,KGZ,2012,NA,NA,5448085
 Kyrgyzstan,Asia,Central Asia,NA,KGZ,2013,NA,NA,5503253
-Kyrgyzstan,Asia,Central Asia,NA,KGZ,2015,95.5785064697266,99.7473297119141,NA
+Kyrgyzstan,Asia,Central Asia,NA,KGZ,2015,95.5785064697266,99.7473297119141,5870000
 Lao People's Democratic Republic,Asia,South-eastern Asia,NA,NA,NA,NA,NA,NA
 Latvia,Europe,Northern Europe,NA,LVA,1800,NA,NA,590588
 Latvia,Europe,Northern Europe,NA,LVA,1820,NA,NA,590588
@@ -9609,7 +9609,7 @@ Latvia,Europe,Northern Europe,NA,LVA,2010,NA,NA,2252060
 Latvia,Europe,Northern Europe,NA,LVA,2011,99.9222030639648,99.8354263305664,2243142
 Latvia,Europe,Northern Europe,NA,LVA,2012,NA,NA,2234572
 Latvia,Europe,Northern Europe,NA,LVA,2013,NA,NA,2226260
-Latvia,Europe,Northern Europe,NA,LVA,2015,99.9291534423828,99.8282928466797,NA
+Latvia,Europe,Northern Europe,NA,LVA,2015,99.9291534423828,99.8282928466797,1990000
 Lebanon,Asia,Western Asia,NA,LBN,1800,NA,NA,332000
 Lebanon,Asia,Western Asia,NA,LBN,1820,NA,NA,332000
 Lebanon,Asia,Western Asia,NA,LBN,1870,NA,NA,476000
@@ -9678,7 +9678,7 @@ Lebanon,Asia,Western Asia,NA,LBN,2010,NA,NA,4227597
 Lebanon,Asia,Western Asia,NA,LBN,2011,NA,NA,4259405
 Lebanon,Asia,Western Asia,NA,LBN,2012,NA,NA,4291719
 Lebanon,Asia,Western Asia,NA,LBN,2013,NA,NA,4324060
-Lebanon,Asia,Western Asia,NA,LBN,2015,69.717658996582,99.0963516235352,NA
+Lebanon,Asia,Western Asia,NA,LBN,2015,69.717658996582,99.0963516235352,5850000
 Lesotho,Africa,Sub-Saharan Africa,Southern Africa,LSO,1800,NA,NA,276361
 Lesotho,Africa,Sub-Saharan Africa,Southern Africa,LSO,1820,NA,NA,276361
 Lesotho,Africa,Sub-Saharan Africa,Southern Africa,LSO,1950,NA,NA,733942
@@ -9745,7 +9745,7 @@ Lesotho,Africa,Sub-Saharan Africa,Southern Africa,LSO,2010,NA,NA,2171318
 Lesotho,Africa,Sub-Saharan Africa,Southern Africa,LSO,2011,NA,NA,2193843
 Lesotho,Africa,Sub-Saharan Africa,Southern Africa,LSO,2012,NA,NA,2216850
 Lesotho,Africa,Sub-Saharan Africa,Southern Africa,LSO,2013,NA,NA,2240126
-Lesotho,Africa,Sub-Saharan Africa,Southern Africa,LSO,2015,60.6512985229492,85.0898208618164,NA
+Lesotho,Africa,Sub-Saharan Africa,Southern Africa,LSO,2015,60.6512985229492,85.0898208618164,2170000
 Liberia,Africa,Sub-Saharan Africa,Western Africa,LBR,1800,NA,NA,313543
 Liberia,Africa,Sub-Saharan Africa,Western Africa,LBR,1820,NA,NA,313543
 Liberia,Africa,Sub-Saharan Africa,Western Africa,LBR,1950,NA,NA,911140
@@ -9812,7 +9812,7 @@ Liberia,Africa,Sub-Saharan Africa,Western Africa,LBR,2010,NA,NA,3994122
 Liberia,Africa,Sub-Saharan Africa,Western Africa,LBR,2011,NA,NA,4128572
 Liberia,Africa,Sub-Saharan Africa,Western Africa,LBR,2012,NA,NA,4244684
 Liberia,Africa,Sub-Saharan Africa,Western Africa,LBR,2013,NA,NA,4348740
-Liberia,Africa,Sub-Saharan Africa,Western Africa,LBR,2015,32.5046997070313,54.4714508056641,NA
+Liberia,Africa,Sub-Saharan Africa,Western Africa,LBR,2015,32.5046997070313,54.4714508056641,4500000
 Libya,Africa,Northern Africa,NA,LBY,1700,NA,NA,500000
 Libya,Africa,Northern Africa,NA,LBY,1800,NA,NA,531472
 Libya,Africa,Northern Africa,NA,LBY,1820,NA,NA,538000
@@ -9880,8 +9880,8 @@ Libya,Africa,Northern Africa,NA,LBY,2010,NA,NA,6355112
 Libya,Africa,Northern Africa,NA,LBY,2011,NA,NA,6422772
 Libya,Africa,Northern Africa,NA,LBY,2012,NA,NA,6469497
 Libya,Africa,Northern Africa,NA,LBY,2013,NA,NA,6506095
-Libya,Africa,Northern Africa,NA,LBY,2014,34.9490814208984,99.93994140625,NA
-Libya,Africa,Northern Africa,NA,LBY,2015,36.5928115844727,99.9502792358398,NA
+Libya,Africa,Northern Africa,NA,LBY,2014,34.9490814208984,99.93994140625,6200000
+Libya,Africa,Northern Africa,NA,LBY,2015,36.5928115844727,99.9502792358398,6230000
 Liechtenstein,Europe,Western Europe,NA,LIE,1800,NA,NA,5802
 Liechtenstein,Europe,Western Europe,NA,LIE,1820,NA,NA,5802
 Liechtenstein,Europe,Western Europe,NA,LIE,1950,NA,NA,13757
@@ -10014,7 +10014,7 @@ Lithuania,Europe,Northern Europe,NA,LTU,2010,NA,NA,3323611
 Lithuania,Europe,Northern Europe,NA,LTU,2011,99.8146286010742,99.8557968139648,3307481
 Lithuania,Europe,Northern Europe,NA,LTU,2012,NA,NA,3292454
 Lithuania,Europe,Northern Europe,NA,LTU,2013,NA,NA,3278337
-Lithuania,Europe,Northern Europe,NA,LTU,2015,99.8350982666016,99.9091720581055,NA
+Lithuania,Europe,Northern Europe,NA,LTU,2015,99.8350982666016,99.9091720581055,2930000
 Luxembourg,Europe,Western Europe,NA,LUX,1800,NA,NA,127030
 Luxembourg,Europe,Western Europe,NA,LUX,1820,NA,NA,127030
 Luxembourg,Europe,Western Europe,NA,LUX,1950,NA,NA,296001
@@ -10155,7 +10155,7 @@ Macao,Asia,Eastern Asia,NA,MAC,2010,NA,NA,543656
 Macao,Asia,Eastern Asia,NA,MAC,2011,72.63037109375,99.6728973388672,555731
 Macao,Asia,Eastern Asia,NA,MAC,2012,NA,NA,567441
 Macao,Asia,Eastern Asia,NA,MAC,2013,NA,NA,578844
-Macao,Asia,Eastern Asia,NA,MAC,2015,79.7151412963867,99.6559524536133,NA
+Macao,Asia,Eastern Asia,NA,MAC,2015,79.7151412963867,99.6559524536133,588844
 Madagascar,Africa,Sub-Saharan Africa,Eastern Africa,MDG,1700,NA,NA,1000000
 Madagascar,Africa,Sub-Saharan Africa,Eastern Africa,MDG,1800,NA,NA,1543133
 Madagascar,Africa,Sub-Saharan Africa,Eastern Africa,MDG,1820,NA,NA,1683000
@@ -10223,7 +10223,7 @@ Madagascar,Africa,Sub-Saharan Africa,Eastern Africa,MDG,2010,NA,NA,20713819
 Madagascar,Africa,Sub-Saharan Africa,Eastern Africa,MDG,2011,NA,NA,21315135
 Madagascar,Africa,Sub-Saharan Africa,Eastern Africa,MDG,2012,NA,NA,21928518
 Madagascar,Africa,Sub-Saharan Africa,Eastern Africa,MDG,2013,NA,NA,22555046
-Madagascar,Africa,Sub-Saharan Africa,Eastern Africa,MDG,2015,63.0983581542969,65.0692672729492,NA
+Madagascar,Africa,Sub-Saharan Africa,Eastern Africa,MDG,2015,63.0983581542969,65.0692672729492,24200000
 Malawi,Africa,Sub-Saharan Africa,Eastern Africa,MWI,1800,NA,NA,737000
 Malawi,Africa,Sub-Saharan Africa,Eastern Africa,MWI,1901,NA,NA,737000
 Malawi,Africa,Sub-Saharan Africa,Eastern Africa,MWI,1911,NA,NA,970000
@@ -10295,7 +10295,7 @@ Malawi,Africa,Sub-Saharan Africa,Eastern Africa,MWI,2010,34.6289482116699,72.139
 Malawi,Africa,Sub-Saharan Africa,Eastern Africa,MWI,2011,NA,NA,15380888
 Malawi,Africa,Sub-Saharan Africa,Eastern Africa,MWI,2012,NA,NA,15882815
 Malawi,Africa,Sub-Saharan Africa,Eastern Africa,MWI,2013,NA,NA,16406945
-Malawi,Africa,Sub-Saharan Africa,Eastern Africa,MWI,2015,38.6504898071289,75.0779724121094,NA
+Malawi,Africa,Sub-Saharan Africa,Eastern Africa,MWI,2015,38.6504898071289,75.0779724121094,17600000
 Malaysia,Asia,South-eastern Asia,NA,MYS,1800,NA,NA,287000
 Malaysia,Asia,South-eastern Asia,NA,MYS,1820,NA,NA,287000
 Malaysia,Asia,South-eastern Asia,NA,MYS,1850,NA,NA,530000
@@ -10415,7 +10415,7 @@ Malaysia,Asia,South-eastern Asia,NA,MYS,2010,58.473560333252,98.4187088012695,28
 Malaysia,Asia,South-eastern Asia,NA,MYS,2011,NA,NA,28859154
 Malaysia,Asia,South-eastern Asia,NA,MYS,2012,NA,NA,29321798
 Malaysia,Asia,South-eastern Asia,NA,MYS,2013,NA,NA,29787203
-Malaysia,Asia,South-eastern Asia,NA,MYS,2015,70.4971008300781,98.4177093505859,NA
+Malaysia,Asia,South-eastern Asia,NA,MYS,2015,70.4971008300781,98.4177093505859,30700000
 Maldives,Asia,Southern Asia,NA,MDV,1800,NA,NA,42378
 Maldives,Asia,Southern Asia,NA,MDV,1820,NA,NA,42378
 Maldives,Asia,Southern Asia,NA,MDV,1911,NA,NA,72000
@@ -10486,7 +10486,7 @@ Maldives,Asia,Southern Asia,NA,MDV,2010,NA,NA,315885
 Maldives,Asia,Southern Asia,NA,MDV,2011,NA,NA,320081
 Maldives,Asia,Southern Asia,NA,MDV,2012,NA,NA,324313
 Maldives,Asia,Southern Asia,NA,MDV,2013,NA,NA,328551
-Maldives,Asia,Southern Asia,NA,MDV,2015,95.5962219238281,99.7610321044922,NA
+Maldives,Asia,Southern Asia,NA,MDV,2015,95.5962219238281,99.7610321044922,418000
 Mali,Africa,Sub-Saharan Africa,Western Africa,MLI,1800,NA,NA,1403398
 Mali,Africa,Sub-Saharan Africa,Western Africa,MLI,1820,NA,NA,1403398
 Mali,Africa,Sub-Saharan Africa,Western Africa,MLI,1950,NA,NA,4637633
@@ -10553,7 +10553,7 @@ Mali,Africa,Sub-Saharan Africa,Western Africa,MLI,2010,10.78244972229,44.3017082
 Mali,Africa,Sub-Saharan Africa,Western Africa,MLI,2011,13.3286104202271,47.1369781494141,15839538
 Mali,Africa,Sub-Saharan Africa,Western Africa,MLI,2012,NA,NA,16318897
 Mali,Africa,Sub-Saharan Africa,Western Africa,MLI,2013,NA,NA,16808242
-Mali,Africa,Sub-Saharan Africa,Western Africa,MLI,2015,13.6015195846558,49.3665084838867,NA
+Mali,Africa,Sub-Saharan Africa,Western Africa,MLI,2015,13.6015195846558,49.3665084838867,17500000
 Malta,Europe,Southern Europe,NA,MLT,1800,NA,NA,134072
 Malta,Europe,Southern Europe,NA,MLT,1820,NA,NA,134072
 Malta,Europe,Southern Europe,NA,MLT,1950,NA,NA,311997
@@ -10620,7 +10620,7 @@ Malta,Europe,Southern Europe,NA,MLT,2010,NA,NA,416515
 Malta,Europe,Southern Europe,NA,MLT,2011,85.7576522827148,98.8819427490234,417855
 Malta,Europe,Southern Europe,NA,MLT,2012,NA,NA,419212
 Malta,Europe,Southern Europe,NA,MLT,2013,NA,NA,420557
-Malta,Europe,Southern Europe,NA,MLT,2015,87.5665969848633,99.1860275268555,NA
+Malta,Europe,Southern Europe,NA,MLT,2015,87.5665969848633,99.1860275268555,428000
 Marshall Islands,Oceania,Micronesia,NA,MHL,1800,NA,NA,5828
 Marshall Islands,Oceania,Micronesia,NA,MHL,1820,NA,NA,5828
 Marshall Islands,Oceania,Micronesia,NA,MHL,1950,NA,NA,13000
@@ -10687,7 +10687,7 @@ Marshall Islands,Oceania,Micronesia,NA,MHL,2010,NA,NA,54038
 Marshall Islands,Oceania,Micronesia,NA,MHL,2011,89.4065093994141,98.4587783813477,54816
 Marshall Islands,Oceania,Micronesia,NA,MHL,2012,NA,NA,55717
 Marshall Islands,Oceania,Micronesia,NA,MHL,2013,NA,NA,56687
-Marshall Islands,Oceania,Micronesia,NA,MHL,2015,89.4065093994141,98.4587783813477,NA
+Marshall Islands,Oceania,Micronesia,NA,MHL,2015,89.4065093994141,98.4587783813477,53000
 Martinique,Americas,Latin America and the Caribbean,Caribbean,MTQ,1800,NA,NA,84039
 Martinique,Americas,Latin America and the Caribbean,Caribbean,MTQ,1820,NA,NA,84039
 Martinique,Americas,Latin America and the Caribbean,Caribbean,MTQ,1950,NA,NA,222001
@@ -10820,7 +10820,7 @@ Mauritania,Africa,Sub-Saharan Africa,Western Africa,MRT,2010,NA,NA,3459773
 Mauritania,Africa,Sub-Saharan Africa,Western Africa,MRT,2011,NA,NA,3541540
 Mauritania,Africa,Sub-Saharan Africa,Western Africa,MRT,2012,NA,NA,3622961
 Mauritania,Africa,Sub-Saharan Africa,Western Africa,MRT,2013,NA,NA,3704414
-Mauritania,Africa,Sub-Saharan Africa,Western Africa,MRT,2015,27.3173503875732,62.6384506225586,NA
+Mauritania,Africa,Sub-Saharan Africa,Western Africa,MRT,2015,27.3173503875732,62.6384506225586,4180000
 Mauritius,Africa,Sub-Saharan Africa,Eastern Africa,MUS,1797,NA,NA,59000
 Mauritius,Africa,Sub-Saharan Africa,Eastern Africa,MUS,1800,NA,NA,62865
 Mauritius,Africa,Sub-Saharan Africa,Eastern Africa,MUS,1850,NA,NA,181000
@@ -10897,7 +10897,7 @@ Mauritius,Africa,Sub-Saharan Africa,Eastern Africa,MUS,2010,NA,NA,1299172
 Mauritius,Africa,Sub-Saharan Africa,Eastern Africa,MUS,2011,64.5521087646484,98.1303482055664,1306593
 Mauritius,Africa,Sub-Saharan Africa,Eastern Africa,MUS,2012,NA,NA,1313803
 Mauritius,Africa,Sub-Saharan Africa,Eastern Africa,MUS,2013,NA,NA,1320785
-Mauritius,Africa,Sub-Saharan Africa,Eastern Africa,MUS,2015,69.5984268188477,98.7202377319336,NA
+Mauritius,Africa,Sub-Saharan Africa,Eastern Africa,MUS,2015,69.5984268188477,98.7202377319336,1260000
 Mayotte,Africa,Sub-Saharan Africa,Eastern Africa,MYT,1800,NA,NA,8219
 Mayotte,Africa,Sub-Saharan Africa,Eastern Africa,MYT,1820,NA,NA,8219
 Mayotte,Africa,Sub-Saharan Africa,Eastern Africa,MYT,1950,NA,NA,15141
@@ -11112,8 +11112,8 @@ Mexico,Americas,Latin America and the Caribbean,Central America,MEX,2010,71.5218
 Mexico,Americas,Latin America and the Caribbean,Central America,MEX,2011,72.195068359375,98.4617691040039,114793341
 Mexico,Americas,Latin America and the Caribbean,Central America,MEX,2012,75.5897827148438,98.8754196166992,116146768
 Mexico,Americas,Latin America and the Caribbean,Central America,MEX,2013,76.2499465942383,98.5644989013672,117478371
-Mexico,Americas,Latin America and the Caribbean,Central America,MEX,2014,77.5553665161133,99.0000381469727,NA
-Mexico,Americas,Latin America and the Caribbean,Central America,MEX,2015,77.6359405517578,98.7379608154297,NA
+Mexico,Americas,Latin America and the Caribbean,Central America,MEX,2014,77.5553665161133,99.0000381469727,124000000
+Mexico,Americas,Latin America and the Caribbean,Central America,MEX,2015,77.6359405517578,98.7379608154297,126000000
 Micronesia (Federated States of),Oceania,Micronesia,NA,NA,NA,NA,NA,NA
 "Moldova, Republic of",Europe,Eastern Europe,NA,NA,NA,NA,NA,NA
 Monaco,Europe,Western Europe,NA,MCO,1800,NA,NA,7789
@@ -11250,7 +11250,7 @@ Mongolia,Asia,Eastern Asia,NA,MNG,2010,94.6443710327148,98.4602508544922,2756001
 Mongolia,Asia,Eastern Asia,NA,MNG,2011,NA,NA,2800114
 Mongolia,Asia,Eastern Asia,NA,MNG,2012,NA,NA,2844081
 Mongolia,Asia,Eastern Asia,NA,MNG,2013,NA,NA,2887863
-Mongolia,Asia,Eastern Asia,NA,MNG,2015,96.5578384399414,98.5097732543945,NA
+Mongolia,Asia,Eastern Asia,NA,MNG,2015,96.5578384399414,98.5097732543945,2980000
 Montenegro,Europe,Southern Europe,NA,MNE,1800,NA,NA,126582
 Montenegro,Europe,Southern Europe,NA,MNE,1820,NA,NA,126582
 Montenegro,Europe,Southern Europe,NA,MNE,1950,NA,NA,398539
@@ -11317,7 +11317,7 @@ Montenegro,Europe,Southern Europe,NA,MNE,2010,NA,NA,631490
 Montenegro,Europe,Southern Europe,NA,MNE,2011,93.9284286499023,99.2118225097656,632261
 Montenegro,Europe,Southern Europe,NA,MNE,2012,NA,NA,632796
 Montenegro,Europe,Southern Europe,NA,MNE,2013,NA,NA,633167
-Montenegro,Europe,Southern Europe,NA,MNE,2015,95.8328399658203,99.1506881713867,NA
+Montenegro,Europe,Southern Europe,NA,MNE,2015,95.8328399658203,99.1506881713867,628000
 Montserrat,Americas,Latin America and the Caribbean,Caribbean,MSR,1800,NA,NA,5230
 Montserrat,Americas,Latin America and the Caribbean,Caribbean,MSR,1820,NA,NA,5230
 Montserrat,Americas,Latin America and the Caribbean,Caribbean,MSR,1851,NA,NA,7100
@@ -11462,7 +11462,7 @@ Morocco,Africa,Northern Africa,NA,MAR,2010,NA,NA,31951412
 Morocco,Africa,Northern Africa,NA,MAR,2011,NA,81.5100708007813,32272974
 Morocco,Africa,Northern Africa,NA,MAR,2012,NA,NA,32598536
 Morocco,Africa,Northern Africa,NA,MAR,2013,NA,NA,32925553
-Morocco,Africa,Northern Africa,NA,MAR,2015,32.5870590209961,95.0664215087891,NA
+Morocco,Africa,Northern Africa,NA,MAR,2015,32.5870590209961,95.0664215087891,34800000
 Mozambique,Africa,Sub-Saharan Africa,Eastern Africa,MOZ,1700,NA,NA,1500000
 Mozambique,Africa,Sub-Saharan Africa,Eastern Africa,MOZ,1800,NA,NA,1982324
 Mozambique,Africa,Sub-Saharan Africa,Eastern Africa,MOZ,1820,NA,NA,2096000
@@ -11530,7 +11530,7 @@ Mozambique,Africa,Sub-Saharan Africa,Eastern Africa,MOZ,2010,NA,NA,23390765
 Mozambique,Africa,Sub-Saharan Africa,Eastern Africa,MOZ,2011,NA,NA,23929708
 Mozambique,Africa,Sub-Saharan Africa,Eastern Africa,MOZ,2012,NA,NA,24475186
 Mozambique,Africa,Sub-Saharan Africa,Eastern Africa,MOZ,2013,NA,NA,25028313
-Mozambique,Africa,Sub-Saharan Africa,Eastern Africa,MOZ,2015,24.3403205871582,76.7527618408203,NA
+Mozambique,Africa,Sub-Saharan Africa,Eastern Africa,MOZ,2015,24.3403205871582,76.7527618408203,28000000
 Myanmar,Asia,South-eastern Asia,NA,MMR,1800,NA,NA,3506000
 Myanmar,Asia,South-eastern Asia,NA,MMR,1820,NA,NA,3506000
 Myanmar,Asia,South-eastern Asia,NA,MMR,1850,NA,NA,3932000
@@ -11642,8 +11642,8 @@ Myanmar,Asia,South-eastern Asia,NA,MMR,2010,NA,NA,47963012
 Myanmar,Asia,South-eastern Asia,NA,MMR,2011,NA,NA,48336763
 Myanmar,Asia,South-eastern Asia,NA,MMR,2012,NA,NA,48724387
 Myanmar,Asia,South-eastern Asia,NA,MMR,2013,NA,NA,49119646
-Myanmar,Asia,South-eastern Asia,NA,MMR,2014,81.7735366821289,96.2385177612305,NA
-Myanmar,Asia,South-eastern Asia,NA,MMR,2015,82.5399780273438,96.3324127197266,NA
+Myanmar,Asia,South-eastern Asia,NA,MMR,2014,81.7735366821289,96.2385177612305,51900000
+Myanmar,Asia,South-eastern Asia,NA,MMR,2015,82.5399780273438,96.3324127197266,52400000
 Namibia,Africa,Sub-Saharan Africa,Southern Africa,NAM,1800,NA,NA,229000
 Namibia,Africa,Sub-Saharan Africa,Southern Africa,NAM,1921,NA,NA,229000
 Namibia,Africa,Sub-Saharan Africa,Southern Africa,NAM,1946,NA,NA,362000
@@ -11711,7 +11711,7 @@ Namibia,Africa,Sub-Saharan Africa,Southern Africa,NAM,2010,NA,NA,2283289
 Namibia,Africa,Sub-Saharan Africa,Southern Africa,NAM,2011,63.5832786560059,94.4194412231445,2324004
 Namibia,Africa,Sub-Saharan Africa,Southern Africa,NAM,2012,NA,NA,2364433
 Namibia,Africa,Sub-Saharan Africa,Southern Africa,NAM,2013,NA,NA,2404477
-Namibia,Africa,Sub-Saharan Africa,Southern Africa,NAM,2015,67.3205337524414,94.8822937011719,NA
+Namibia,Africa,Sub-Saharan Africa,Southern Africa,NAM,2015,67.3205337524414,94.8822937011719,2430000
 Nauru,Oceania,Micronesia,NA,NRU,1800,NA,NA,1834
 Nauru,Oceania,Micronesia,NA,NRU,1820,NA,NA,1834
 Nauru,Oceania,Micronesia,NA,NRU,1950,NA,NA,2953
@@ -11849,7 +11849,7 @@ Nepal,Asia,Southern Asia,NA,NPL,2010,NA,NA,29959364
 Nepal,Asia,Southern Asia,NA,NPL,2011,20.7840900421143,84.7571487426758,30485798
 Nepal,Asia,Southern Asia,NA,NPL,2012,NA,NA,31011137
 Nepal,Asia,Southern Asia,NA,NPL,2013,NA,NA,31535507
-Nepal,Asia,Southern Asia,NA,NPL,2015,21.882869720459,89.9484405517578,NA
+Nepal,Asia,Southern Asia,NA,NPL,2015,21.882869720459,89.9484405517578,28700000
 Netherlands,Europe,Western Europe,NA,NLD,1700,NA,NA,1900000
 Netherlands,Europe,Western Europe,NA,NLD,1800,NA,NA,2254522
 Netherlands,Europe,Western Europe,NA,NLD,1820,NA,NA,2333000
@@ -12112,8 +12112,8 @@ New Caledonia,Oceania,Melanesia,NA,NCL,2010,NA,NA,250870
 New Caledonia,Oceania,Melanesia,NA,NCL,2011,NA,NA,254816
 New Caledonia,Oceania,Melanesia,NA,NCL,2012,NA,NA,258735
 New Caledonia,Oceania,Melanesia,NA,NCL,2013,NA,NA,262605
-New Caledonia,Oceania,Melanesia,NA,NCL,2014,86.8745574951172,99.6741485595703,NA
-New Caledonia,Oceania,Melanesia,NA,NCL,2015,86.8569869995117,99.6900329589844,NA
+New Caledonia,Oceania,Melanesia,NA,NCL,2014,86.8745574951172,99.6741485595703,272605
+New Caledonia,Oceania,Melanesia,NA,NCL,2015,86.8569869995117,99.6900329589844,282000
 New Zealand,Oceania,Australia and New Zealand,NA,NZL,1700,NA,NA,100000
 New Zealand,Oceania,Australia and New Zealand,NA,NZL,1800,NA,NA,100000
 New Zealand,Oceania,Australia and New Zealand,NA,NZL,1820,NA,NA,100000
@@ -12383,7 +12383,7 @@ Nicaragua,Americas,Latin America and the Caribbean,Central America,NIC,2010,NA,N
 Nicaragua,Americas,Latin America and the Caribbean,Central America,NIC,2011,NA,NA,5869859
 Nicaragua,Americas,Latin America and the Caribbean,Central America,NIC,2012,NA,NA,5954898
 Nicaragua,Americas,Latin America and the Caribbean,Central America,NIC,2013,NA,NA,6041763
-Nicaragua,Americas,Latin America and the Caribbean,Central America,NIC,2015,55.9019393920898,91.5747985839844,NA
+Nicaragua,Americas,Latin America and the Caribbean,Central America,NIC,2015,55.9019393920898,91.5747985839844,6080000
 Niger,Africa,Sub-Saharan Africa,Western Africa,NER,1800,NA,NA,1244861
 Niger,Africa,Sub-Saharan Africa,Western Africa,NER,1820,NA,NA,1244861
 Niger,Africa,Sub-Saharan Africa,Western Africa,NER,1950,NA,NA,2461726
@@ -12450,7 +12450,7 @@ Niger,Africa,Sub-Saharan Africa,Western Africa,NER,2010,NA,NA,15511953
 Niger,Africa,Sub-Saharan Africa,Western Africa,NER,2011,NA,NA,16068994
 Niger,Africa,Sub-Saharan Africa,Western Africa,NER,2012,6.26817989349365,23.5237808227539,16644339
 Niger,Africa,Sub-Saharan Africa,Western Africa,NER,2013,NA,NA,17239826
-Niger,Africa,Sub-Saharan Africa,Western Africa,NER,2015,5.75017976760864,26.5585899353027,NA
+Niger,Africa,Sub-Saharan Africa,Western Africa,NER,2015,5.75017976760864,26.5585899353027,19900000
 Nigeria,Africa,Sub-Saharan Africa,Western Africa,NGA,1800,NA,NA,12100855
 Nigeria,Africa,Sub-Saharan Africa,Western Africa,NGA,1820,NA,NA,12100855
 Nigeria,Africa,Sub-Saharan Africa,Western Africa,NGA,1921,NA,NA,18631000
@@ -12519,7 +12519,7 @@ Nigeria,Africa,Sub-Saharan Africa,Western Africa,NGA,2010,NA,NA,158423182
 Nigeria,Africa,Sub-Saharan Africa,Western Africa,NGA,2011,NA,NA,162470737
 Nigeria,Africa,Sub-Saharan Africa,Western Africa,NGA,2012,NA,NA,166629383
 Nigeria,Africa,Sub-Saharan Africa,Western Africa,NGA,2013,NA,NA,170901148
-Nigeria,Africa,Sub-Saharan Africa,Western Africa,NGA,2015,26.3537502288818,72.7903518676758,NA
+Nigeria,Africa,Sub-Saharan Africa,Western Africa,NGA,2015,26.3537502288818,72.7903518676758,181000000
 Niue,Oceania,Polynesia,NA,NIU,1700,NA,NA,4125
 Niue,Oceania,Polynesia,NA,NIU,1800,NA,NA,4538
 Niue,Oceania,Polynesia,NA,NIU,1843,NA,NA,4500
@@ -12934,8 +12934,8 @@ Oman,Asia,Western Asia,NA,OMN,2010,23.2946300506592,97.7437286376953,2782435
 Oman,Asia,Western Asia,NA,OMN,2011,NA,NA,2846145
 Oman,Asia,Western Asia,NA,OMN,2012,NA,NA,2904037
 Oman,Asia,Western Asia,NA,OMN,2013,NA,NA,2957333
-Oman,Asia,Western Asia,NA,OMN,2014,73.268180847168,99.0943222045898,NA
-Oman,Asia,Western Asia,NA,OMN,2015,73.268180847168,99.1186904907227,NA
+Oman,Asia,Western Asia,NA,OMN,2014,73.268180847168,99.0943222045898,3960000
+Oman,Asia,Western Asia,NA,OMN,2015,73.268180847168,99.1186904907227,4200000
 Pakistan,Asia,Southern Asia,NA,PAK,1700,NA,NA,10777105
 Pakistan,Asia,Southern Asia,NA,PAK,1800,NA,NA,13123633
 Pakistan,Asia,Southern Asia,NA,PAK,1820,NA,NA,13651000
@@ -13008,7 +13008,7 @@ Pakistan,Asia,Southern Asia,NA,PAK,2010,24.8519592285156,71.2596206665039,173593
 Pakistan,Asia,Southern Asia,NA,PAK,2011,23.9758605957031,70.7693328857422,176745364
 Pakistan,Asia,Southern Asia,NA,PAK,2012,25.5024604797363,72.5834197998047,179951140
 Pakistan,Asia,Southern Asia,NA,PAK,2013,24.5079803466797,71.6362228393555,183188847
-Pakistan,Asia,Southern Asia,NA,PAK,2015,23.8703098297119,73.7147521972656,NA
+Pakistan,Asia,Southern Asia,NA,PAK,2015,23.8703098297119,73.7147521972656,189000000
 Palau,Oceania,Micronesia,NA,PLW,1800,NA,NA,3875
 Palau,Oceania,Micronesia,NA,PLW,1820,NA,NA,3875
 Palau,Oceania,Micronesia,NA,PLW,1950,NA,NA,7441
@@ -13075,7 +13075,7 @@ Palau,Oceania,Micronesia,NA,PLW,2010,NA,NA,20472
 Palau,Oceania,Micronesia,NA,PLW,2011,NA,NA,20609
 Palau,Oceania,Micronesia,NA,PLW,2012,NA,NA,20758
 Palau,Oceania,Micronesia,NA,PLW,2013,98.3564376831055,99.8115005493164,20922
-Palau,Oceania,Micronesia,NA,PLW,2015,98.5239639282227,99.8114700317383,NA
+Palau,Oceania,Micronesia,NA,PLW,2015,98.5239639282227,99.8114700317383,21300
 "Palestine, State of",Asia,Western Asia,NA,NA,NA,NA,NA,NA
 Panama,Americas,Latin America and the Caribbean,Central America,PAN,1800,NA,NA,78842
 Panama,Americas,Latin America and the Caribbean,Central America,PAN,1820,NA,NA,78842
@@ -13195,7 +13195,7 @@ Panama,Americas,Latin America and the Caribbean,Central America,PAN,2010,80.8688
 Panama,Americas,Latin America and the Caribbean,Central America,PAN,2011,NA,NA,3571185
 Panama,Americas,Latin America and the Caribbean,Central America,PAN,2012,NA,NA,3624991
 Panama,Americas,Latin America and the Caribbean,Central America,PAN,2013,NA,NA,3678264
-Panama,Americas,Latin America and the Caribbean,Central America,PAN,2015,83.6321792602539,98.1273193359375,NA
+Panama,Americas,Latin America and the Caribbean,Central America,PAN,2015,83.6321792602539,98.1273193359375,3970000
 Papua New Guinea,Oceania,Melanesia,NA,PNG,1800,NA,NA,754894
 Papua New Guinea,Oceania,Melanesia,NA,PNG,1820,NA,NA,754894
 Papua New Guinea,Oceania,Melanesia,NA,PNG,1950,NA,NA,1708192
@@ -13262,8 +13262,8 @@ Papua New Guinea,Oceania,Melanesia,NA,PNG,2010,NA,NA,6858266
 Papua New Guinea,Oceania,Melanesia,NA,PNG,2011,NA,NA,7013829
 Papua New Guinea,Oceania,Melanesia,NA,PNG,2012,NA,NA,7170112
 Papua New Guinea,Oceania,Melanesia,NA,PNG,2013,NA,NA,7327281
-Papua New Guinea,Oceania,Melanesia,NA,PNG,2014,34.3940086364746,66.6789932250977,NA
-Papua New Guinea,Oceania,Melanesia,NA,PNG,2015,35.0444717407227,66.6789932250977,NA
+Papua New Guinea,Oceania,Melanesia,NA,PNG,2014,34.3940086364746,66.6789932250977,7760000
+Papua New Guinea,Oceania,Melanesia,NA,PNG,2015,35.0444717407227,66.6789932250977,7920000
 Paraguay,Americas,Latin America and the Caribbean,South America,PRY,1800,NA,NA,143000
 Paraguay,Americas,Latin America and the Caribbean,South America,PRY,1820,NA,NA,143000
 Paraguay,Americas,Latin America and the Caribbean,South America,PRY,1850,NA,NA,350000
@@ -13382,8 +13382,8 @@ Paraguay,Americas,Latin America and the Caribbean,South America,PRY,2010,77.4109
 Paraguay,Americas,Latin America and the Caribbean,South America,PRY,2011,NA,NA,6568290
 Paraguay,Americas,Latin America and the Caribbean,South America,PRY,2012,NA,NA,6682943
 Paraguay,Americas,Latin America and the Caribbean,South America,PRY,2013,NA,NA,6798236
-Paraguay,Americas,Latin America and the Caribbean,South America,PRY,2014,80.425651550293,98.6862106323242,NA
-Paraguay,Americas,Latin America and the Caribbean,South America,PRY,2015,82.6589279174805,99.0308303833008,NA
+Paraguay,Americas,Latin America and the Caribbean,South America,PRY,2014,80.425651550293,98.6862106323242,6550000
+Paraguay,Americas,Latin America and the Caribbean,South America,PRY,2015,82.6589279174805,99.0308303833008,6640000
 Peru,Americas,Latin America and the Caribbean,South America,PER,1700,NA,NA,1300000
 Peru,Americas,Latin America and the Caribbean,South America,PER,1800,NA,NA,1314151
 Peru,Americas,Latin America and the Caribbean,South America,PER,1820,NA,NA,1317000
@@ -13508,8 +13508,8 @@ Peru,Americas,Latin America and the Caribbean,South America,PER,2010,NA,NA,29076
 Peru,Americas,Latin America and the Caribbean,South America,PER,2011,NA,NA,29399817
 Peru,Americas,Latin America and the Caribbean,South America,PER,2012,75.6027374267578,98.6981582641602,29733829
 Peru,Americas,Latin America and the Caribbean,South America,PER,2013,NA,NA,30075185
-Peru,Americas,Latin America and the Caribbean,South America,PER,2014,74.52734375,98.9775314331055,NA
-Peru,Americas,Latin America and the Caribbean,South America,PER,2015,77.5863800048828,98.9330978393555,NA
+Peru,Americas,Latin America and the Caribbean,South America,PER,2014,74.52734375,98.9775314331055,31000000
+Peru,Americas,Latin America and the Caribbean,South America,PER,2015,77.5863800048828,98.9330978393555,31400000
 Philippines,Asia,South-eastern Asia,NA,PHL,1800,NA,NA,1894389
 Philippines,Asia,South-eastern Asia,NA,PHL,1820,NA,NA,1894389
 Philippines,Asia,South-eastern Asia,NA,PHL,1850,NA,NA,3144546
@@ -13629,7 +13629,7 @@ Philippines,Asia,South-eastern Asia,NA,PHL,2010,NA,NA,93260798
 Philippines,Asia,South-eastern Asia,NA,PHL,2011,NA,NA,94852030
 Philippines,Asia,South-eastern Asia,NA,PHL,2012,NA,NA,96471461
 Philippines,Asia,South-eastern Asia,NA,PHL,2013,90.1464233398438,98.1083526611328,98112780
-Philippines,Asia,South-eastern Asia,NA,PHL,2015,91.3833389282227,98.2238311767578,NA
+Philippines,Asia,South-eastern Asia,NA,PHL,2015,91.3833389282227,98.2238311767578,102000000
 Pitcairn,Oceania,Polynesia,NA,PCN,1789,NA,NA,0
 Pitcairn,Oceania,Polynesia,NA,PCN,1790,NA,NA,26
 Pitcairn,Oceania,Polynesia,NA,PCN,1794,NA,NA,14
@@ -13752,8 +13752,8 @@ Poland,Europe,Eastern Europe,NA,POL,2010,NA,NA,38276660
 Poland,Europe,Eastern Europe,NA,POL,2011,NA,NA,38298949
 Poland,Europe,Eastern Europe,NA,POL,2012,NA,NA,38317090
 Poland,Europe,Eastern Europe,NA,POL,2013,NA,NA,38331803
-Poland,Europe,Eastern Europe,NA,POL,2014,98.7529373168945,99.9999694824219,NA
-Poland,Europe,Eastern Europe,NA,POL,2015,98.8627166748047,99.9999771118164,NA
+Poland,Europe,Eastern Europe,NA,POL,2014,98.7529373168945,99.9999694824219,38300000
+Poland,Europe,Eastern Europe,NA,POL,2015,98.8627166748047,99.9999771118164,38300000
 Portugal,Europe,Southern Europe,NA,PRT,1700,NA,NA,2000000
 Portugal,Europe,Southern Europe,NA,PRT,1800,NA,NA,3033454
 Portugal,Europe,Southern Europe,NA,PRT,1820,NA,NA,3297000
@@ -13950,7 +13950,7 @@ Portugal,Europe,Southern Europe,NA,PRT,2010,NA,NA,10675572
 Portugal,Europe,Southern Europe,NA,PRT,2011,80.4778900146484,99.4351196289063,10689663
 Portugal,Europe,Southern Europe,NA,PRT,2012,NA,NA,10699333
 Portugal,Europe,Southern Europe,NA,PRT,2013,NA,NA,10704534
-Portugal,Europe,Southern Europe,NA,PRT,2015,85.2278900146484,99.5905838012695,NA
+Portugal,Europe,Southern Europe,NA,PRT,2015,85.2278900146484,99.5905838012695,10400000
 Puerto Rico,Americas,Latin America and the Caribbean,Caribbean,PRI,1800,NA,NA,155000
 Puerto Rico,Americas,Latin America and the Caribbean,Caribbean,PRI,1815,NA,NA,221000
 Puerto Rico,Americas,Latin America and the Caribbean,Caribbean,PRI,1820,NA,NA,248000
@@ -14075,7 +14075,7 @@ Puerto Rico,Americas,Latin America and the Caribbean,Caribbean,PRI,2010,84.53074
 Puerto Rico,Americas,Latin America and the Caribbean,Caribbean,PRI,2011,NA,NA,3745526
 Puerto Rico,Americas,Latin America and the Caribbean,Caribbean,PRI,2012,NA,NA,3743380
 Puerto Rico,Americas,Latin America and the Caribbean,Caribbean,PRI,2013,NA,NA,3742334
-Puerto Rico,Americas,Latin America and the Caribbean,Caribbean,PRI,2015,86.452522277832,99.0617065429688,NA
+Puerto Rico,Americas,Latin America and the Caribbean,Caribbean,PRI,2015,86.452522277832,99.0617065429688,3750000
 Qatar,Asia,Western Asia,NA,QAT,1800,NA,NA,14092
 Qatar,Asia,Western Asia,NA,QAT,1820,NA,NA,14092
 Qatar,Asia,Western Asia,NA,QAT,1870,NA,NA,14092
@@ -14144,8 +14144,8 @@ Qatar,Asia,Western Asia,NA,QAT,2010,66.3385696411133,96.8201599121094,1758793
 Qatar,Asia,Western Asia,NA,QAT,2011,73.7137222290039,97.8775100708008,1870041
 Qatar,Asia,Western Asia,NA,QAT,2012,84.6888198852539,99.064567565918,1938754
 Qatar,Asia,Western Asia,NA,QAT,2013,80.6882171630859,98.9603271484375,1976840
-Qatar,Asia,Western Asia,NA,QAT,2014,78.912727355957,98.7127227783203,NA
-Qatar,Asia,Western Asia,NA,QAT,2015,76.6930999755859,98.607307434082,NA
+Qatar,Asia,Western Asia,NA,QAT,2014,78.912727355957,98.7127227783203,2370000
+Qatar,Asia,Western Asia,NA,QAT,2015,76.6930999755859,98.607307434082,2480000
 Réunion,Africa,Sub-Saharan Africa,Eastern Africa,NA,NA,NA,NA,NA
 Romania,Europe,Eastern Europe,NA,ROU,1700,NA,NA,2500000
 Romania,Europe,Eastern Europe,NA,ROU,1800,NA,NA,5464085
@@ -14250,7 +14250,7 @@ Romania,Europe,Eastern Europe,NA,ROU,2010,NA,NA,21486371
 Romania,Europe,Eastern Europe,NA,ROU,2011,96.7907028198242,98.9956893920898,21436495
 Romania,Europe,Eastern Europe,NA,ROU,2012,NA,NA,21387517
 Romania,Europe,Eastern Europe,NA,ROU,2013,NA,NA,21338815
-Romania,Europe,Eastern Europe,NA,ROU,2015,97.6291198730469,99.3036117553711,NA
+Romania,Europe,Eastern Europe,NA,ROU,2015,97.6291198730469,99.3036117553711,19900000
 Russian Federation,Europe,Eastern Europe,NA,NA,NA,NA,NA,NA
 Rwanda,Africa,Sub-Saharan Africa,Eastern Africa,RWA,1800,NA,NA,928368
 Rwanda,Africa,Sub-Saharan Africa,Eastern Africa,RWA,1820,NA,NA,928368
@@ -14318,7 +14318,7 @@ Rwanda,Africa,Sub-Saharan Africa,Eastern Africa,RWA,2010,32.4278717041016,77.344
 Rwanda,Africa,Sub-Saharan Africa,Eastern Africa,RWA,2011,NA,NA,10942950
 Rwanda,Africa,Sub-Saharan Africa,Eastern Africa,RWA,2012,24.2980499267578,82.3307495117188,11271786
 Rwanda,Africa,Sub-Saharan Africa,Eastern Africa,RWA,2013,NA,NA,11608439
-Rwanda,Africa,Sub-Saharan Africa,Eastern Africa,RWA,2015,28.4787197113037,85.0312194824219,NA
+Rwanda,Africa,Sub-Saharan Africa,Eastern Africa,RWA,2015,28.4787197113037,85.0312194824219,11600000
 Saint Barthélemy,Americas,Latin America and the Caribbean,Caribbean,NA,NA,NA,NA,NA
 "Saint Helena, Ascension and Tristan da Cunha",Africa,Sub-Saharan Africa,Western Africa,NA,NA,NA,NA,NA
 Saint Kitts and Nevis,Americas,Latin America and the Caribbean,Caribbean,KNA,1800,NA,NA,17202
@@ -14613,7 +14613,7 @@ Samoa,Oceania,Polynesia,NA,WSM,2010,NA,NA,183081
 Samoa,Oceania,Polynesia,NA,WSM,2011,96.3106994628906,99.2356567382813,183874
 Samoa,Oceania,Polynesia,NA,WSM,2012,NA,NA,184772
 Samoa,Oceania,Polynesia,NA,WSM,2013,NA,NA,185727
-Samoa,Oceania,Polynesia,NA,WSM,2015,97.0412826538086,99.1602478027344,NA
+Samoa,Oceania,Polynesia,NA,WSM,2015,97.0412826538086,99.1602478027344,194000
 San Marino,Europe,Southern Europe,NA,SMR,1800,NA,NA,5492
 San Marino,Europe,Southern Europe,NA,SMR,1820,NA,NA,5492
 San Marino,Europe,Southern Europe,NA,SMR,1950,NA,NA,12781
@@ -14746,7 +14746,7 @@ Sao Tome and Principe,Africa,Sub-Saharan Africa,Middle Africa,STP,2010,NA,NA,165
 Sao Tome and Principe,Africa,Sub-Saharan Africa,Middle Africa,STP,2011,NA,NA,168526
 Sao Tome and Principe,Africa,Sub-Saharan Africa,Middle Africa,STP,2012,49.5751113891602,96.7384033203125,171878
 Sao Tome and Principe,Africa,Sub-Saharan Africa,Middle Africa,STP,2013,NA,NA,175383
-Sao Tome and Principe,Africa,Sub-Saharan Africa,Middle Africa,STP,2015,52.1176795959473,97.3226470947266,NA
+Sao Tome and Principe,Africa,Sub-Saharan Africa,Middle Africa,STP,2015,52.1176795959473,97.3226470947266,196000
 Saudi Arabia,Asia,Western Asia,NA,SAU,1800,NA,NA,2091000
 Saudi Arabia,Asia,Western Asia,NA,SAU,1820,NA,NA,2091000
 Saudi Arabia,Asia,Western Asia,NA,SAU,1870,NA,NA,2338000
@@ -14815,7 +14815,7 @@ Saudi Arabia,Asia,Western Asia,NA,SAU,2010,NA,NA,27448086
 Saudi Arabia,Asia,Western Asia,NA,SAU,2011,NA,NA,28082541
 Saudi Arabia,Asia,Western Asia,NA,SAU,2012,NA,NA,28705133
 Saudi Arabia,Asia,Western Asia,NA,SAU,2013,51.3862609863281,99.2217712402344,29319402
-Saudi Arabia,Asia,Western Asia,NA,SAU,2015,54.3699188232422,99.3510513305664,NA
+Saudi Arabia,Asia,Western Asia,NA,SAU,2015,54.3699188232422,99.3510513305664,31600000
 Senegal,Africa,Sub-Saharan Africa,Western Africa,SEN,1800,NA,NA,1009886
 Senegal,Africa,Sub-Saharan Africa,Western Africa,SEN,1820,NA,NA,1009886
 Senegal,Africa,Sub-Saharan Africa,Western Africa,SEN,1950,NA,NA,2416264
@@ -14882,7 +14882,7 @@ Senegal,Africa,Sub-Saharan Africa,Western Africa,SEN,2010,NA,NA,12433728
 Senegal,Africa,Sub-Saharan Africa,Western Africa,SEN,2011,25.0884704589844,66.0327377319336,12767556
 Senegal,Africa,Sub-Saharan Africa,Western Africa,SEN,2012,NA,NA,13107945
 Senegal,Africa,Sub-Saharan Africa,Western Africa,SEN,2013,21.4648494720459,55.895938873291,13454191
-Senegal,Africa,Sub-Saharan Africa,Western Africa,SEN,2015,25.8741092681885,69.7613296508789,NA
+Senegal,Africa,Sub-Saharan Africa,Western Africa,SEN,2015,25.8741092681885,69.7613296508789,15000000
 Serbia,Europe,Southern Europe,NA,SRB,1800,NA,NA,2147197
 Serbia,Europe,Southern Europe,NA,SRB,1820,NA,NA,2147197
 Serbia,Europe,Southern Europe,NA,SRB,1950,NA,NA,6732256
@@ -14949,7 +14949,7 @@ Serbia,Europe,Southern Europe,NA,SRB,2010,NA,NA,9856222
 Serbia,Europe,Southern Europe,NA,SRB,2011,92.8108596801758,99.3086929321289,9853969
 Serbia,Europe,Southern Europe,NA,SRB,2012,NA,NA,9846582
 Serbia,Europe,Southern Europe,NA,SRB,2013,NA,NA,9835010
-Serbia,Europe,Southern Europe,NA,SRB,2015,93.8643798828125,98.4989624023438,NA
+Serbia,Europe,Southern Europe,NA,SRB,2015,93.8643798828125,98.4989624023438,8850000
 Seychelles,Africa,Sub-Saharan Africa,Eastern Africa,SYC,1800,NA,NA,12522
 Seychelles,Africa,Sub-Saharan Africa,Eastern Africa,SYC,1820,NA,NA,12522
 Seychelles,Africa,Sub-Saharan Africa,Eastern Africa,SYC,1891,NA,NA,16000
@@ -15021,7 +15021,7 @@ Seychelles,Africa,Sub-Saharan Africa,Eastern Africa,SYC,2010,71.5377731323242,98
 Seychelles,Africa,Sub-Saharan Africa,Eastern Africa,SYC,2011,NA,NA,86879
 Seychelles,Africa,Sub-Saharan Africa,Eastern Africa,SYC,2012,NA,NA,87169
 Seychelles,Africa,Sub-Saharan Africa,Eastern Africa,SYC,2013,NA,NA,87417
-Seychelles,Africa,Sub-Saharan Africa,Eastern Africa,SYC,2015,75.6267471313477,99.0502319335938,NA
+Seychelles,Africa,Sub-Saharan Africa,Eastern Africa,SYC,2015,75.6267471313477,99.0502319335938,93700
 Sierra Leone,Africa,Sub-Saharan Africa,Western Africa,SLE,1800,NA,NA,794264
 Sierra Leone,Africa,Sub-Saharan Africa,Western Africa,SLE,1820,NA,NA,794264
 Sierra Leone,Africa,Sub-Saharan Africa,Western Africa,SLE,1950,NA,NA,1895409
@@ -15088,8 +15088,8 @@ Sierra Leone,Africa,Sub-Saharan Africa,Western Africa,SLE,2010,NA,NA,5867536
 Sierra Leone,Africa,Sub-Saharan Africa,Western Africa,SLE,2011,NA,NA,5997486
 Sierra Leone,Africa,Sub-Saharan Africa,Western Africa,SLE,2012,NA,NA,6126450
 Sierra Leone,Africa,Sub-Saharan Africa,Western Africa,SLE,2013,NA,NA,6255163
-Sierra Leone,Africa,Sub-Saharan Africa,Western Africa,SLE,2014,20.5482501983643,65.720573425293,NA
-Sierra Leone,Africa,Sub-Saharan Africa,Western Africa,SLE,2015,21.1756496429443,67.3747024536133,NA
+Sierra Leone,Africa,Sub-Saharan Africa,Western Africa,SLE,2014,20.5482501983643,65.720573425293,7080000
+Sierra Leone,Africa,Sub-Saharan Africa,Western Africa,SLE,2015,21.1756496429443,67.3747024536133,7240000
 Singapore,Asia,South-eastern Asia,NA,SGP,1800,NA,NA,30000
 Singapore,Asia,South-eastern Asia,NA,SGP,1820,NA,NA,30000
 Singapore,Asia,South-eastern Asia,NA,SGP,1850,NA,NA,56000
@@ -15192,8 +15192,8 @@ Singapore,Asia,South-eastern Asia,NA,SGP,2010,75.7236862182617,99.751823425293,5
 Singapore,Asia,South-eastern Asia,NA,SGP,2011,NA,99.8238372802734,5187933
 Singapore,Asia,South-eastern Asia,NA,SGP,2012,NA,99.8458633422852,5256278
 Singapore,Asia,South-eastern Asia,NA,SGP,2013,NA,99.884147644043,5300914
-Singapore,Asia,South-eastern Asia,NA,SGP,2014,NA,99.9004669189453,NA
-Singapore,Asia,South-eastern Asia,NA,SGP,2015,91.8172302246094,99.9145889282227,NA
+Singapore,Asia,South-eastern Asia,NA,SGP,2014,NA,99.9004669189453,5450000
+Singapore,Asia,South-eastern Asia,NA,SGP,2015,91.8172302246094,99.9145889282227,5540000
 Sint Maarten (Dutch part),Americas,Latin America and the Caribbean,Caribbean,NA,NA,NA,NA,NA
 Slovakia,Europe,Eastern Europe,NA,SVK,1800,NA,NA,2140651
 Slovakia,Europe,Eastern Europe,NA,SVK,1820,NA,NA,2140651
@@ -15327,8 +15327,8 @@ Slovenia,Europe,Southern Europe,NA,SVN,2010,NA,NA,2029680
 Slovenia,Europe,Southern Europe,NA,SVN,2011,NA,NA,2035012
 Slovenia,Europe,Southern Europe,NA,SVN,2012,NA,NA,2040057
 Slovenia,Europe,Southern Europe,NA,SVN,2013,NA,NA,2044766
-Slovenia,Europe,Southern Europe,NA,SVN,2014,99.4635391235352,99.8594207763672,NA
-Slovenia,Europe,Southern Europe,NA,SVN,2015,99.4793319702148,99.8623886108398,NA
+Slovenia,Europe,Southern Europe,NA,SVN,2014,99.4635391235352,99.8594207763672,2070000
+Slovenia,Europe,Southern Europe,NA,SVN,2015,99.4793319702148,99.8623886108398,2070000
 Solomon Islands,Oceania,Melanesia,NA,SLB,1800,NA,NA,56998
 Solomon Islands,Oceania,Melanesia,NA,SLB,1820,NA,NA,56998
 Solomon Islands,Oceania,Melanesia,NA,SLB,1931,NA,NA,94000
@@ -15532,8 +15532,8 @@ South Africa,Africa,Sub-Saharan Africa,Southern Africa,ZAF,2010,67.1519622802734
 South Africa,Africa,Sub-Saharan Africa,Southern Africa,ZAF,2011,67.6804275512695,98.7896575927734,50459978
 South Africa,Africa,Sub-Saharan Africa,Southern Africa,ZAF,2012,69.1462631225586,98.8820419311523,50738255
 South Africa,Africa,Sub-Saharan Africa,Southern Africa,ZAF,2013,NA,NA,50981076
-South Africa,Africa,Sub-Saharan Africa,Southern Africa,ZAF,2014,70.8834991455078,98.8822784423828,NA
-South Africa,Africa,Sub-Saharan Africa,Southern Africa,ZAF,2015,71.2561721801758,99.0270004272461,NA
+South Africa,Africa,Sub-Saharan Africa,Southern Africa,ZAF,2014,70.8834991455078,98.8822784423828,54500000
+South Africa,Africa,Sub-Saharan Africa,Southern Africa,ZAF,2015,71.2561721801758,99.0270004272461,55300000
 South Georgia and the South Sandwich Islands,Americas,Latin America and the Caribbean,South America,NA,NA,NA,NA,NA
 South Sudan,Africa,Sub-Saharan Africa,Eastern Africa,SSD,1700,NA,NA,900216
 South Sudan,Africa,Sub-Saharan Africa,Eastern Africa,SSD,1800,NA,NA,1027378
@@ -15602,7 +15602,7 @@ South Sudan,Africa,Sub-Saharan Africa,Eastern Africa,SSD,2010,NA,NA,9415421
 South Sudan,Africa,Sub-Saharan Africa,Eastern Africa,SSD,2011,NA,NA,9897118
 South Sudan,Africa,Sub-Saharan Africa,Eastern Africa,SSD,2012,NA,NA,10386101
 South Sudan,Africa,Sub-Saharan Africa,Eastern Africa,SSD,2013,NA,NA,10881979
-South Sudan,Africa,Sub-Saharan Africa,Eastern Africa,SSD,2015,10.883469581604,44.3548202514648,NA
+South Sudan,Africa,Sub-Saharan Africa,Eastern Africa,SSD,2015,10.883469581604,44.3548202514648,11900000
 Spain,Europe,Southern Europe,NA,ESP,1700,NA,NA,8770000
 Spain,Europe,Southern Europe,NA,ESP,1800,NA,NA,11549294
 Spain,Europe,Southern Europe,NA,ESP,1820,NA,NA,12203000
@@ -15799,8 +15799,8 @@ Spain,Europe,Southern Europe,NA,ESP,2010,92.5590515136719,99.5946273803711,46076
 Spain,Europe,Southern Europe,NA,ESP,2011,92.8224029541016,99.6994018554688,46454895
 Spain,Europe,Southern Europe,NA,ESP,2012,93.2840576171875,99.6727828979492,46771596
 Spain,Europe,Southern Europe,NA,ESP,2013,93.8180084228516,99.6692581176758,47042602
-Spain,Europe,Southern Europe,NA,ESP,2014,93.9914398193359,99.7202911376953,NA
-Spain,Europe,Southern Europe,NA,ESP,2015,94.1646423339844,99.7564010620117,NA
+Spain,Europe,Southern Europe,NA,ESP,2014,93.9914398193359,99.7202911376953,46500000
+Spain,Europe,Southern Europe,NA,ESP,2015,94.1646423339844,99.7564010620117,46400000
 Sri Lanka,Asia,Southern Asia,NA,LKA,1800,NA,NA,1213000
 Sri Lanka,Asia,Southern Asia,NA,LKA,1820,NA,NA,1213000
 Sri Lanka,Asia,Southern Asia,NA,LKA,1850,NA,NA,2217000
@@ -15948,7 +15948,7 @@ Sri Lanka,Asia,Southern Asia,NA,LKA,2010,76.6958618164063,98.1579284667969,20859
 Sri Lanka,Asia,Southern Asia,NA,LKA,2011,NA,NA,21045394
 Sri Lanka,Asia,Southern Asia,NA,LKA,2012,NA,NA,21223550
 Sri Lanka,Asia,Southern Asia,NA,LKA,2013,NA,NA,21393876
-Sri Lanka,Asia,Southern Asia,NA,LKA,2015,81.5044097900391,98.7693710327148,NA
+Sri Lanka,Asia,Southern Asia,NA,LKA,2015,81.5044097900391,98.7693710327148,20700000
 Sudan,Africa,Northern Africa,NA,SDN,1700,NA,NA,3499784
 Sudan,Africa,Northern Africa,NA,SDN,1800,NA,NA,3994154
 Sudan,Africa,Northern Africa,NA,SDN,1820,NA,NA,4101110
@@ -16016,7 +16016,7 @@ Sudan,Africa,Northern Africa,NA,SDN,2010,NA,NA,34136520
 Sudan,Africa,Northern Africa,NA,SDN,2011,NA,NA,34735288
 Sudan,Africa,Northern Africa,NA,SDN,2012,NA,NA,35335982
 Sudan,Africa,Northern Africa,NA,SDN,2013,NA,NA,35940905
-Sudan,Africa,Northern Africa,NA,SDN,2015,26.5253105163574,70.8696594238281,NA
+Sudan,Africa,Northern Africa,NA,SDN,2015,26.5253105163574,70.8696594238281,38600000
 Suriname,Americas,Latin America and the Caribbean,South America,SUR,1800,NA,NA,80721
 Suriname,Americas,Latin America and the Caribbean,South America,SUR,1820,NA,NA,80721
 Suriname,Americas,Latin America and the Caribbean,South America,SUR,1950,NA,NA,214999
@@ -16083,7 +16083,7 @@ Suriname,Americas,Latin America and the Caribbean,South America,SUR,2010,76.7477
 Suriname,Americas,Latin America and the Caribbean,South America,SUR,2011,NA,NA,529419
 Suriname,Americas,Latin America and the Caribbean,South America,SUR,2012,NA,NA,534175
 Suriname,Americas,Latin America and the Caribbean,South America,SUR,2013,NA,NA,538882
-Suriname,Americas,Latin America and the Caribbean,South America,SUR,2015,81.5533676147461,99.02734375,NA
+Suriname,Americas,Latin America and the Caribbean,South America,SUR,2015,81.5533676147461,99.02734375,553000
 Svalbard and Jan Mayen,Europe,Northern Europe,NA,NA,NA,NA,NA,NA
 Sweden,Europe,Northern Europe,NA,SWE,1700,NA,NA,1373360
 Sweden,Europe,Northern Europe,NA,SWE,1730,NA,NA,1626584
@@ -16581,8 +16581,8 @@ Tajikistan,Asia,Central Asia,NA,TJK,2010,NA,NA,6878637
 Tajikistan,Asia,Central Asia,NA,TJK,2011,NA,NA,6976958
 Tajikistan,Asia,Central Asia,NA,TJK,2012,NA,NA,7078755
 Tajikistan,Asia,Central Asia,NA,TJK,2013,NA,NA,7183529
-Tajikistan,Asia,Central Asia,NA,TJK,2014,98.1343078613281,99.8734588623047,NA
-Tajikistan,Asia,Central Asia,NA,TJK,2015,98.3384399414063,99.8751068115234,NA
+Tajikistan,Asia,Central Asia,NA,TJK,2014,98.1343078613281,99.8734588623047,8360000
+Tajikistan,Asia,Central Asia,NA,TJK,2015,98.3384399414063,99.8751068115234,8550000
 "Tanzania, United Republic of",Africa,Sub-Saharan Africa,Eastern Africa,NA,NA,NA,NA,NA
 Thailand,Asia,South-eastern Asia,NA,THA,1800,NA,NA,4665000
 Thailand,Asia,South-eastern Asia,NA,THA,1820,NA,NA,4665000
@@ -16703,7 +16703,7 @@ Thailand,Asia,South-eastern Asia,NA,THA,2010,93.0676116943359,96.5975723266602,6
 Thailand,Asia,South-eastern Asia,NA,THA,2011,NA,NA,69518555
 Thailand,Asia,South-eastern Asia,NA,THA,2012,NA,NA,69892142
 Thailand,Asia,South-eastern Asia,NA,THA,2013,NA,98.3138809204102,70243267
-Thailand,Asia,South-eastern Asia,NA,THA,2015,78.9420013427734,98.6408462524414,NA
+Thailand,Asia,South-eastern Asia,NA,THA,2015,78.9420013427734,98.6408462524414,68700000
 Timor-Leste,Asia,South-eastern Asia,NA,NA,NA,NA,NA,NA
 Togo,Africa,Sub-Saharan Africa,Western Africa,TGO,1800,NA,NA,445985
 Togo,Africa,Sub-Saharan Africa,Western Africa,TGO,1820,NA,NA,445985
@@ -16771,7 +16771,7 @@ Togo,Africa,Sub-Saharan Africa,Western Africa,TGO,2010,NA,NA,6027798
 Togo,Africa,Sub-Saharan Africa,Western Africa,TGO,2011,18.3397808074951,79.8859100341797,6154813
 Togo,Africa,Sub-Saharan Africa,Western Africa,TGO,2012,NA,NA,6283092
 Togo,Africa,Sub-Saharan Africa,Western Africa,TGO,2013,NA,NA,6412560
-Togo,Africa,Sub-Saharan Africa,Western Africa,TGO,2015,25.3267707824707,85.1556396484375,NA
+Togo,Africa,Sub-Saharan Africa,Western Africa,TGO,2015,25.3267707824707,85.1556396484375,7420000
 Tokelau,Oceania,Polynesia,NA,TKL,1700,NA,NA,917
 Tokelau,Oceania,Polynesia,NA,TKL,1800,NA,NA,1009
 Tokelau,Oceania,Polynesia,NA,TKL,1843,NA,NA,1000
@@ -16915,7 +16915,7 @@ Tonga,Oceania,Polynesia,NA,TON,2010,NA,NA,104058
 Tonga,Oceania,Polynesia,NA,TON,2011,98.8619537353516,99.4370269775391,104509
 Tonga,Oceania,Polynesia,NA,TON,2012,NA,NA,104891
 Tonga,Oceania,Polynesia,NA,TON,2013,NA,NA,105265
-Tonga,Oceania,Polynesia,NA,TON,2015,98.9936370849609,99.445671081543,NA
+Tonga,Oceania,Polynesia,NA,TON,2015,98.9936370849609,99.445671081543,106000
 Trinidad and Tobago,Americas,Latin America and the Caribbean,Caribbean,TTO,1800,NA,NA,60000
 Trinidad and Tobago,Americas,Latin America and the Caribbean,Caribbean,TTO,1820,NA,NA,60000
 Trinidad and Tobago,Americas,Latin America and the Caribbean,Caribbean,TTO,1850,NA,NA,80000
@@ -17034,8 +17034,8 @@ Trinidad and Tobago,Americas,Latin America and the Caribbean,Caribbean,TTO,2010,
 Trinidad and Tobago,Americas,Latin America and the Caribbean,Caribbean,TTO,2011,NA,NA,1346350
 Trinidad and Tobago,Americas,Latin America and the Caribbean,Caribbean,TTO,2012,NA,NA,1350999
 Trinidad and Tobago,Americas,Latin America and the Caribbean,Caribbean,TTO,2013,NA,NA,1355342
-Trinidad and Tobago,Americas,Latin America and the Caribbean,Caribbean,TTO,2014,95.6476821899414,99.5997467041016,NA
-Trinidad and Tobago,Americas,Latin America and the Caribbean,Caribbean,TTO,2015,96.0698165893555,99.6099624633789,NA
+Trinidad and Tobago,Americas,Latin America and the Caribbean,Caribbean,TTO,2014,95.6476821899414,99.5997467041016,1350000
+Trinidad and Tobago,Americas,Latin America and the Caribbean,Caribbean,TTO,2015,96.0698165893555,99.6099624633789,1360000
 Tunisia,Africa,Northern Africa,NA,TUN,1700,NA,NA,800000
 Tunisia,Africa,Northern Africa,NA,TUN,1800,NA,NA,862029
 Tunisia,Africa,Northern Africa,NA,TUN,1820,NA,NA,875000
@@ -17105,7 +17105,7 @@ Tunisia,Africa,Northern Africa,NA,TUN,2010,23.3306407928467,97.1717224121094,104
 Tunisia,Africa,Northern Africa,NA,TUN,2011,24.3152408599854,97.304443359375,10594057
 Tunisia,Africa,Northern Africa,NA,TUN,2012,25.9664096832275,96.8649978637695,10704948
 Tunisia,Africa,Northern Africa,NA,TUN,2013,NA,NA,10813680
-Tunisia,Africa,Northern Africa,NA,TUN,2015,29.7602195739746,97.3919906616211,NA
+Tunisia,Africa,Northern Africa,NA,TUN,2015,29.7602195739746,97.3919906616211,11300000
 Turkey,Asia,Western Asia,NA,TUR,1700,NA,NA,8400000
 Turkey,Asia,Western Asia,NA,TUR,1800,NA,NA,9773456
 Turkey,Asia,Western Asia,NA,TUR,1820,NA,NA,10074000
@@ -17202,8 +17202,8 @@ Turkey,Asia,Western Asia,NA,TUR,2010,65.0009689331055,98.2245864868164,72752325
 Turkey,Asia,Western Asia,NA,TUR,2011,70.8007965087891,98.7093505859375,73639596
 Turkey,Asia,Western Asia,NA,TUR,2012,74.6323165893555,99.0160217285156,74508771
 Turkey,Asia,Western Asia,NA,TUR,2013,76.0761871337891,99.2274322509766,75359032
-Turkey,Asia,Western Asia,NA,TUR,2014,77.0800628662109,99.3584823608398,NA
-Turkey,Asia,Western Asia,NA,TUR,2015,78.0363235473633,99.481201171875,NA
+Turkey,Asia,Western Asia,NA,TUR,2014,77.0800628662109,99.3584823608398,77000000
+Turkey,Asia,Western Asia,NA,TUR,2015,78.0363235473633,99.481201171875,78300000
 Turkmenistan,Asia,Central Asia,NA,TKM,1800,NA,NA,367215
 Turkmenistan,Asia,Central Asia,NA,TKM,1820,NA,NA,367215
 Turkmenistan,Asia,Central Asia,NA,TKM,1950,NA,NA,1211000
@@ -17270,8 +17270,8 @@ Turkmenistan,Asia,Central Asia,NA,TKM,2010,NA,NA,5041995
 Turkmenistan,Asia,Central Asia,NA,TKM,2011,NA,NA,5105301
 Turkmenistan,Asia,Central Asia,NA,TKM,2012,NA,NA,5169660
 Turkmenistan,Asia,Central Asia,NA,TKM,2013,NA,NA,5234640
-Turkmenistan,Asia,Central Asia,NA,TKM,2014,97.6166000366211,99.8350830078125,NA
-Turkmenistan,Asia,Central Asia,NA,TKM,2015,97.9364166259766,99.8363037109375,NA
+Turkmenistan,Asia,Central Asia,NA,TKM,2014,97.6166000366211,99.8350830078125,5470000
+Turkmenistan,Asia,Central Asia,NA,TKM,2015,97.9364166259766,99.8363037109375,5570000
 Turks and Caicos Islands,Americas,Latin America and the Caribbean,Caribbean,TCA,1800,NA,NA,3296
 Turks and Caicos Islands,Americas,Latin America and the Caribbean,Caribbean,TCA,1820,NA,NA,3296
 Turks and Caicos Islands,Americas,Latin America and the Caribbean,Caribbean,TCA,1871,NA,NA,4700
@@ -17481,7 +17481,7 @@ Uganda,Africa,Sub-Saharan Africa,Eastern Africa,UGA,2010,34.4575309753418,87.408
 Uganda,Africa,Sub-Saharan Africa,Eastern Africa,UGA,2011,NA,NA,34509205
 Uganda,Africa,Sub-Saharan Africa,Eastern Africa,UGA,2012,36.0822105407715,83.6588821411133,35620977
 Uganda,Africa,Sub-Saharan Africa,Eastern Africa,UGA,2013,NA,NA,36759274
-Uganda,Africa,Sub-Saharan Africa,Eastern Africa,UGA,2015,40.4656982421875,86.9989929199219,NA
+Uganda,Africa,Sub-Saharan Africa,Eastern Africa,UGA,2015,40.4656982421875,86.9989929199219,40100000
 Ukraine,Europe,Eastern Europe,NA,UKR,1800,NA,NA,11215490
 Ukraine,Europe,Eastern Europe,NA,UKR,1820,NA,NA,11215490
 Ukraine,Europe,Eastern Europe,NA,UKR,1950,NA,NA,37297652
@@ -17548,8 +17548,8 @@ Ukraine,Europe,Eastern Europe,NA,UKR,2010,NA,NA,45448329
 Ukraine,Europe,Eastern Europe,NA,UKR,2011,NA,NA,45190180
 Ukraine,Europe,Eastern Europe,NA,UKR,2012,NA,NA,44940268
 Ukraine,Europe,Eastern Europe,NA,UKR,2013,NA,NA,44696741
-Ukraine,Europe,Eastern Europe,NA,UKR,2014,99.418098449707,99.7655792236328,NA
-Ukraine,Europe,Eastern Europe,NA,UKR,2015,99.489990234375,99.762321472168,NA
+Ukraine,Europe,Eastern Europe,NA,UKR,2014,99.418098449707,99.7655792236328,44900000
+Ukraine,Europe,Eastern Europe,NA,UKR,2015,99.489990234375,99.762321472168,44700000
 United Arab Emirates,Asia,Western Asia,NA,ARE,1800,NA,NA,40153
 United Arab Emirates,Asia,Western Asia,NA,ARE,1820,NA,NA,40153
 United Arab Emirates,Asia,Western Asia,NA,ARE,1870,NA,NA,40153
@@ -17618,7 +17618,7 @@ United Arab Emirates,Asia,Western Asia,NA,ARE,2010,NA,NA,7511690
 United Arab Emirates,Asia,Western Asia,NA,ARE,2011,NA,NA,7890924
 United Arab Emirates,Asia,Western Asia,NA,ARE,2012,NA,NA,8105873
 United Arab Emirates,Asia,Western Asia,NA,ARE,2013,NA,NA,8207940
-United Arab Emirates,Asia,Western Asia,NA,ARE,2015,72.314582824707,99.4596710205078,NA
+United Arab Emirates,Asia,Western Asia,NA,ARE,2015,72.314582824707,99.4596710205078,9150000
 United Kingdom of Great Britain and Northern Ireland,Europe,Northern Europe,NA,NA,NA,NA,NA,NA
 United States of America,Americas,Northern America,NA,NA,NA,NA,NA,NA
 United States Minor Outlying Islands,Oceania,Micronesia,NA,NA,NA,NA,NA,NA
@@ -17769,8 +17769,8 @@ Uruguay,Americas,Latin America and the Caribbean,South America,URY,2010,95.55603
 Uruguay,Americas,Latin America and the Caribbean,South America,URY,2011,96.4374313354492,98.8622207641602,3380008
 Uruguay,Americas,Latin America and the Caribbean,South America,URY,2012,96.8135604858398,98.9552536010742,3391428
 Uruguay,Americas,Latin America and the Caribbean,South America,URY,2013,96.4040908813477,98.9297637939453,3403117
-Uruguay,Americas,Latin America and the Caribbean,South America,URY,2014,96.6811904907227,98.8388900756836,NA
-Uruguay,Americas,Latin America and the Caribbean,South America,URY,2015,96.7559967041016,98.8174514770508,NA
+Uruguay,Americas,Latin America and the Caribbean,South America,URY,2014,96.6811904907227,98.8388900756836,3420000
+Uruguay,Americas,Latin America and the Caribbean,South America,URY,2015,96.7559967041016,98.8174514770508,3430000
 Uzbekistan,Asia,Central Asia,NA,UZB,1800,NA,NA,1919159
 Uzbekistan,Asia,Central Asia,NA,UZB,1820,NA,NA,1919159
 Uzbekistan,Asia,Central Asia,NA,UZB,1950,NA,NA,6313997
@@ -17837,8 +17837,8 @@ Uzbekistan,Asia,Central Asia,NA,UZB,2010,NA,NA,27444702
 Uzbekistan,Asia,Central Asia,NA,UZB,2011,NA,NA,27760267
 Uzbekistan,Asia,Central Asia,NA,UZB,2012,NA,NA,28077486
 Uzbekistan,Asia,Central Asia,NA,UZB,2013,99.9095001220703,100,28398155
-Uzbekistan,Asia,Central Asia,NA,UZB,2014,99.6588821411133,100,NA
-Uzbekistan,Asia,Central Asia,NA,UZB,2015,99.9261474609375,100,NA
+Uzbekistan,Asia,Central Asia,NA,UZB,2014,99.6588821411133,100,30500000
+Uzbekistan,Asia,Central Asia,NA,UZB,2015,99.9261474609375,100,31000000
 Vanuatu,Oceania,Melanesia,NA,VUT,1800,NA,NA,27791
 Vanuatu,Oceania,Melanesia,NA,VUT,1820,NA,NA,27791
 Vanuatu,Oceania,Melanesia,NA,VUT,1950,NA,NA,47695
@@ -17905,8 +17905,8 @@ Vanuatu,Oceania,Melanesia,NA,VUT,2010,NA,NA,239651
 Vanuatu,Oceania,Melanesia,NA,VUT,2011,NA,NA,245619
 Vanuatu,Oceania,Melanesia,NA,VUT,2012,NA,NA,251674
 Vanuatu,Oceania,Melanesia,NA,VUT,2013,NA,NA,257812
-Vanuatu,Oceania,Melanesia,NA,VUT,2014,39.753101348877,95.4613571166992,NA
-Vanuatu,Oceania,Melanesia,NA,VUT,2015,41.5821990966797,95.7193298339844,NA
+Vanuatu,Oceania,Melanesia,NA,VUT,2014,39.753101348877,95.4613571166992,259000
+Vanuatu,Oceania,Melanesia,NA,VUT,2015,41.5821990966797,95.7193298339844,265000
 Venezuela (Bolivarian Republic of),Americas,Latin America and the Caribbean,South America,NA,NA,NA,NA,NA
 Viet Nam,Asia,South-eastern Asia,NA,NA,NA,NA,NA,NA
 Virgin Islands (British),Americas,Latin America and the Caribbean,Caribbean,NA,NA,NA,NA,NA
@@ -17980,8 +17980,8 @@ Western Sahara,Africa,Northern Africa,NA,ESH,2012,NA,NA,566613
 Western Sahara,Africa,Northern Africa,NA,ESH,2013,NA,NA,585270
 Yemen,Asia,Western Asia,NA,YEM,1994,11.2432699203491,60.2221412658691,NA
 Yemen,Asia,Western Asia,NA,YEM,2004,13.6957702636719,76.8994369506836,NA
-Yemen,Asia,Western Asia,NA,YEM,2014,16.7287998199463,89.3522262573242,NA
-Yemen,Asia,Western Asia,NA,YEM,2015,17.0956897735596,90.2369232177734,NA
+Yemen,Asia,Western Asia,NA,YEM,2014,16.7287998199463,89.3522262573242,26200000
+Yemen,Asia,Western Asia,NA,YEM,2015,17.0956897735596,90.2369232177734,26900000
 Zambia,Africa,Sub-Saharan Africa,Eastern Africa,ZMB,1800,NA,NA,747000
 Zambia,Africa,Sub-Saharan Africa,Eastern Africa,ZMB,1904,NA,NA,747000
 Zambia,Africa,Sub-Saharan Africa,Eastern Africa,ZMB,1911,NA,NA,822000
@@ -18051,7 +18051,7 @@ Zambia,Africa,Sub-Saharan Africa,Eastern Africa,ZMB,2010,52.344409942627,88.7145
 Zambia,Africa,Sub-Saharan Africa,Eastern Africa,ZMB,2011,NA,NA,13474959
 Zambia,Africa,Sub-Saharan Africa,Eastern Africa,ZMB,2012,NA,NA,13883577
 Zambia,Africa,Sub-Saharan Africa,Eastern Africa,ZMB,2013,NA,NA,14314515
-Zambia,Africa,Sub-Saharan Africa,Eastern Africa,ZMB,2015,56.4130783081055,91.5209884643555,NA
+Zambia,Africa,Sub-Saharan Africa,Eastern Africa,ZMB,2015,56.4130783081055,91.5209884643555,16100000
 Zimbabwe,Africa,Sub-Saharan Africa,Eastern Africa,ZWE,1800,NA,NA,1085814
 Zimbabwe,Africa,Sub-Saharan Africa,Eastern Africa,ZWE,1820,NA,NA,1085814
 Zimbabwe,Africa,Sub-Saharan Africa,Eastern Africa,ZWE,1950,NA,NA,2746854
@@ -18118,7 +18118,7 @@ Zimbabwe,Africa,Sub-Saharan Africa,Eastern Africa,ZWE,2010,NA,NA,12571454
 Zimbabwe,Africa,Sub-Saharan Africa,Eastern Africa,ZWE,2011,59.0066108703613,90.9307022094727,12754378
 Zimbabwe,Africa,Sub-Saharan Africa,Eastern Africa,ZWE,2012,NA,NA,13013678
 Zimbabwe,Africa,Sub-Saharan Africa,Eastern Africa,ZWE,2013,NA,NA,13327925
-Zimbabwe,Africa,Sub-Saharan Africa,Eastern Africa,ZWE,2015,63.1132202148438,91.7500534057617,NA
+Zimbabwe,Africa,Sub-Saharan Africa,Eastern Africa,ZWE,2015,63.1132202148438,91.7500534057617,15800000
 Arab World,NA,NA,NA,NA,1985,NA,73.0354461669922,NA
 Arab World,NA,NA,NA,NA,1986,NA,73.0354461669922,NA
 Arab World,NA,NA,NA,NA,1987,NA,73.0354461669922,NA
@@ -18267,7 +18267,7 @@ Bolivia,NA,NA,NA,BOL,2010,NA,NA,9929849
 Bolivia,NA,NA,NA,BOL,2011,67.0866088867188,99.0075225830078,10088108
 Bolivia,NA,NA,NA,BOL,2012,72.3037414550781,98.9958801269531,10248042
 Bolivia,NA,NA,NA,BOL,2013,NA,NA,10409761
-Bolivia,NA,NA,NA,BOL,2015,75.1755599975586,99.0404891967773,NA
+Bolivia,NA,NA,NA,BOL,2015,75.1755599975586,99.0404891967773,10700000
 British Virgin Islands,NA,NA,NA,VGB,1800,NA,NA,6700
 British Virgin Islands,NA,NA,NA,VGB,1841,NA,NA,6700
 British Virgin Islands,NA,NA,NA,VGB,1871,NA,NA,6700
@@ -18412,7 +18412,7 @@ Brunei,NA,NA,NA,BRN,2010,NA,NA,398920
 Brunei,NA,NA,NA,BRN,2011,61.6455116271973,99.3667678833008,405938
 Brunei,NA,NA,NA,BRN,2012,NA,NA,412892
 Brunei,NA,NA,NA,BRN,2013,NA,NA,419772
-Brunei,NA,NA,NA,BRN,2015,71.1070327758789,99.6049270629883,NA
+Brunei,NA,NA,NA,BRN,2015,71.1070327758789,99.6049270629883,418000
 Cape Verde,NA,NA,NA,CPV,1800,NA,NA,55716
 Cape Verde,NA,NA,NA,CPV,1820,NA,NA,55716
 Cape Verde,NA,NA,NA,CPV,1950,NA,NA,178064
@@ -18479,7 +18479,7 @@ Cape Verde,NA,NA,NA,CPV,2010,NA,NA,495999
 Cape Verde,NA,NA,NA,CPV,2011,NA,NA,500585
 Cape Verde,NA,NA,NA,CPV,2012,33.1985282897949,98.1289672851563,505335
 Cape Verde,NA,NA,NA,CPV,2013,NA,NA,510213
-Cape Verde,NA,NA,NA,CPV,2015,37.8136100769043,98.3426971435547,NA
+Cape Verde,NA,NA,NA,CPV,2015,37.8136100769043,98.3426971435547,553000
 Cocos Islands,NA,NA,NA,CCK,1800,NA,NA,0
 Cocos Islands,NA,NA,NA,CCK,1820,NA,NA,0
 Cocos Islands,NA,NA,NA,CCK,1836,NA,NA,70
@@ -18558,7 +18558,7 @@ Cote d'Ivoire,NA,NA,NA,CIV,2010,NA,NA,19737800
 Cote d'Ivoire,NA,NA,NA,CIV,2011,NA,NA,20152894
 Cote d'Ivoire,NA,NA,NA,CIV,2012,25.2544593811035,48.3099594116211,20594615
 Cote d'Ivoire,NA,NA,NA,CIV,2013,NA,NA,21057316
-Cote d'Ivoire,NA,NA,NA,CIV,2015,27.6193695068359,50.2375793457031,NA
+Cote d'Ivoire,NA,NA,NA,CIV,2015,27.6193695068359,50.2375793457031,23100000
 Czech Republic,NA,NA,NA,CZE,1800,NA,NA,5516349
 Czech Republic,NA,NA,NA,CZE,1820,NA,NA,5516349
 Czech Republic,NA,NA,NA,CZE,1950,NA,NA,8876260
@@ -18691,7 +18691,7 @@ Democratic Republic of Congo,NA,NA,NA,COD,2010,NA,NA,65965795
 Democratic Republic of Congo,NA,NA,NA,COD,2011,NA,NA,67757577
 Democratic Republic of Congo,NA,NA,NA,COD,2012,47.8354187011719,83.5975494384766,69575394
 Democratic Republic of Congo,NA,NA,NA,COD,2013,NA,NA,71419669
-Democratic Republic of Congo,NA,NA,NA,COD,2015,48.9702186584473,86.0684432983398,NA
+Democratic Republic of Congo,NA,NA,NA,COD,2015,48.9702186584473,86.0684432983398,76200000
 East Asia & Pacific,NA,NA,NA,NA,1985,NA,93.5657653808594,NA
 East Asia & Pacific,NA,NA,NA,NA,1986,NA,93.5657653808594,NA
 East Asia & Pacific,NA,NA,NA,NA,1987,NA,93.5657653808594,NA
@@ -18977,7 +18977,7 @@ Iran,NA,NA,NA,IRN,2010,NA,NA,73973630
 Iran,NA,NA,NA,IRN,2011,NA,NA,74798599
 Iran,NA,NA,NA,IRN,2012,32.6188507080078,98.0143966674805,75611798
 Iran,NA,NA,NA,IRN,2013,34.2502708435059,97.7772979736328,76407013
-Iran,NA,NA,NA,IRN,2015,39.1742210388184,98.0272216796875,NA
+Iran,NA,NA,NA,IRN,2015,39.1742210388184,98.0272216796875,79400000
 Laos,NA,NA,NA,LAO,1800,NA,NA,470000
 Laos,NA,NA,NA,LAO,1820,NA,NA,470000
 Laos,NA,NA,NA,LAO,1870,NA,NA,755000
@@ -19046,7 +19046,7 @@ Laos,NA,NA,NA,LAO,2010,NA,NA,6200894
 Laos,NA,NA,NA,LAO,2011,NA,NA,6288037
 Laos,NA,NA,NA,LAO,2012,NA,NA,6373934
 Laos,NA,NA,NA,LAO,2013,NA,NA,6458911
-Laos,NA,NA,NA,LAO,2015,45.3880310058594,90.2317199707031,NA
+Laos,NA,NA,NA,LAO,2015,45.3880310058594,90.2317199707031,6660000
 Latin America & Caribbean,NA,NA,NA,NA,1985,NA,93.7422561645508,NA
 Latin America & Caribbean,NA,NA,NA,NA,1986,NA,93.7422561645508,NA
 Latin America & Caribbean,NA,NA,NA,NA,1987,NA,93.7422561645508,NA
@@ -19293,8 +19293,8 @@ Macedonia,NA,NA,NA,MKD,2010,NA,NA,2060563
 Macedonia,NA,NA,NA,MKD,2011,NA,NA,2063893
 Macedonia,NA,NA,NA,MKD,2012,NA,NA,2066785
 Macedonia,NA,NA,NA,MKD,2013,NA,NA,2069219
-Macedonia,NA,NA,NA,MKD,2014,92.607048034668,98.625358581543,NA
-Macedonia,NA,NA,NA,MKD,2015,93.3333435058594,98.6145706176758,NA
+Macedonia,NA,NA,NA,MKD,2014,92.607048034668,98.625358581543,2080000
+Macedonia,NA,NA,NA,MKD,2015,93.3333435058594,98.6145706176758,2080000
 Middle East & North Africa,NA,NA,NA,NA,1985,NA,76.2779541015625,NA
 Middle East & North Africa,NA,NA,NA,NA,1986,NA,76.2779541015625,NA
 Middle East & North Africa,NA,NA,NA,NA,1987,NA,76.2779541015625,NA
@@ -19451,8 +19451,8 @@ Moldova,NA,NA,NA,MDA,2010,NA,NA,3572885
 Moldova,NA,NA,NA,MDA,2011,NA,NA,3544864
 Moldova,NA,NA,NA,MDA,2012,NA,NA,3519266
 Moldova,NA,NA,NA,MDA,2013,NA,NA,3495657
-Moldova,NA,NA,NA,MDA,2014,94.9487686157227,100,NA
-Moldova,NA,NA,NA,MDA,2015,96.9074401855469,99.3037872314453,NA
+Moldova,NA,NA,NA,MDA,2014,94.9487686157227,100,4070000
+Moldova,NA,NA,NA,MDA,2015,96.9074401855469,99.3037872314453,4070000
 North Korea,NA,NA,NA,PRK,1800,NA,NA,4345000
 North Korea,NA,NA,NA,PRK,1820,NA,NA,4345000
 North Korea,NA,NA,NA,PRK,1870,NA,NA,4511000
@@ -19521,7 +19521,7 @@ North Korea,NA,NA,NA,PRK,2010,NA,NA,24346229
 North Korea,NA,NA,NA,PRK,2011,NA,NA,24451285
 North Korea,NA,NA,NA,PRK,2012,NA,NA,24553672
 North Korea,NA,NA,NA,PRK,2013,NA,NA,24654358
-North Korea,NA,NA,NA,PRK,2015,99.99609375,99.9998321533203,NA
+North Korea,NA,NA,NA,PRK,2015,99.99609375,99.9998321533203,25200000
 Palestine,NA,NA,NA,PSE,1997,28.6091709136963,97.0465393066406,NA
 Palestine,NA,NA,NA,PSE,2004,NA,98.9872283935547,NA
 Palestine,NA,NA,NA,PSE,2006,NA,99.0913772583008,NA
@@ -19532,8 +19532,8 @@ Palestine,NA,NA,NA,PSE,2010,NA,99.2420425415039,NA
 Palestine,NA,NA,NA,PSE,2011,NA,99.3123168945313,NA
 Palestine,NA,NA,NA,PSE,2012,NA,99.2873306274414,NA
 Palestine,NA,NA,NA,PSE,2013,NA,99.3484268188477,NA
-Palestine,NA,NA,NA,PSE,2014,NA,99.3635101318359,NA
-Palestine,NA,NA,NA,PSE,2015,NA,99.3742980957031,NA
+Palestine,NA,NA,NA,PSE,2014,NA,99.3635101318359,4540000
+Palestine,NA,NA,NA,PSE,2015,NA,99.3742980957031,4660000
 Reunion,NA,NA,NA,REU,1800,NA,NA,92744
 Reunion,NA,NA,NA,REU,1820,NA,NA,92744
 Reunion,NA,NA,NA,REU,1950,NA,NA,248111
@@ -19666,7 +19666,7 @@ Russia,NA,NA,NA,RUS,2010,99.1544418334961,99.709602355957,142958164
 Russia,NA,NA,NA,RUS,2011,NA,NA,142835555
 Russia,NA,NA,NA,RUS,2012,NA,NA,142703181
 Russia,NA,NA,NA,RUS,2013,NA,NA,142557892
-Russia,NA,NA,NA,RUS,2015,99.4724197387695,99.7035293579102,NA
+Russia,NA,NA,NA,RUS,2015,99.4724197387695,99.7035293579102,144000000
 Saint Helena,NA,NA,NA,SHN,1800,NA,NA,1997
 Saint Helena,NA,NA,NA,SHN,1820,NA,NA,1997
 Saint Helena,NA,NA,NA,SHN,1854,NA,NA,6300
@@ -19993,7 +19993,7 @@ Swaziland,NA,NA,NA,SWZ,2010,45.1788597106934,93.5022964477539,1186056
 Swaziland,NA,NA,NA,SWZ,2011,NA,NA,1203330
 Swaziland,NA,NA,NA,SWZ,2012,NA,NA,1220408
 Swaziland,NA,NA,NA,SWZ,2013,NA,NA,1237166
-Swaziland,NA,NA,NA,SWZ,2015,53.6161117553711,94.7703094482422,NA
+Swaziland,NA,NA,NA,SWZ,2015,53.6161117553711,94.7703094482422,1320000
 Syria,NA,NA,NA,SYR,1800,NA,NA,1337000
 Syria,NA,NA,NA,SYR,1820,NA,NA,1337000
 Syria,NA,NA,NA,SYR,1870,NA,NA,1582000
@@ -20062,8 +20062,8 @@ Syria,NA,NA,NA,SYR,2010,NA,NA,20410606
 Syria,NA,NA,NA,SYR,2011,NA,NA,20766037
 Syria,NA,NA,NA,SYR,2012,NA,NA,21117690
 Syria,NA,NA,NA,SYR,2013,NA,NA,21468962
-Syria,NA,NA,NA,SYR,2014,48.411979675293,96.1495819091797,NA
-Syria,NA,NA,NA,SYR,2015,49.5121994018555,96.4207992553711,NA
+Syria,NA,NA,NA,SYR,2014,48.411979675293,96.1495819091797,19200000
+Syria,NA,NA,NA,SYR,2015,49.5121994018555,96.4207992553711,18700000
 Taiwan,NA,NA,NA,TWN,1800,NA,NA,2000000
 Taiwan,NA,NA,NA,TWN,1820,NA,NA,2000000
 Taiwan,NA,NA,NA,TWN,1850,NA,NA,2200000
@@ -20252,9 +20252,9 @@ Tanzania,NA,NA,NA,TZA,2010,52.3721885681152,74.5605163574219,44841226
 Tanzania,NA,NA,NA,TZA,2011,NA,NA,46218486
 Tanzania,NA,NA,NA,TZA,2012,43.579460144043,85.9400024414063,47656367
 Tanzania,NA,NA,NA,TZA,2013,NA,NA,49153002
-Tanzania,NA,NA,NA,TZA,2015,49.5646209716797,87.3053436279297,NA
-Timor,NA,NA,NA,TLS,2010,11.1716299057007,79.528678894043,NA
-Timor,NA,NA,NA,TLS,2015,12.3504495620728,82.2421035766602,NA
+Tanzania,NA,NA,NA,TZA,2015,49.5646209716797,87.3053436279297,53900000
+Timor,NA,NA,NA,TLS,2010,11.1716299057007,79.528678894043,1110000
+Timor,NA,NA,NA,TLS,2015,12.3504495620728,82.2421035766602,1240000
 United Kingdom,NA,NA,NA,GBR,1700,NA,NA,7200607
 United Kingdom,NA,NA,NA,GBR,1730,NA,NA,7547572
 United Kingdom,NA,NA,NA,GBR,1750,NA,NA,8221188
@@ -20828,7 +20828,7 @@ Venezuela,NA,NA,NA,VEN,2010,NA,NA,28979857
 Venezuela,NA,NA,NA,VEN,2011,79.9322280883789,97.5591583251953,29436891
 Venezuela,NA,NA,NA,VEN,2012,NA,NA,29890694
 Venezuela,NA,NA,NA,VEN,2013,NA,NA,30340637
-Venezuela,NA,NA,NA,VEN,2015,83.9838714599609,97.7294387817383,NA
+Venezuela,NA,NA,NA,VEN,2015,83.9838714599609,97.7294387817383,31200000
 Vietnam,NA,NA,NA,VNM,1800,NA,NA,6551000
 Vietnam,NA,NA,NA,VNM,1820,NA,NA,6551000
 Vietnam,NA,NA,NA,VNM,1870,NA,NA,10528000
@@ -20897,5 +20897,5 @@ Vietnam,NA,NA,NA,VNM,2010,NA,NA,87848445
 Vietnam,NA,NA,NA,VNM,2011,NA,NA,88791996
 Vietnam,NA,NA,NA,VNM,2012,NA,NA,89730274
 Vietnam,NA,NA,NA,VNM,2013,NA,NA,90656550
-Vietnam,NA,NA,NA,VNM,2015,82.084228515625,98.0616683959961,NA
+Vietnam,NA,NA,NA,VNM,2015,82.084228515625,98.0616683959961,93600000
 

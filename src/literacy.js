@@ -2,7 +2,7 @@ export const Literacy = () => {
   console.log('hello')
      let margin = { left: 80, right: 20, top: 50, bottom: 100 };
      let height = 800 - margin.top - margin.bottom,
-       width = 1000 - margin.left - margin.right;
+       width = 900 - margin.left - margin.right;
 
      let time = 0;
 
@@ -29,7 +29,7 @@ export const Literacy = () => {
 
      let x = d3
        .scaleLinear()
-       .range([0, width])
+       .range([0, width-40])
        .domain([1, 100]);
 
      let y = d3
@@ -40,7 +40,7 @@ export const Literacy = () => {
 
     let line = g
       .append("line")
-      .attr("x1", 895)
+      .attr("x1", 760)
       .attr("y1", 0)
       .attr("x2", 0)
       .attr("y2", 650)
@@ -50,8 +50,8 @@ export const Literacy = () => {
 
      let area = d3
        .scaleLinear()
-       .range([25 * Math.PI, 1500 * Math.PI])
-       .domain([2000, 1400000000]);
+       .range([2 * Math.PI, 20 * Math.PI])
+       .domain([1, 1400000000]);
 
      let xLabel = g
        .append("text")
@@ -135,26 +135,11 @@ export const Literacy = () => {
          .text(region);
      });
   d3.csv("data/literacy.csv").then( data => {
-      console.log(data)
+      // console.log(data)
       
 
       let sortedData = [
-        { year: 1984, countries: [] },
-        { year: 1985, countries: [] },
-        { year: 1986, countries: [] },
-        { year: 1987, countries: [] },
-        { year: 1988, countries: [] },
-        { year: 1989, countries: [] },
-        { year: 1990, countries: [] },
-        { year: 1991, countries: [] },
-        { year: 1992, countries: [] },
-        { year: 1993, countries: [] },
-        { year: 1994, countries: [] },
-        { year: 1995, countries: [] },
-        { year: 1996, countries: [] },
-        { year: 1997, countries: [] },
-        { year: 1998, countries: [] },
-        { year: 1999, countries: [] },
+  
         { year: 2000, countries: [] },
         { year: 2001, countries: [] },
         { year: 2002, countries: [] },
@@ -168,7 +153,9 @@ export const Literacy = () => {
         { year: 2010, countries: [] },
         { year: 2011, countries: [] },
         { year: 2012, countries: [] },
-        { year: 2013, countries: [] }
+        { year: 2013, countries: [] },
+        { year: 2014, countries: [] },
+        { year: 2015, countries: [] },
       ];
 
       for (let i = 0; i < data.length; i++) {
@@ -184,7 +171,7 @@ export const Literacy = () => {
       let finalData = sortedData.map(function(year) {
         return year["countries"]
           .filter(function(country) {
-            let dataExists = (country.Elderly !== "NA" && country.Youth !== "NA") && country.Pop !== 'NA'
+            let dataExists = (country.Elderly !== "NA" && country.Youth !== "NA")
             return dataExists;
           })
           .map(function(country) {
@@ -195,13 +182,14 @@ export const Literacy = () => {
           });
       });
 
-      console.log(finalData[30])
-      update(finalData[17])
-      d3.interval(function() {
-         // At the end of our data, loop back
-         time = time < 29 ? time + 1 : 0;
-         update(finalData[time]);
-       }, 200);
+      // console.log(finalData[])
+      update(finalData[0])
+      console.log(finalData[0])
+      // d3.interval(function() {
+      //    // At the end of our data, loop back
+      //    time = time < 15 ? time + 1 : 0;
+      //    update(finalData[time]);
+      //  }, 200);
       // console.log(finalData);
   });
 
@@ -227,15 +215,12 @@ export const Literacy = () => {
      .attr("cx", function(d) {
        return x(d.Youth);
      })
-     .attr("r", function(d) {
-       let pop = d.Pop/10000000
-       pop > 100? pop/10 : 20
-      //  d.Pop ? pop = (d.Pop)/5 : pop = 4
-       return (pop) 
+     .attr("r", function(d){
+       return area(d.Pop) 
      })
      .on("mouseover", tip.show)
      .on("mouseout", tip.hide);
 
-   timeLabel.text(+(time + 1984));
+   timeLabel.text(+(time + 2000));
  }
 };
