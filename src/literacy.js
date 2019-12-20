@@ -1,24 +1,38 @@
 import { play } from './functions';
 export const Literacy = () => {
   let button = document.getElementById("play-button");
-  console.log(button);
+  
   function step() {
     // At the end of our data, loop back
     time = time < 15 ? time + 1 : 0;
     update(finalData[time]);
   }
 
+  // let interval = setInterval(step, 100);
+  let interval; 
   button.addEventListener("click", function(event) {
-    console.log("click");
-    setInterval(step, 100);
+    // console.log(button.innerHTML === 'Play')
+    
+    if(button.innerHTML === 'Play'){
+     
+      interval = setInterval(step, 100)
+      console.log('hit 1')
+      button.innerHTML = "Pause";
+
+     } else if (button.innerHTML === 'Pause') {
+      clearInterval(interval);
+      console.log("hit 2");
+      button.innerHTML = 'Play';
+    }
+    
   });
-  console.log('hello')
+  
      let margin = { left: 80, right: 20, top: 50, bottom: 100 };
      let height = 800 - margin.top - margin.bottom,
        width = 900 - margin.left - margin.right;
 
      let time = 0;
-     let interval;
+   
      let finalData;
 
      let g = d3

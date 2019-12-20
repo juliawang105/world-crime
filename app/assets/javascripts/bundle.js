@@ -147,19 +147,27 @@ __webpack_require__.r(__webpack_exports__);
 
 var Literacy = function Literacy() {
   var button = document.getElementById("play-button");
-  console.log(button);
 
   function step() {
     // At the end of our data, loop back
     time = time < 15 ? time + 1 : 0;
     update(finalData[time]);
-  }
+  } // let interval = setInterval(step, 100);
 
+
+  var interval;
   button.addEventListener("click", function (event) {
-    console.log("click");
-    setInterval(step, 100);
+    // console.log(button.innerHTML === 'Play')
+    if (button.innerHTML === 'Play') {
+      interval = setInterval(step, 100);
+      console.log('hit 1');
+      button.innerHTML = "Pause";
+    } else if (button.innerHTML === 'Pause') {
+      clearInterval(interval);
+      console.log("hit 2");
+      button.innerHTML = 'Play';
+    }
   });
-  console.log('hello');
   var margin = {
     left: 80,
     right: 20,
@@ -169,7 +177,6 @@ var Literacy = function Literacy() {
   var height = 800 - margin.top - margin.bottom,
       width = 900 - margin.left - margin.right;
   var time = 0;
-  var interval;
   var finalData;
   var g = d3.select("#chart-area").append("svg").attr("width", width + margin.left + margin.right).attr("height", height + margin.top + margin.bottom).append("g").attr("transform", "translate(" + margin.left + ", " + margin.top + ")");
   var tip = d3.tip().attr("class", "d3-tip").html(function (d) {
