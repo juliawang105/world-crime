@@ -1,6 +1,17 @@
 import { play } from './functions';
 export const Literacy = () => {
-  play()
+  let button = document.getElementById("play-button");
+  console.log(button);
+  function step() {
+    // At the end of our data, loop back
+    time = time < 15 ? time + 1 : 0;
+    update(finalData[time]);
+  }
+
+  button.addEventListener("click", function(event) {
+    console.log("click");
+    setInterval(step, 100);
+  });
   console.log('hello')
      let margin = { left: 80, right: 20, top: 50, bottom: 100 };
      let height = 800 - margin.top - margin.bottom,
@@ -187,7 +198,7 @@ export const Literacy = () => {
       });
 
       // console.log(finalData[])
-      update(finalData[15])
+      update(finalData[0])
      
       // d3.interval(function() {
       //    // At the end of our data, loop back

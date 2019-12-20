@@ -14,3 +14,4 @@ export const play = () => {
         setInterval(step, 100);
     })
 };
+1

@@ -111,6 +111,7 @@ var play = function play() {
     setInterval(step, 100);
   });
 };
+1;
 
 /***/ }),
 
@@ -145,7 +146,19 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _functions__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./functions */ "./src/functions.js");
 
 var Literacy = function Literacy() {
-  Object(_functions__WEBPACK_IMPORTED_MODULE_0__["play"])();
+  var button = document.getElementById("play-button");
+  console.log(button);
+
+  function step() {
+    // At the end of our data, loop back
+    time = time < 15 ? time + 1 : 0;
+    update(finalData[time]);
+  }
+
+  button.addEventListener("click", function (event) {
+    console.log("click");
+    setInterval(step, 100);
+  });
   console.log('hello');
   var margin = {
     left: 80,
@@ -267,7 +280,7 @@ var Literacy = function Literacy() {
       });
     }); // console.log(finalData[])
 
-    update(finalData[15]); // d3.interval(function() {
+    update(finalData[0]); // d3.interval(function() {
     //    // At the end of our data, loop back
     //    time = time < 15 ? time + 1 : 0;
     //    update(finalData[time]);
