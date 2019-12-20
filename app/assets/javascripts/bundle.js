@@ -86,119 +86,29 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./src/bar_chart.js":
+/***/ "./src/functions.js":
 /*!**************************!*\
-  !*** ./src/bar_chart.js ***!
+  !*** ./src/functions.js ***!
   \**************************/
-/*! exports provided: BarChart */
+/*! exports provided: play */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BarChart", function() { return BarChart; });
-var BarChart = function BarChart() {
-  var margin = {
-    left: 100,
-    right: 10,
-    top: 10,
-    bottom: 150
-  };
-  var width = 800 - margin.left - margin.right,
-      height = 600 - margin.top - margin.bottom;
-  var g = d3.select("#chart-area").append("svg").attr("width", width + margin.left + margin.right).attr("height", height + margin.top + margin.bottom).append("g").attr("transform", "translate(" + margin.left + ", " + margin.top + ")"); // X Label
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "play", function() { return play; });
+var play = function play() {
+  var button = document.getElementById("play-button");
+  console.log(button); //   if (button.innerText === "Play") {
+  //     button.innerText("Pause");
+  //     let interval = setInterval(step, 100);
+  //   } else {
+  //     button.innerText("Play");
+  //     clearInterval(interval);
+  //   };
 
-  g.append("text").attr("class", "x axis-label").attr("x", width / 2).attr("y", height + 140).attr("font-size", "20px").attr("text-anchor", "middle").text("Country"); // Y Label
-
-  g.append("text").attr("class", "y axis-label").attr("x", -(height / 2)).attr("y", -60).attr("font-size", "20px").attr("text-anchor", "middle").attr("transform", "rotate(-90)").text("Crime Rate");
-  d3.csv("data/assaults.csv").then(function (data) {
-    console.log(data);
-    var sortedData = [{
-      year: 2003,
-      countries: []
-    }, {
-      year: 2004,
-      countries: []
-    }, {
-      year: 2005,
-      countries: []
-    }, {
-      year: 2006,
-      countries: []
-    }, {
-      year: 2007,
-      countries: []
-    }, {
-      year: 2008,
-      countries: []
-    }, {
-      year: 2009,
-      countries: []
-    }, {
-      year: 2010,
-      countries: []
-    }, {
-      year: 2011,
-      countries: []
-    }, {
-      year: 2012,
-      countries: []
-    }, {
-      year: 2013,
-      countries: []
-    }, {
-      year: 2014,
-      countries: []
-    }, {
-      year: 2015,
-      countries: []
-    }, {
-      year: 2016,
-      countries: []
-    }, {
-      year: 2017,
-      countries: []
-    }];
-
-    for (var i = 0; i < data.length; i++) {
-      var pojo = data[i];
-
-      for (var j = 0; j < sortedData.length; j++) {
-        if (parseInt(pojo.Year) === sortedData[j].year) {
-          sortedData[j].countries.push(pojo);
-        }
-      }
-    }
-
-    var finalData = sortedData.map(function (year) {
-      return year["countries"].filter(function (country) {
-        var dataExists = country.Count && country.Rate;
-        return dataExists;
-      }).map(function (country) {
-        country.Count = +country.Count;
-        country.Rate = +country.Rate;
-        return country;
-      });
-    });
-    var x = d3.scaleBand().domain(data.map(function (d) {
-      return d.region_name;
-    })).range([0, width]).paddingInner(0.3).paddingOuter(0.3);
-    var y = d3.scaleLinear().domain([0, 2000]).range([height, 0]);
-    var xAxisCall = d3.axisBottom(x);
-    g.append("g").attr("class", "x axis").attr("transform", "translate(0, " + height + ")").call(xAxisCall).selectAll("text").attr("y", "10").attr("x", "-5").attr("text-anchor", "end").attr("transform", "rotate(-40)");
-    var yAxisCall = d3.axisLeft(y); //  .ticks(3)
-    //  .tickFormat(function(d) {
-    //    return d + "m";
-    //  });
-
-    g.append("g").attr("class", "y-axis").call(yAxisCall);
-    var rects = g.selectAll("rect").data(data);
-    rects.enter().append("rect").attr("y", function (d) {
-      return y(d.Rate);
-    }).attr("x", function (d) {
-      return x(d.region_name);
-    }).attr("width", x.bandwidth).attr("height", function (d) {
-      return height - y(d.Rate);
-    }).attr("fill", "grey");
+  button.addEventListener('click', function (event) {
+    console.log('click');
+    setInterval(step, 100);
   });
 };
 
@@ -213,17 +123,11 @@ var BarChart = function BarChart() {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _main__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./main */ "./src/main.js");
-/* harmony import */ var _bar_chart__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./bar_chart */ "./src/bar_chart.js");
-/* harmony import */ var _literacy__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./literacy */ "./src/literacy.js");
-
-
+/* harmony import */ var _literacy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./literacy */ "./src/literacy.js");
 
 document.addEventListener('DOMContentLoaded', function () {
-  console.log("webpack is working"); //Main()
-  // BarChart()
-
-  Object(_literacy__WEBPACK_IMPORTED_MODULE_2__["Literacy"])();
+  console.log("webpack is working");
+  Object(_literacy__WEBPACK_IMPORTED_MODULE_0__["Literacy"])();
 });
 
 /***/ }),
@@ -238,7 +142,10 @@ document.addEventListener('DOMContentLoaded', function () {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Literacy", function() { return Literacy; });
+/* harmony import */ var _functions__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./functions */ "./src/functions.js");
+
 var Literacy = function Literacy() {
+  Object(_functions__WEBPACK_IMPORTED_MODULE_0__["play"])();
   console.log('hello');
   var margin = {
     left: 80,
@@ -249,6 +156,8 @@ var Literacy = function Literacy() {
   var height = 800 - margin.top - margin.bottom,
       width = 900 - margin.left - margin.right;
   var time = 0;
+  var interval;
+  var finalData;
   var g = d3.select("#chart-area").append("svg").attr("width", width + margin.left + margin.right).attr("height", height + margin.top + margin.bottom).append("g").attr("transform", "translate(" + margin.left + ", " + margin.top + ")");
   var tip = d3.tip().attr("class", "d3-tip").html(function (d) {
     var text = d.name; // text += " " + d.region_name;
@@ -346,7 +255,7 @@ var Literacy = function Literacy() {
       }
     }
 
-    var finalData = sortedData.map(function (year) {
+    finalData = sortedData.map(function (year) {
       return year["countries"].filter(function (country) {
         var dataExists = country.Elderly !== "NA" && country.Youth !== "NA";
         return dataExists;
@@ -358,8 +267,7 @@ var Literacy = function Literacy() {
       });
     }); // console.log(finalData[])
 
-    update(finalData[0]);
-    console.log(finalData[0]); // d3.interval(function() {
+    update(finalData[15]); // d3.interval(function() {
     //    // At the end of our data, loop back
     //    time = time < 15 ? time + 1 : 0;
     //    update(finalData[time]);
@@ -383,162 +291,6 @@ var Literacy = function Literacy() {
       return area(d.Pop);
     }).on("mouseover", tip.show).on("mouseout", tip.hide);
     timeLabel.text(+(time + 2000));
-  }
-};
-
-/***/ }),
-
-/***/ "./src/main.js":
-/*!*********************!*\
-  !*** ./src/main.js ***!
-  \*********************/
-/*! exports provided: Main */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Main", function() { return Main; });
-var Main = function Main() {
-  var margin = {
-    left: 80,
-    right: 20,
-    top: 50,
-    bottom: 100
-  };
-  var height = 800 - margin.top - margin.bottom,
-      width = 1000 - margin.left - margin.right;
-  var time = 0;
-  var g = d3.select("#chart-area").append("svg").attr("width", width + margin.left + margin.right).attr("height", height + margin.top + margin.bottom).append("g").attr("transform", "translate(" + margin.left + ", " + margin.top + ")");
-  var tip = d3.tip().attr("class", "d3-tip").html(function (d) {
-    var text = d.country_name;
-    text += " " + d.region_name;
-    text += " " + d.Count;
-    text += " " + d.Rate;
-    return text;
-  });
-  g.call(tip);
-  var x = d3.scaleLog().base(100).range([0, width]).domain([1, 80000]);
-  var y = d3.scaleLinear() //   .base(10)
-  .range([height, 0]).domain([0, 1000]);
-  var area = d3.scaleLinear().range([25 * Math.PI, 1500 * Math.PI]).domain([2000, 1400000000]);
-  var xLabel = g.append("text").attr("y", height + 50).attr("x", width / 2).attr("font-size", "20px").attr("text-anchor", "middle").text("Crime Count"); //Y Label
-
-  var yLabel = g.append("text").attr("y", -40).attr("x", -170).attr("font-size", "20px").attr("text-anchor", "middle").attr("transform", "rotate(-90)").text("Crime Rate per 100,000 ");
-  var xAxis = d3.axisBottom(x).tickValues([100, 500, 10000]).tickFormat(function (d) {
-    return +d;
-  });
-  g.append("g").attr("class", "x axis").attr("transform", "translate(0," + height + ")").call(xAxis);
-  var timeLabel = g.append("text").attr("y", height - 10).attr("x", width - 40).attr("font-size", "40px").attr("opacity", "0.4").attr("text-anchor", "middle").text("2003"); //Y-Axis
-
-  var yAxis = d3.axisLeft(y).tickValues([0, 50, 100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600, 650, 700, 750, 800, 850, 900, 950, 1000]).tickFormat(function (d) {
-    return +d;
-  });
-  g.append("g").attr("class", "y axis").call(yAxis);
-  var regions = ["Europe", "Asia", "Americas", "Africa", "Oceania"];
-  var regionColor = d3.scaleOrdinal(d3.schemeDark2);
-  var legend = g.append("g").attr("transform", "translate(" + (width - 10) + "," + (height - 200) + ")");
-  regions.forEach(function (region, i) {
-    var legendRow = legend.append("g").attr("transform", "translate(0, " + i * 20 + ")");
-    legendRow.append("rect").attr("width", 10).attr("height", 10).attr("fill", regionColor(region));
-    legendRow.append("text").attr("x", -10).attr("y", 10).attr("text-anchor", "end").style("text-transform", "capitalize").text(region);
-  });
-  d3.csv("data/assaults.csv").then(function (data) {
-    //   console.log(data);
-    var sortedData = [{
-      year: 2003,
-      countries: []
-    }, {
-      year: 2004,
-      countries: []
-    }, {
-      year: 2005,
-      countries: []
-    }, {
-      year: 2006,
-      countries: []
-    }, {
-      year: 2007,
-      countries: []
-    }, {
-      year: 2008,
-      countries: []
-    }, {
-      year: 2009,
-      countries: []
-    }, {
-      year: 2010,
-      countries: []
-    }, {
-      year: 2011,
-      countries: []
-    }, {
-      year: 2012,
-      countries: []
-    }, {
-      year: 2013,
-      countries: []
-    }, {
-      year: 2014,
-      countries: []
-    }, {
-      year: 2015,
-      countries: []
-    }, {
-      year: 2016,
-      countries: []
-    }, {
-      year: 2017,
-      countries: []
-    }];
-
-    for (var i = 0; i < data.length; i++) {
-      var pojo = data[i];
-
-      for (var j = 0; j < sortedData.length; j++) {
-        if (parseInt(pojo.Year) === sortedData[j].year) {
-          sortedData[j].countries.push(pojo);
-        }
-      }
-
-      ;
-    }
-
-    ;
-    var finalData = sortedData.map(function (year) {
-      return year["countries"].filter(function (country) {
-        var dataExists = country.Count && country.Rate;
-        return dataExists;
-      }).map(function (country) {
-        country.Count = +country.Count;
-        country.Rate = +country.Rate;
-        return country;
-      });
-    });
-    console.log(finalData); //    d3.interval(function() {
-    //      // At the end of our data, loop back
-    //      time = time < 17 ? time + 1 : 0;
-    //      update(finalData[time]);
-    //    }, 200);
-
-    update(finalData[0]);
-  });
-
-  function update(data) {
-    var t = d3.transition().duration(100);
-    var circles = g.selectAll('circle').data(data, function (d) {
-      return d.country_name;
-    });
-    circles.exit().remove();
-    circles.enter().append("circle").attr('fill', function (d) {
-      return regionColor(d.region_name);
-    }).merge(circles).attr("cy", function (d) {
-      return y(d.Rate);
-    }).attr("cx", function (d) {
-      return x(d.Count);
-    }).attr("r", function (d) {
-      return 5;
-    }).on("mouseover", tip.show).on("mouseout", tip.hide);
-    timeLabel.text(+(time + 2003));
   }
 };
 

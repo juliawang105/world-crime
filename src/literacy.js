@@ -1,10 +1,14 @@
+import { play } from './functions';
 export const Literacy = () => {
+  play()
   console.log('hello')
      let margin = { left: 80, right: 20, top: 50, bottom: 100 };
      let height = 800 - margin.top - margin.bottom,
        width = 900 - margin.left - margin.right;
 
      let time = 0;
+     let interval;
+     let finalData;
 
      let g = d3
        .select("#chart-area")
@@ -168,7 +172,7 @@ export const Literacy = () => {
         }
       }
 
-      let finalData = sortedData.map(function(year) {
+      finalData = sortedData.map(function(year) {
         return year["countries"]
           .filter(function(country) {
             let dataExists = (country.Elderly !== "NA" && country.Youth !== "NA")
@@ -183,8 +187,8 @@ export const Literacy = () => {
       });
 
       // console.log(finalData[])
-      update(finalData[0])
-      console.log(finalData[0])
+      update(finalData[15])
+     
       // d3.interval(function() {
       //    // At the end of our data, loop back
       //    time = time < 15 ? time + 1 : 0;
@@ -193,6 +197,10 @@ export const Literacy = () => {
       // console.log(finalData);
   });
 
+  
+    
+  
+  
  function update(data) {
    let t = d3.transition().duration(100);
 
