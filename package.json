@@ -31,6 +31,6 @@
     "express": "^4.17.1",
     "node-fetch": "^2.6.0",
     "webpack": "^4.41.2",
-    "webpack-cli": "^3.3.10"
+    "webpack-cli": "^3.3.12"
   }
 }
